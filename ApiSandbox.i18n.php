@@ -1457,7 +1457,7 @@ Przykład: [//www.mediawiki.org/wiki/API#A_simple_example pobranie zawartości s
 	'apisb-loading' => 'Trwa ładowanie…',
 	'apisb-load-error' => 'Błąd podczas ładowania opisu API.',
 	'apisb-request-error' => 'Błąd podczas wykonywania żądania API.',
-	'apisb-namespaces-error' => 'Błąd ładowania obszaru nazw.',
+	'apisb-namespaces-error' => 'Błąd ładowania przestrzeni nazw.',
 	'apisb-ns-main' => '(główna)',
 	'apisb-submit' => 'Wykonaj żądanie',
 	'apisb-query-prop' => 'Właściwości',
