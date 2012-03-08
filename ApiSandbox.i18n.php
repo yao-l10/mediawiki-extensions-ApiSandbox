@@ -1127,6 +1127,7 @@ $messages['lb'] = array(
 	'apisb-legend-result' => 'Resultat',
 	'apisb-result-request-url' => 'URL fir Ufroen:',
 	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Aktioun',
 	'apisb-label-doc' => 'Dokumentatioun',
 	'apisb-select-action' => 'Aktioun eraussichen',
 	'apisb-select-value' => '(Wäert eraussichen)',
@@ -2033,6 +2034,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Hzy980512
  * @author Liangent
+ * @author Linforest
  * @author PhiLiP
  * @author Shizhao
  * @author Xiaomingyan
@@ -2051,6 +2053,9 @@ $messages['zh-hans'] = array(
 	'apisb-legend-generator-parameters' => '生成器',
 	'apisb-result-request-url' => '请求的URL：',
 	'apisb-result-request-post' => 'POST数据：',
+	'apisb-label-format' => '格式',
+	'apisb-label-action' => '操作',
+	'apisb-label-doc' => '文档',
 	'apisb-select-action' => '选择操作',
 	'apisb-select-query' => '（请选择查询）',
 	'apisb-select-value' => '（选择值）',
@@ -2070,6 +2075,7 @@ $messages['zh-hans'] = array(
 	'apisb-example' => '示例',
 	'apisb-examples' => '示例',
 	'apisb-clear' => '清除',
+	'apisb-request-time' => '请求时间：$1',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
