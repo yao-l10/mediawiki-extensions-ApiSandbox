@@ -1029,6 +1029,20 @@ Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediaw
 	'apisb-query-meta' => 'Informazioni meta',
 );
 
+/** Japanese (日本語)
+ * @author Whym
+ */
+$messages['ja'] = array(
+	'apisandbox' => 'APIサンドボックス',
+	'apisb-no-js' => "'''エラー'''：この機能にはJavaScriptが必要です。",
+	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
+APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page APIのドキュメント]をご覧ください。例：[//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得する].。アクションを選択すると他の例を見ることができます。",
+	'apisb-api-disabled' => 'APIはこのウェブサイトでは無効化されています。',
+	'apisb-legend-parameters' => '引数',
+	'apisb-legend-result' => '結果',
+	'apisb-legend-generic-parameters' => '汎用的な引数',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
@@ -1261,10 +1275,12 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'apisb-no-js' => "'''പിഴവ്''': ഈ വിശേഷഗുണത്തിനു ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്.",
 	'apisb-api-disabled' => 'ഈ സൈറ്റിൽ എ.പി.ഐ. പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു.',
+	'apisb-legend-parameters' => 'ചരങ്ങൾ',
 	'apisb-legend-result' => 'ഫലം',
+	'apisb-legend-generic-parameters' => 'പൊതു ചരങ്ങൾ',
 	'apisb-result-request-url' => 'അഭ്യർത്ഥിച്ച യൂ.ആർ.എൽ.:',
 	'apisb-select-action' => 'പ്രവൃത്തി തിരഞ്ഞെടുക്കുക',
-	'apisb-select-value' => 'വില തിരഞ്ഞെടുക്കുക',
+	'apisb-select-value' => '(വില തിരഞ്ഞെടുക്കുക)',
 	'apisb-docs-more' => 'കൂടുതൽ വായിക്കുക',
 	'apisb-params-param' => 'ചരം',
 	'apisb-params-desc' => 'വിവരണം',
