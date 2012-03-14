@@ -1275,6 +1275,7 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
+	'apisb-desc' => 'ബ്രൗസറിൽ നിന്നുള്ള [//www.mediawiki.org/wiki/API മീഡിയവിക്കി എ.പി.ഐ.] വിളികൾ പരിശോധിക്കാൻ അനുവദിക്കുന്നു',
 	'apisb-no-js' => "'''പിഴവ്''': ഈ വിശേഷഗുണത്തിനു ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്.",
 	'apisb-api-disabled' => 'ഈ സൈറ്റിൽ എ.പി.ഐ. പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു.',
 	'apisb-legend-parameters' => 'ചരങ്ങൾ',
