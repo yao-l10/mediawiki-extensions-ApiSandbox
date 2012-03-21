@@ -124,6 +124,47 @@ $messages['ar'] = array(
 	'apisb-generator-parameters' => 'مولد',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'apisb-desc' => "Permite depurar les llamaes a la [//www.mediawiki.org/wiki/API API de MediaWiki] dende'l navegador",
+	'apisandbox' => 'Zona de pruebes API',
+	'apisb-no-js' => "'''Error''': esta carauterística requier JavaScript.",
+	'apisb-intro' => "Usa esta páxina pa esperimentar cola '''API de serviciu web de MediaWiki'''.
+Consulta [//www.mediawiki.org/wiki/API:Main_page la documentación de la API] pa más detalles tocante al so usu.  Exemplu: [//www.mediawiki.org/wiki/API#A_simple_example llamar al conteníu d'una Páxina principal].  Seleiciona una aición pa ver más exemplos.",
+	'apisb-api-disabled' => 'La API ta desactivada nesti sitiu.',
+	'apisb-legend-parameters' => 'Parámetros',
+	'apisb-legend-result' => 'Resultáu',
+	'apisb-legend-generic-parameters' => 'Parámetros xenéricos',
+	'apisb-legend-generator-parameters' => 'Xenerador',
+	'apisb-result-request-url' => 'URL de la solicitú:',
+	'apisb-result-request-post' => 'Datos POST:',
+	'apisb-label-format' => 'Formatu',
+	'apisb-label-action' => 'Aición',
+	'apisb-label-doc' => 'Documentación',
+	'apisb-select-action' => '(seleicionar aición)',
+	'apisb-select-query' => '(seleicionar consulta)',
+	'apisb-select-value' => '(seleicionar valor)',
+	'apisb-docs-more' => 'lleer más',
+	'apisb-params-param' => 'Parámetru',
+	'apisb-params-input' => 'Entrada',
+	'apisb-params-desc' => 'Descripción',
+	'apisb-loading' => 'Cargando...',
+	'apisb-load-error' => 'Error al cargar descripción de la API',
+	'apisb-request-error' => 'Error al facer solicitú a la API',
+	'apisb-namespaces-error' => 'Error al cargar los espacios de nomes',
+	'apisb-ns-main' => '(Principal)',
+	'apisb-submit' => 'Facer solicitú',
+	'apisb-query-prop' => 'Propiedaes',
+	'apisb-query-list' => 'Llistes',
+	'apisb-query-meta' => 'Información de Meta',
+	'apisb-example' => 'Exemplu',
+	'apisb-examples' => 'Exemplos',
+	'apisb-clear' => 'Llimpiar',
+	'apisb-request-time' => 'Duración de la solicitú: $1',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  * @author Vago
@@ -1007,7 +1048,7 @@ Agiturong idiay [//www.mediawiki.org/wiki/API:Main_page the API dokumentasion] p
  */
 $messages['it'] = array(
 	'apisb-desc' => 'Permette di eseguire il debug delle chiamate [//www.mediawiki.org/wiki/API MediaWiki API] dal browser',
-	'apisandbox' => 'Sandbox API',
+	'apisandbox' => 'Pagina di prova API',
 	'apisb-no-js' => "'''Errore''': questa funzione richiede JavaScript.",
 	'apisb-intro' => "Utilizza questa pagina per sperimentare con '''MediaWiki API'''.
 Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediawiki.org/wiki/API:Main_page documentazione API].",
