@@ -467,7 +467,8 @@
 				$node = $( '#param-' + name );
 				if ( param.type === 'boolean' ) {
 					if ( $node.prop( 'checked' ) === true ) {
-						params += '&' + name;
+						//the = is needed (at least in post), see bug 25174
+						params += '&' + name + '=';
 					}
 				} else {
 					value = $node.val();
