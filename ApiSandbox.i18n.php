@@ -320,6 +320,7 @@ $messages['ca'] = array(
 
 /** Czech (Česky)
  * @author Mormegil
+ * @author Reaperman
  * @author Utar
  */
 $messages['cs'] = array(
@@ -335,6 +336,9 @@ Podrobností využití API najdete v [//www.mediawiki.org/wiki/API:Main_page jeh
 	'apisb-legend-generator-parameters' => 'Generátor',
 	'apisb-result-request-url' => 'URL požadavku:',
 	'apisb-result-request-post' => 'POSTovaná data:',
+	'apisb-label-format' => 'Formát',
+	'apisb-label-action' => 'Akce',
+	'apisb-label-doc' => 'Dokumentace',
 	'apisb-select-action' => '(vyberte akci)',
 	'apisb-select-query' => '(vyberte dotaz)',
 	'apisb-select-value' => '(vyberte hodnotu)',
@@ -1487,6 +1491,13 @@ $messages['pdc'] = array(
 	'apisb-ns-main' => '(Bledder)',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'apisb-api-disabled' => 'Die API isch uffm Wiki abgschdelld worre.',
+);
+
 /** Polish (Polski)
  * @author Beau
  * @author BeginaFelicysym
@@ -1622,22 +1633,27 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 /** Brazilian Portuguese (Português do Brasil)
  * @author Giro720
  * @author Rafael Vargas
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'apisb-desc' => 'Permite depurar chamadas do [//www.mediawiki.org/wiki/API API do MediaWiki] a partir do navegador',
 	'apisandbox' => 'Caixa de areia da API',
 	'apisb-no-js' => "'''Erro''': este recurso requer JavaScript.",
-	'apisb-intro' => "Use esta página para experimentar com '''API MediaWiki'''.
-Consulte [//www.mediawiki.org/wiki/API:Main_page the API documentation] para obter mais detalhes de uso da API.",
+	'apisb-intro' => "Use esta página para realizar testes com o '''serviço web de API do MediaWiki'''.
+Consulte a [//www.mediawiki.org/wiki/API:Main_page the API documentação] para obter mais detalhes de uso da API.  Exemplo: [//www.mediawiki.org/wiki/API#A_simple_example obter o conteúdo de uma Página principal].  Selecione uma ação para mais exemplos.",
 	'apisb-api-disabled' => 'A API está desabilitada neste site.',
+	'apisb-legend-parameters' => 'Parâmetros',
 	'apisb-legend-result' => 'Resultado',
 	'apisb-legend-generic-parameters' => 'Parâmetros genéricos',
 	'apisb-legend-generator-parameters' => 'Gerador',
 	'apisb-result-request-url' => 'URL solicitante:',
 	'apisb-result-request-post' => 'Dados POST:',
+	'apisb-label-format' => 'Formato',
+	'apisb-label-action' => 'Ação',
+	'apisb-label-doc' => 'Documentação',
 	'apisb-select-action' => 'Selecione a ação',
-	'apisb-select-query' => 'Qual é a consulta?',
-	'apisb-select-value' => 'Selecione o valor',
+	'apisb-select-query' => '(selecionar consulta)',
+	'apisb-select-value' => '(selecionar valor)',
 	'apisb-loading' => 'Carregando...',
 	'apisb-load-error' => 'Erro ao carregar a descrição da API',
 	'apisb-request-error' => 'Erro na requisição de API',
