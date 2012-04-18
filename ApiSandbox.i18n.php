@@ -1077,6 +1077,7 @@ Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediaw
 );
 
 /** Japanese (日本語)
+ * @author Shirayuki
  * @author Whym
  */
 $messages['ja'] = array(
@@ -1088,6 +1089,26 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-legend-parameters' => '引数',
 	'apisb-legend-result' => '結果',
 	'apisb-legend-generic-parameters' => '汎用的な引数',
+	'apisb-legend-generator-parameters' => 'ジェネレータ',
+	'apisb-result-request-url' => 'リクエスト URL:',
+	'apisb-result-request-post' => 'POST データ:',
+	'apisb-label-doc' => 'ドキュメント',
+	'apisb-select-action' => '(操作を選択)',
+	'apisb-select-query' => '(クエリを選択)',
+	'apisb-select-value' => '(値を選択)',
+	'apisb-params-param' => 'パラメータ',
+	'apisb-params-input' => '入力',
+	'apisb-params-desc' => '説明',
+	'apisb-loading' => '読み込み中...',
+	'apisb-namespaces-error' => '名前空間の読み込みエラー',
+	'apisb-ns-main' => '(メイン)',
+	'apisb-submit' => 'リクエストする',
+	'apisb-query-prop' => 'プロパティ',
+	'apisb-query-list' => '一覧',
+	'apisb-query-meta' => 'メタ情報',
+	'apisb-example' => '例',
+	'apisb-examples' => '例',
+	'apisb-clear' => '消去',
 );
 
 /** Georgian (ქართული)
@@ -1631,9 +1652,9 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Giro720
  * @author Rafael Vargas
- * @author 555
  */
 $messages['pt-br'] = array(
 	'apisb-desc' => 'Permite depurar chamadas do [//www.mediawiki.org/wiki/API API do MediaWiki] a partir do navegador',
