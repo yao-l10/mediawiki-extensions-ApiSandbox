@@ -49,6 +49,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Krinkle
+ * @author Lokal Profil
  * @author MaxSem
  * @author Purodha
  * @author Raymond
@@ -84,7 +85,7 @@ $messages['qqq'] = array(
 	'apisb-example' => 'Button text that will reveal the example list, used if the list contains only 1 entry. See also {{msg-mw|apisb-examples}}',
 	'apisb-examples' => 'Button text that will reveal the example list, used if the list contains multiple entries. See also {{msg-mw|apisb-example}}',
 	'apisb-clear' => 'Title of the button that clears all inputs',
-	'apisb-request-time' => 'TIme it took to process this request',
+	'apisb-request-time' => 'Time it took to process this request',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1096,6 +1097,7 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-select-action' => '(操作を選択)',
 	'apisb-select-query' => '(クエリを選択)',
 	'apisb-select-value' => '(値を選択)',
+	'apisb-docs-more' => '続きを読む',
 	'apisb-params-param' => 'パラメータ',
 	'apisb-params-input' => '入力',
 	'apisb-params-desc' => '説明',
@@ -1928,6 +1930,7 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Lokal Profil
  * @author Skalman
  * @author WikiPhoenix
  */
@@ -1938,13 +1941,22 @@ $messages['sv'] = array(
 	'apisb-intro' => "Använd denna sida för att experimentera med '''MediaWiki API'''.
 Kolla på [//www.mediawiki.org/wiki/API:Main_page API-dokumentationen] för fler detaljer om API-användning.",
 	'apisb-api-disabled' => 'API är inaktiverat på denna webbplats.',
+	'apisb-legend-parameters' => 'Parametrar',
 	'apisb-legend-result' => 'Resultat',
+	'apisb-legend-generic-parameters' => 'Generiska parametrar',
 	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-result-request-url' => 'Begär URL:',
 	'apisb-result-request-post' => 'POST-data:',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Åtgärd',
+	'apisb-label-doc' => 'Dokumentation',
 	'apisb-select-action' => 'Välj handling',
-	'apisb-select-query' => 'Vad ska begäras?',
-	'apisb-select-value' => 'Välj värde',
+	'apisb-select-query' => '(välj begäran)',
+	'apisb-select-value' => '(välj värde)',
+	'apisb-docs-more' => 'läs mer',
+	'apisb-params-param' => 'Parametrar',
+	'apisb-params-input' => 'Indata',
+	'apisb-params-desc' => 'Beskrivning',
 	'apisb-loading' => 'Läser in...',
 	'apisb-load-error' => 'Fel uppstod när API-beskrivningen skulle läsas in',
 	'apisb-request-error' => 'Fel uppstod när API skulle begäras',
@@ -1954,6 +1966,9 @@ Kolla på [//www.mediawiki.org/wiki/API:Main_page API-dokumentationen] för fler
 	'apisb-query-prop' => 'Egenskaper',
 	'apisb-query-list' => 'Listor',
 	'apisb-query-meta' => 'Metainformation',
+	'apisb-example' => 'Exempel',
+	'apisb-examples' => 'Exempel',
+	'apisb-clear' => 'Rensa',
 );
 
 /** Tamil (தமிழ்)
