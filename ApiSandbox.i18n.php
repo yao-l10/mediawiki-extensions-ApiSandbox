@@ -786,6 +786,47 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentación da API] para o
 	'apisb-request-time' => 'Duración da solicitude: $1',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'apisb-desc' => 'Macht s Korrigiere vu Fähler bi Ufruef vu dr [//www.mediawiki.org/wiki/API MediaWiki-API] mit em Browser megli',
+	'apisandbox' => 'API-Sandchaschte',
+	'apisb-no-js' => "'''Fähler:''' Die Funktion brucht JavaSkript.",
+	'apisb-intro' => "Die Syte chasch bruche fir Versuech mit dr '''MediaWiki-API'''.
+In dr [//www.mediawiki.org/wiki/API:Main_page/de Dokumäntation zue dr API] het s no meh Hiiwys zue ihre Nutzig. Byschpel: [//www.mediawiki.org/wiki/API:Main_page/de#Beispiel Dr Inhalt vu dr Hauptsyte abruefe]. Fir meh Byschpel eini vu dr verfiegbare Aktionen uuswehle.",
+	'apisb-api-disabled' => 'D API isch uf däm Wiki deaktiviert wore.',
+	'apisb-legend-parameters' => 'Parameter',
+	'apisb-legend-result' => 'Ergebnis',
+	'apisb-legend-generic-parameters' => 'Generischi Parameter',
+	'apisb-legend-generator-parameters' => 'Generator',
+	'apisb-result-request-url' => 'Aaforderigs-URL:',
+	'apisb-result-request-post' => 'POST-Date:',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Aktion',
+	'apisb-label-doc' => 'Dokumäntation',
+	'apisb-select-action' => '(Aktion uuswehle)',
+	'apisb-select-query' => '(Abfrog uuswehle)',
+	'apisb-select-value' => '(Wärt uuswehle)',
+	'apisb-docs-more' => 'Meh',
+	'apisb-params-param' => 'Parameter',
+	'apisb-params-input' => 'Yygab',
+	'apisb-params-desc' => 'Bschryybig',
+	'apisb-loading' => 'Am Lade …',
+	'apisb-load-error' => 'Fähler bim Lade vu dr API-Bschryybig',
+	'apisb-request-error' => 'Fähler bim Uusfiere vu dr API-Aaforderig',
+	'apisb-namespaces-error' => 'Fähler bim Lade vu dr Namensryym',
+	'apisb-ns-main' => '(Haupt)',
+	'apisb-submit' => 'Aafrog uusfiere',
+	'apisb-query-prop' => 'Eigeschafte',
+	'apisb-query-list' => 'Lischte',
+	'apisb-query-meta' => 'Metainformatione',
+	'apisb-example' => 'Byyschpil',
+	'apisb-examples' => 'Byyschpil',
+	'apisb-clear' => 'Lääre',
+	'apisb-request-time' => 'Aafrogzyt: $1',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Deror avi
@@ -1087,9 +1128,9 @@ $messages['ja'] = array(
 	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
 APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page APIのドキュメント]をご覧ください。例：[//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得する].。アクションを選択すると他の例を見ることができます。",
 	'apisb-api-disabled' => 'APIはこのウェブサイトでは無効化されています。',
-	'apisb-legend-parameters' => '引数',
+	'apisb-legend-parameters' => 'パラメータ',
 	'apisb-legend-result' => '結果',
-	'apisb-legend-generic-parameters' => '汎用的な引数',
+	'apisb-legend-generic-parameters' => '汎用的なパラメータ',
 	'apisb-legend-generator-parameters' => 'ジェネレータ',
 	'apisb-result-request-url' => 'リクエスト URL:',
 	'apisb-result-request-post' => 'POST データ:',
