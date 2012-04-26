@@ -1160,7 +1160,10 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 $messages['ka'] = array(
 	'apisb-legend-parameters' => 'პარამეტრები',
 	'apisb-legend-result' => 'შედეგი',
+	'apisb-legend-generic-parameters' => 'საერთო პარამეტრები',
 	'apisb-legend-generator-parameters' => 'გენერატორი',
+	'apisb-result-request-url' => 'მოთხოვნის URL:',
+	'apisb-result-request-post' => 'POST მონაცემები:',
 	'apisb-label-format' => 'ფორმატი',
 	'apisb-label-action' => 'მოქმედება',
 	'apisb-label-doc' => 'დოკუმენტაცია',
@@ -1168,10 +1171,13 @@ $messages['ka'] = array(
 	'apisb-select-query' => '(აირჩიეთ მოთხოვნა)',
 	'apisb-select-value' => '(აირჩიეთ მნიშვნელობა)',
 	'apisb-docs-more' => 'მეტი',
+	'apisb-params-param' => 'პარამეტრი',
+	'apisb-params-input' => 'შეყვანა',
 	'apisb-params-desc' => 'აღწერა',
 	'apisb-loading' => 'იტვირთება...',
 	'apisb-ns-main' => '(მთავარი)',
 	'apisb-submit' => 'მოთხოვნის გაკეთება',
+	'apisb-query-prop' => 'პარამეტრები',
 	'apisb-query-list' => 'სიები',
 	'apisb-query-meta' => 'მეტა-ინფორმაცია',
 	'apisb-example' => 'მაგალითი',
@@ -2238,6 +2244,7 @@ $messages['zh-hans'] = array(
  * @author Anakmalaysia
  * @author Liangent
  * @author Oapbtommy
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'apisb-desc' => '允許從瀏覽器調試[//www.mediawiki.org/wiki/API MediaWiki API]調用',
@@ -2272,5 +2279,6 @@ $messages['zh-hant'] = array(
 	'apisb-example' => '示例',
 	'apisb-examples' => '示例',
 	'apisb-clear' => '清除',
+	'apisb-request-time' => '請求時間：$1',
 );
 
