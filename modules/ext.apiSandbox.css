@@ -89,6 +89,5 @@ th.api-sandbox-params-value {
 /* override enwiki's insane styles */
 div.mw-collapsible {
 	border: none !important;
-	text-align: left !important;
 	font-size: 100% !important;
 }
