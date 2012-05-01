@@ -412,6 +412,19 @@ $messages['de-formal'] = array(
 Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält weitere Hinweise zu ihrer Nutzung. Beispiel: [//www.mediawiki.org/wiki/API:Main_page/de#Beispiel Den Inhalt der Hauptseite abrufen]. Für weitere Beispiele eine der verfügbaren Aktionen auswählen.",
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'apisb-legend-parameters' => 'Parametrey',
+	'apisb-label-format' => 'Format:',
+	'apisb-label-doc' => 'Pelekerdiş',
+	'apisb-ns-main' => '(Ser)',
+	'apisb-query-list' => 'Listey',
+	'apisb-example' => 'Misal',
+	'apisb-examples' => 'Misali',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -447,6 +460,7 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author AK
+ * @author Crazymadlover
  * @author Glavkos
  */
 $messages['el'] = array(
@@ -456,6 +470,7 @@ $messages['el'] = array(
 	'apisb-legend-generic-parameters' => 'Γενικές παράμετροι',
 	'apisb-legend-generator-parameters' => 'Γεννήτρια',
 	'apisb-result-request-url' => 'Αίτηση URL:',
+	'apisb-label-doc' => 'Τεκμηρίωση',
 	'apisb-select-action' => 'Επιλέξτε ενέργεια',
 	'apisb-select-query' => 'Τι πρέπει να ρωτήσω;',
 	'apisb-select-value' => 'Επιλέξτε τιμή',
@@ -1994,6 +2009,7 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Ainali
  * @author Lokal Profil
  * @author Skalman
  * @author WikiPhoenix
@@ -2002,8 +2018,8 @@ $messages['sv'] = array(
 	'apisb-desc' => 'Gör det möjligt att felsöka [//www.mediawiki.org/wiki/API MediaWiki API]-samtal från webbläsaren',
 	'apisandbox' => 'API-sandlåda',
 	'apisb-no-js' => "'''Fel''': Denna funktion kräver JavaScript.",
-	'apisb-intro' => "Använd denna sida för att experimentera med '''MediaWiki API'''.
-Kolla på [//www.mediawiki.org/wiki/API:Main_page API-dokumentationen] för fler detaljer om API-användning.",
+	'apisb-intro' => "Använd den här sidan för att experimentera med '''MediaWiki web service API:et'' \".
+Använd [//www.mediawiki.org/wiki/API:Main_page API dokumentationen] för mer information om API-användningen.  Exempel: [//www.mediawiki.org/wiki/API#A_simple_example få innehållet från en huvusida].  Välj en åtgärd för att se fler exempel.",
 	'apisb-api-disabled' => 'API är inaktiverat på denna webbplats.',
 	'apisb-legend-parameters' => 'Parametrar',
 	'apisb-legend-result' => 'Resultat',
@@ -2033,6 +2049,7 @@ Kolla på [//www.mediawiki.org/wiki/API:Main_page API-dokumentationen] för fler
 	'apisb-example' => 'Exempel',
 	'apisb-examples' => 'Exempel',
 	'apisb-clear' => 'Rensa',
+	'apisb-request-time' => 'Tid för begäran: $1',
 );
 
 /** Tamil (தமிழ்)
