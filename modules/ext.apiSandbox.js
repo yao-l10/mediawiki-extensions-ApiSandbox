@@ -106,53 +106,108 @@
 		} );
 	}
 
+	function setSelect( $el, value ) {
+		var i, splitted;
+		if ( $el.attr( 'multiple' ) ) {
+			splitted = value.split( '|' );
+			for ( i = 0; i < splitted.length; i++ ) {
+				$el.find( 'option[value="' + mw.html.escape( splitted[i] ) + '"]' )
+					.prop( 'selected', true );
+			}
+		} else {
+			$el.find( 'option[value="' + mw.html.escape( value ) + '"]' )
+				.prop( 'selected', true );
+		}
+	}
+
 	/**
 	 * @context {Element}
 	 * @param e {jQuery.Event}
 	 */
 	function exampleClick( e ) {
-		var link, params, i, pieces, key, value, $el, splitted, j;
+		var link;
 		e.preventDefault();
 
 		resetUI();
 		link = $( this ).data( 'exampleLink' ).replace( /^.*?\?/, '' );
+		applyParams( link );
+	}
+
+	function applyParams( link ) {
+		var params, i, obj, pieces, key, value;
 		params = link.split( '&' );
+		obj = {};
 		for ( i = 0; i < params.length; i++ ) {
 			pieces = params[i].split( '=' );
 			if ( pieces.length === 1 ) { // checkbox
-				$( '#param-' + pieces[0] ).prop( 'checked', true );
+				obj[pieces[0]] = null;
 			} else {
 				key = pieces[0];
 				value = decodeURIComponent( pieces.slice( 1 ).join( '=' ) );
-				if ( $.inArray( key, [ 'action', 'format', 'list', 'prop', 'meta' ] ) !== -1 ) {
-					continue;
-				}
-				$el = $( '#param-' + key );
-				if ( !$el.length ) {
-					continue;
-				}
-				switch ( $el[0].nodeName.toLowerCase() ) {
-					case 'select':
-						if ( $el.attr( 'multiple' ) ) {
-							splitted = value.split( '|' );
-							for ( j = 0; j < splitted.length; j++ ) {
-							$el.children( 'option[value="' + mw.html.escape( splitted[j] ) + '"]' )
-								.prop( 'selected', true );
-							}
-						} else {
-							$el.children( 'option[value="' + mw.html.escape( value ) + '"]' )
-								.prop( 'selected', true );
-						}
-						break;
-					case 'input':
-						if ( $el.attr( 'type' ) === 'checkbox' ) {
-							$( '#param-' + key ).prop( 'checked', true );
-						} else {
-							$el.val( value );
-						}
-						break;
-					default:
+				obj[key] = value;
+			}
+		}
+		applyObject( obj );
+
+		function applyObject( obj ) {
+			var pieces, key, value, $el, splitted, j, nodeName, query = '';
+			if ( obj.action ) {
+				setSelect( $action, obj.action );
+				obj.action = undefined;
+				updateUI( function() {
+					applyObject( obj );
+				}, true );
+				return;
+			}
+
+			if ( obj.list ) {
+				query = 'list=' + obj.list;
+			} else if ( obj.prop ) {
+				query = 'prop=' + obj.prop;
+			} else if ( obj.meta ) {
+				query = 'meta=' + obj.meta;
+			}
+			if ( query ) {
+				obj.list = obj.prop = obj.meta = undefined;
+				setSelect( $query, query );
+				updateUI( function() {
+					applyObject( obj );
+				}, true );
+				return;
+			}
+			if ( obj.generator ) {
+				setSelect( $( '#param-generator' ), obj.generator );
+				obj.generator = undefined;
+				updateGenerator( function() {
+					applyObject( obj )
+				} );
+				return;
+			}
+
+			for ( key in obj ) {
+				value = obj[key];
+				if ( value === null ) { // checkbox
+					$( '#param-' + key ).prop( 'checked', true );
+				} else {
+					$el = $( '#param-' + key );
+					if ( !$el.length ) {
 						continue;
+					}
+					nodeName = $el[0].nodeName.toLowerCase();
+					switch ( nodeName ) {
+						case 'select':
+							setSelect( $el, value );
+							break;
+						case 'input':
+							if ( $el.attr( 'type' ) === 'checkbox' ) {
+								$( '#param-' + key ).prop( 'checked', true );
+							} else {
+								$el.val( value );
+							}
+							break;
+						default:
+							mw.log( 'Unrecognised node name "' + nodeName + '"' );
+					}
 				}
 			}
 		}
@@ -216,7 +271,7 @@
 		}
 	}
 
-	function updateQueryInfo( action, query ) {
+	function updateQueryInfo( action, query, callback ) {
 		var	data,
 			isQuery = action === 'query';
 
@@ -248,6 +303,9 @@
 				mainRequest.setHelp( $help );
 				$submit.button( 'option', 'disabled', false );
 				updateExamples( info );
+				if ( typeof callback == 'function' ) {
+					callback();
+				}
 			},
 			function () {
 				$submit.button( 'option', 'disabled', false );
@@ -284,7 +342,7 @@
 	/**
 	 * Updates UI after basic query parameters have been changed
 	 */
-	function updateUI() {
+	function updateUI( callback, callIfEmpty ) {
 		var	a = $action.val(),
 			q = $query.val(),
 			isQuery = a === 'query';
@@ -301,8 +359,11 @@
 		}
 		$mainContainer.text( '' );
 		$help.text( '' );
-		updateQueryInfo( a, q );
+		updateQueryInfo( a, q, callback );
 		$generatorBox.hide();
+		if ( q == '' && callIfEmpty && typeof callback == 'function' ) {
+			callback();
+		}
 	}
 
 
@@ -574,10 +635,10 @@
 			function () {}
 		);
 
-		$action.change( updateUI );
-		$query.change( updateUI );
+		$action.change( function() { updateUI(); } );
+		$query.change( function() { updateUI(); } );
 
-		$( '#param-generator' ).live( 'change', function () {
+		function updateGenerator( callback ) {
 			var generator = $( '#param-generator' ).val();
 			if ( generator === '' ) {
 				$generatorBox.hide();
@@ -588,14 +649,32 @@
 					function () { showLoading( $generatorContainer ); },
 					function () {
 						generatorRequest = new UiBuilder( $generatorContainer, paramInfo.querymodules[generator], 'g' );
+						if ( typeof callback == 'function' ) {
+							callback();
+						}
 					},
 					function () {
 						showLoadError( $generatorContainer, 'apisb-request-error' );
 					}
 				);
 			}
-		} );
+		}
 
+		$( '#param-generator' ).on( 'change', updateGenerator );
+
+		function doHash() {
+			var hash = window.location.hash.replace( /^#/, '' );
+			applyParams( hash );
+		}
+
+		$( window ).on( 'popstate', function( e ) {
+			genericRequest.createInputs();
+			if ( generatorRequest ) {
+				generatorRequest.createInputs();
+			}
+			queryRequest.createInputs();
+			doHash();
+		} );
 
 		$form.submit( function ( e ) {
 			var url, params, mustBePosted;
@@ -609,7 +688,7 @@
 				return;
 			}
 
-			url = mw.util.wikiScript( 'api' ) + '?' + $.param({ action: $action.val() });
+			url = $.param({ action: $action.val() });
 			params = mainRequest.getRequestData();
 			mustBePosted = mainRequest.info.mustbeposted === '';
 			if ( $action.val() === 'query' ) {
@@ -622,6 +701,11 @@
 			if ( $( '#param-generator' ).length && $( '#param-generator' ).val() ) {
 				params += generatorRequest.getRequestData();
 			}
+			var historyEntry = '#' + url + params;
+			if ( window.location.hash != historyEntry ) {
+				history.pushState( null, '', historyEntry );
+			}
+			url = mw.util.wikiScript( 'api' ) + '?' + url;
 
 			showLoading( $output );
 			if ( mustBePosted ) {
@@ -660,13 +744,11 @@
 				},
 				// either success or error
 				complete: function () {
-					$pageScroll.animate({ scrollTop: $('#api-sandbox-result').offset().top }, 400, function () {
-						window.location.hash = '#api-sandbox-result';
-					});
+					$pageScroll.animate({ scrollTop: $('#api-sandbox-result').offset().top }, 400 );
 				}
 			});
 		});
-
+		doHash();
 	});
 
 }( jQuery, mediaWiki ) );
