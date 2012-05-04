@@ -102,7 +102,7 @@ class SpecialApiSandbox extends SpecialPage {
 			</td>
 			<td class="api-sandbox-docs-col">
 				<div id="api-sandbox-buttons"></div>
-				<span id="api-sandbox-help"></span>
+				<div dir="ltr" id="api-sandbox-help"></div>
 				<div id="api-sandbox-examples" style="display: none;"></div>
 			</td>
 		</tr>
