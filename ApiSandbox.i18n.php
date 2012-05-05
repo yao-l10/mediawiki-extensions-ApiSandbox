@@ -1141,6 +1141,7 @@ Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediaw
  * @author Whym
  */
 $messages['ja'] = array(
+	'apisb-desc' => 'ブラウザからの [//www.mediawiki.org/wiki/API MediaWiki API] 呼び出しをデバッグできるようにする',
 	'apisandbox' => 'APIサンドボックス',
 	'apisb-no-js' => "'''エラー'''：この機能にはJavaScriptが必要です。",
 	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
@@ -1152,6 +1153,8 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-legend-generator-parameters' => 'ジェネレータ',
 	'apisb-result-request-url' => 'リクエスト URL:',
 	'apisb-result-request-post' => 'POST データ:',
+	'apisb-label-format' => '形式',
+	'apisb-label-action' => '操作',
 	'apisb-label-doc' => 'ドキュメント',
 	'apisb-select-action' => '(操作を選択)',
 	'apisb-select-query' => '(クエリを選択)',
@@ -1161,6 +1164,8 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-params-input' => '入力',
 	'apisb-params-desc' => '説明',
 	'apisb-loading' => '読み込み中...',
+	'apisb-load-error' => 'API の説明の読み込み中のエラー',
+	'apisb-request-error' => 'API リクエストの実行中のエラー',
 	'apisb-namespaces-error' => '名前空間の読み込みエラー',
 	'apisb-ns-main' => '(メイン)',
 	'apisb-submit' => 'リクエストする',
@@ -1170,6 +1175,7 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-example' => '例',
 	'apisb-examples' => '例',
 	'apisb-clear' => '消去',
+	'apisb-request-time' => 'リクエスト時間：$1',
 );
 
 /** Georgian (ქართული)
