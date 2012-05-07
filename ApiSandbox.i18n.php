@@ -2121,8 +2121,10 @@ Sumangguni sa [//www.mediawiki.org/wiki/API:Main_page dokumentasyon ng API] para
 /** Turkish (Türkçe)
  * @author Emperyan
  * @author Incelemeelemani
+ * @author Karduelis
  */
 $messages['tr'] = array(
+	'apisb-legend-parameters' => 'Parametreler',
 	'apisb-legend-result' => 'Sonuç',
 	'apisb-docs-more' => 'devamı',
 	'apisb-params-param' => 'Parametre',
