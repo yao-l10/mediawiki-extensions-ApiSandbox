@@ -2141,6 +2141,8 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author AS
+ * @author Base
  * @author Microcell
  * @author Sodmy
  * @author Тест
@@ -2150,16 +2152,24 @@ $messages['uk'] = array(
 	'apisandbox' => 'Майданчик для тестування API',
 	'apisb-no-js' => "'''Помилка''': ця функція вимагає JavaScript.",
 	'apisb-intro' => "Ця сторінка служить для експериментування з '''MediaWiki API'''.
-Звертайтеся до [//www.mediawiki.org/wiki/API:Main_page документації] для докладнішої інформації про використання API.",
+Звертайтеся до [//www.mediawiki.org/wiki/API:Main_page документації] для докладнішої інформації про використання API.  Наприклад: [//www.mediawiki.org/wiki/API#A_simple_example як отримати вміст головної сторінки].  Виберіть дію, щоб побачити більше прикладів.",
 	'apisb-api-disabled' => 'API вимкнуто на цьому сайті.',
+	'apisb-legend-parameters' => 'Параметри',
 	'apisb-legend-result' => 'Результат',
 	'apisb-legend-generic-parameters' => 'Загальні параметри',
 	'apisb-legend-generator-parameters' => 'Генератор',
 	'apisb-result-request-url' => 'URL-адреса запиту:',
-	'apisb-result-request-post' => 'POST данні:',
+	'apisb-result-request-post' => 'POST-дані:',
+	'apisb-label-format' => 'Формат',
+	'apisb-label-action' => 'Дія',
+	'apisb-label-doc' => 'Документація',
 	'apisb-select-action' => 'Виберіть дію',
-	'apisb-select-query' => 'Що запитати?',
+	'apisb-select-query' => '(виберіть запит)',
 	'apisb-select-value' => '(виберіть значення)',
+	'apisb-docs-more' => 'Детальніше',
+	'apisb-params-param' => 'Параметр',
+	'apisb-params-input' => 'Введення',
+	'apisb-params-desc' => 'Опис',
 	'apisb-loading' => 'Завантаження...',
 	'apisb-load-error' => 'Помилка завантаження API опису',
 	'apisb-request-error' => 'Помилка виконання запиту API',
@@ -2169,6 +2179,10 @@ $messages['uk'] = array(
 	'apisb-query-prop' => 'Властивості',
 	'apisb-query-list' => 'Списки',
 	'apisb-query-meta' => 'Мета-інформація',
+	'apisb-example' => 'Приклад',
+	'apisb-examples' => 'Приклади',
+	'apisb-clear' => 'Очистити',
+	'apisb-request-time' => 'Час запиту $1',
 );
 
 /** Veps (Vepsän kel')
