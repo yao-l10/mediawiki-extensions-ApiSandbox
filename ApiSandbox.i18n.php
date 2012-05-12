@@ -116,13 +116,13 @@ $messages['af'] = array(
  */
 $messages['ar'] = array(
 	'apisb-no-js' => "'''خطأ''' : هذه الخاصية تتطلب الجافا سكريبت.",
-	'apisb-result' => 'النتيجة',
+	'apisb-legend-result' => 'النتيجة',
+	'apisb-legend-generator-parameters' => 'مولد',
 	'apisb-select-action' => 'اختر حدث',
 	'apisb-ns-main' => '(رئيسي)',
 	'apisb-query-prop' => 'الخصائص',
 	'apisb-query-list' => 'قوائم',
 	'apisb-query-meta' => 'معلومات الميتا',
-	'apisb-generator-parameters' => 'مولد',
 );
 
 /** Asturian (Asturianu)
@@ -171,8 +171,7 @@ Consulta [//www.mediawiki.org/wiki/API:Main_page la documentación de la API] pa
  * @author Vago
  */
 $messages['az'] = array(
-	'apisb-parameters' => 'Parametrlər',
-	'apisb-result' => 'Nəticə',
+	'apisb-legend-result' => 'Nəticə',
 	'apisb-loading' => 'Yüklənir…',
 	'apisb-ns-main' => '(Əsas)',
 	'apisb-query-list' => 'Siyahılar',
@@ -246,8 +245,7 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'apisb-no-js' => "'''Грешка''': тази функционалност изисква Джаваскрипт.",
-	'apisb-parameters' => 'Параметри',
-	'apisb-result' => 'Резултат',
+	'apisb-legend-result' => 'Резултат',
 	'apisb-select-action' => 'Избиране на действие',
 	'apisb-loading' => 'Зареждане...',
 	'apisb-example' => 'Пример',
@@ -315,8 +313,7 @@ Kit da deuler ur sell war [//www.mediawiki.org/wiki/API:Main_page titouroù an A
  * @author Solde
  */
 $messages['ca'] = array(
-	'apisb-parameters' => 'Paràmetres',
-	'apisb-result' => 'Resultat',
+	'apisb-legend-result' => 'Resultat',
 );
 
 /** Czech (Česky)
@@ -404,7 +401,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 	'apisb-request-time' => 'Anfragezeit: $1',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -1257,18 +1254,10 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'apisb-desc' => 'Hellef noh Fähler ze söhke bei [//www.mediawiki.org/wiki/API MediaWiki <i lang="en">API</i>] Oprohfe uss_em Brauser.',
-	'apisb-parameters' => 'Parrameetere',
-	'apisb-result' => 'Erus jekumme es',
-	'apisb-request-url' => 'Dä URL vun dä Aanfrooch:',
+	'apisb-legend-result' => 'Erus jekumme es',
+	'apisb-result-request-url' => 'Dä URL vun dä Aanfrooch:',
 	'apisb-query-prop' => 'Eijeschafte',
 	'apisb-query-list' => 'Leste',
-);
-
-/** Kurdish (Latin script) (Kurdî (latînî))
- * @author George Animal
- */
-$messages['ku-latn'] = array(
-	'apisb-parameters' => 'Parametre',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1889,7 +1878,7 @@ $messages['ru'] = array(
  * @author Ansumang
  */
 $messages['sa'] = array(
-	'apisb-result' => 'परिणामम्',
+	'apisb-legend-result' => 'परिणामम्',
 	'apisb-ns-main' => '(मुख्य)',
 );
 
@@ -2185,12 +2174,11 @@ $messages['uk'] = array(
 	'apisb-request-time' => 'Час запиту $1',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
-	'apisb-parameters' => 'Parametrad',
-	'apisb-result' => "Rezul'tat",
+	'apisb-legend-result' => "Rezul'tat",
 	'apisb-query-prop' => 'Ičendad',
 	'apisb-query-list' => 'Nimikirjutesed',
 );
@@ -2241,7 +2229,7 @@ $messages['vi'] = array(
  * @author Imre
  */
 $messages['yi'] = array(
-	'apisb-result' => 'רעזולטאט',
+	'apisb-legend-result' => 'רעזולטאט',
 	'apisb-loading' => 'לאָדט…',
 	'apisb-ns-main' => '(הויפט)',
 	'apisb-query-list' => 'ליסטעס',
