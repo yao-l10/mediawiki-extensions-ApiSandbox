@@ -1520,7 +1520,7 @@ $messages['nl'] = array(
 	'apisb-no-js' => "'''Fout''': deze functie vereist JavaScript.",
 	'apisb-intro' => "Gebruik deze pagina om te experimenteren met de '''MediaWiki-API'''.
 Zie de [//www.mediawiki.org/wiki/API:Main_page API-documentatie] voor verdere details over het gebruik van de API. Voorbeeld: [//www.mediawiki.org/wiki/API#A_simple_example hoe de inhoud van een Hoofdpagina ophalen]. Selecteer een handeling om meer voorbeelden te zien.",
-	'apisb-api-disabled' => 'API is uitgeschakeld op deze site.',
+	'apisb-api-disabled' => 'De API is uitgeschakeld op deze site.',
 	'apisb-legend-parameters' => 'Parameters',
 	'apisb-legend-result' => 'Resultaat',
 	'apisb-legend-generic-parameters' => 'Algemene parameters',
