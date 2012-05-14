@@ -801,6 +801,13 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentación da API] para o
 	'apisb-request-time' => 'Duración da solicitude: $1',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'apisb-label-doc' => 'Τεκμηρίωσις',
+);
+
 /** Swiss German (Alemannisch)
  * @author Als-Holder
  */
@@ -1111,17 +1118,26 @@ $messages['it'] = array(
 	'apisb-desc' => 'Permette di eseguire il debug delle chiamate [//www.mediawiki.org/wiki/API MediaWiki API] dal browser',
 	'apisandbox' => 'Pagina di prova API',
 	'apisb-no-js' => "'''Errore''': questa funzione richiede JavaScript.",
-	'apisb-intro' => "Utilizza questa pagina per sperimentare con '''MediaWiki API'''.
-Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediawiki.org/wiki/API:Main_page documentazione API].",
+	'apisb-intro' => "Utilizza questa pagina per sperimentare con le '''MediaWiki web service API'''.
+Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediawiki.org/wiki/API:Main_page documentazione API].
+
+Esempio: [//www.mediawiki.org/wiki/API#A_simple_example ottenere il contenuto della pagina principale]. Seleziona un'azione per vedere altri esempi.",
 	'apisb-api-disabled' => 'Le funzionalità API sono disabilitate su questo sito.',
+	'apisb-legend-parameters' => 'Parametri',
 	'apisb-legend-result' => 'Risultato',
 	'apisb-legend-generic-parameters' => 'Parametri generici',
 	'apisb-legend-generator-parameters' => 'Generatore',
 	'apisb-result-request-url' => 'URL di richiesta:',
 	'apisb-result-request-post' => 'Dati POST:',
+	'apisb-label-format' => 'Formato',
+	'apisb-label-action' => 'Azione',
+	'apisb-label-doc' => 'Documentazione',
 	'apisb-select-action' => 'Seleziona azione',
-	'apisb-select-query' => 'Che cosa?',
-	'apisb-select-value' => 'Selezionare il valore',
+	'apisb-select-query' => '(seleziona query)',
+	'apisb-select-value' => '(seleziona valore)',
+	'apisb-docs-more' => 'per saperne di più',
+	'apisb-params-param' => 'Parametro',
+	'apisb-params-desc' => 'Descrizione',
 	'apisb-loading' => 'Caricamento in corso...',
 	'apisb-load-error' => 'Errore durante il caricamento descrizione API',
 	'apisb-request-error' => "Errore durante l'elaborazione della richiesta API",
@@ -1131,6 +1147,10 @@ Per ulteriori dettagli di utilizzo delle API, fai riferimento alla [//www.mediaw
 	'apisb-query-prop' => 'Proprietà',
 	'apisb-query-list' => 'Liste',
 	'apisb-query-meta' => 'Informazioni meta',
+	'apisb-example' => 'Esempio',
+	'apisb-examples' => 'Esempi',
+	'apisb-clear' => 'Pulisci',
+	'apisb-request-time' => 'Tempo richiesto: $1',
 );
 
 /** Japanese (日本語)
