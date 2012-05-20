@@ -414,6 +414,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
  */
 $messages['diq'] = array(
 	'apisb-legend-parameters' => 'Parametrey',
+	'apisb-legend-result' => 'Netice',
 	'apisb-label-format' => 'Format:',
 	'apisb-label-doc' => 'Pelekerdiş',
 	'apisb-ns-main' => '(Ser)',
@@ -1137,6 +1138,7 @@ Esempio: [//www.mediawiki.org/wiki/API#A_simple_example ottenere il contenuto de
 	'apisb-select-value' => '(seleziona valore)',
 	'apisb-docs-more' => 'per saperne di più',
 	'apisb-params-param' => 'Parametro',
+	'apisb-params-input' => 'Input',
 	'apisb-params-desc' => 'Descrizione',
 	'apisb-loading' => 'Caricamento in corso...',
 	'apisb-load-error' => 'Errore durante il caricamento descrizione API',
