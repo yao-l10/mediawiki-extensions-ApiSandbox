@@ -20,7 +20,12 @@ $specialPageAliases['ar'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'ApiSandbox' => array( 'ApiSpielwiese' ),
+	'ApiSandbox' => array( 'API-Spielwiese', 'ApiSpielwiese' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'ApiSandbox' => array( 'ApiQumdor' ),
 );
 
 /** Esperanto (Esperanto) */
@@ -28,14 +33,39 @@ $specialPageAliases['eo'] = array(
 	'ApiSandbox' => array( 'Provejo_de_API' ),
 );
 
+/** Estonian (Eesti) */
+$specialPageAliases['et'] = array(
+	'ApiSandbox' => array( 'API-liivakast' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'ApiSandbox' => array( 'جعبه_شنی_ای‌پی‌آی' ),
 );
 
+/** Swiss German (Alemannisch) */
+$specialPageAliases['gsw'] = array(
+	'ApiSandbox' => array( 'ApiSandchaschte' ),
+);
+
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'ApiSandbox' => array( 'ApiSandkëscht' ),
+);
+
 /** Macedonian (Македонски) */
 $specialPageAliases['mk'] = array(
 	'ApiSandbox' => array( 'ApiПесочник' ),
+);
+
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'ApiSandbox' => array( 'എ.പി.ഐ.എഴുത്തുകളരി' ),
+);
+
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'ApiSandbox' => array( 'API-sandkasse' ),
 );
 
 /** Nedersaksisch (Nedersaksisch) */
