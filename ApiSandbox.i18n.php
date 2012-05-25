@@ -356,6 +356,7 @@ Podrobností využití API najdete v [//www.mediawiki.org/wiki/API:Main_page jeh
 	'apisb-example' => 'Příklad',
 	'apisb-examples' => 'Příklady',
 	'apisb-clear' => 'Vyčistit',
+	'apisb-request-time' => 'Trvání požadavku: $1',
 );
 
 /** German (Deutsch)
