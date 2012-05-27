@@ -461,6 +461,7 @@ $messages['dsb'] = array(
  * @author AK
  * @author Crazymadlover
  * @author Glavkos
+ * @author Lou
  */
 $messages['el'] = array(
 	'apisb-no-js' => "'''Σφάλμα''': αυτό το χαρακτηριστικό απαιτεί τη χρήση της κονσόλας JavaScript.",
@@ -473,6 +474,8 @@ $messages['el'] = array(
 	'apisb-select-action' => 'Επιλέξτε ενέργεια',
 	'apisb-select-query' => 'Τι πρέπει να ρωτήσω;',
 	'apisb-select-value' => 'Επιλέξτε τιμή',
+	'apisb-docs-more' => 'διαβάστε περισσότερα',
+	'apisb-params-param' => 'Η παράμετρος',
 	'apisb-loading' => 'Φόρτωση...',
 	'apisb-namespaces-error' => 'Σφάλμα φόρτωσης ονοματοχώρων',
 	'apisb-ns-main' => '(Κύρια)',
