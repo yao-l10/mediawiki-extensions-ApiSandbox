@@ -1236,6 +1236,7 @@ $messages['ka'] = array(
 /** Korean (한국어)
  * @author Freebiekr
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'apisb-desc' => '브라우저에서 [//www.mediawiki.org/wiki/API 미디어위키 API] 호출을 디버그할 수 있도록 함',
@@ -1260,7 +1261,7 @@ $messages['ko'] = array(
 	'apisb-params-param' => '변수',
 	'apisb-params-input' => '입력',
 	'apisb-params-desc' => '설명',
-	'apisb-loading' => '로딩중...',
+	'apisb-loading' => '로드 중...',
 	'apisb-load-error' => 'API 설명을 불러오는 중 오류가 발생했습니다',
 	'apisb-request-error' => 'API 요청을 수행하는 중 오류가 발생했습니다',
 	'apisb-namespaces-error' => '이름공간을 불러오는 중 오류가 발생했습니다',
