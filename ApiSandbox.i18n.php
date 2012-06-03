@@ -2156,7 +2156,7 @@ $messages['tr'] = array(
 	'apisb-clear' => 'Temizle',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Base
  * @author Microcell
