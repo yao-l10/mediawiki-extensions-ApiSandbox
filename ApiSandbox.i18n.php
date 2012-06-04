@@ -1202,9 +1202,11 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 );
 
 /** Georgian (ქართული)
+ * @author BRUTE
  * @author David1010
  */
 $messages['ka'] = array(
+	'apisandbox' => 'API-ს სავარჯიშო',
 	'apisb-legend-parameters' => 'პარამეტრები',
 	'apisb-legend-result' => 'შედეგი',
 	'apisb-legend-generic-parameters' => 'საერთო პარამეტრები',
