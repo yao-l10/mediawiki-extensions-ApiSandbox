@@ -1857,10 +1857,11 @@ $messages['roa-tara'] = array(
 	'apisb-examples' => 'Esembie',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author DR
  * @author Eleferen
+ * @author KPu3uC B Poccuu
  * @author Kaganer
  * @author KorneySan
  * @author Александр Сигачёв
@@ -1892,7 +1893,7 @@ $messages['ru'] = array(
 	'apisb-load-error' => 'Ошибка при загрузке описания API',
 	'apisb-request-error' => 'Ошибка выполнения запроса API',
 	'apisb-namespaces-error' => 'Ошибка при загрузке пространств имен',
-	'apisb-ns-main' => '(Основная)',
+	'apisb-ns-main' => '(основное)',
 	'apisb-submit' => 'Сделать запрос',
 	'apisb-query-prop' => 'Свойства',
 	'apisb-query-list' => 'Списки',
