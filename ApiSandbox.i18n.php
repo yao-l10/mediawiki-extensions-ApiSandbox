@@ -1164,26 +1164,26 @@ Esempio: [//www.mediawiki.org/wiki/API#A_simple_example ottenere il contenuto de
  * @author Whym
  */
 $messages['ja'] = array(
-	'apisb-desc' => 'ブラウザからの [//www.mediawiki.org/wiki/API MediaWiki API] 呼び出しをデバッグできるようにする',
+	'apisb-desc' => 'ブラウザーからの [//www.mediawiki.org/wiki/API MediaWiki API] 呼び出しをデバッグできるようにする',
 	'apisandbox' => 'APIサンドボックス',
 	'apisb-no-js' => "'''エラー'''：この機能にはJavaScriptが必要です。",
 	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
 APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page APIのドキュメント]をご覧ください。例：[//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得する].。アクションを選択すると他の例を見ることができます。",
 	'apisb-api-disabled' => 'APIはこのウェブサイトでは無効化されています。',
-	'apisb-legend-parameters' => 'パラメータ',
+	'apisb-legend-parameters' => 'パラメーター',
 	'apisb-legend-result' => '結果',
-	'apisb-legend-generic-parameters' => '汎用的なパラメータ',
-	'apisb-legend-generator-parameters' => 'ジェネレータ',
+	'apisb-legend-generic-parameters' => '汎用的なパラメーター',
+	'apisb-legend-generator-parameters' => 'ジェネレーター',
 	'apisb-result-request-url' => 'リクエスト URL:',
 	'apisb-result-request-post' => 'POST データ:',
 	'apisb-label-format' => '形式',
 	'apisb-label-action' => '操作',
 	'apisb-label-doc' => 'ドキュメント',
 	'apisb-select-action' => '(操作を選択)',
-	'apisb-select-query' => '(クエリを選択)',
-	'apisb-select-value' => '(値を選択)',
+	'apisb-select-query' => '（クエリーを選択）',
+	'apisb-select-value' => '（値を選択）',
 	'apisb-docs-more' => '続きを読む',
-	'apisb-params-param' => 'パラメータ',
+	'apisb-params-param' => 'パラメーター',
 	'apisb-params-input' => '入力',
 	'apisb-params-desc' => '説明',
 	'apisb-loading' => '読み込み中...',
@@ -1287,6 +1287,19 @@ $messages['ksh'] = array(
 	'apisb-result-request-url' => 'Dä URL vun dä Aanfrooch:',
 	'apisb-query-prop' => 'Eijeschafte',
 	'apisb-query-list' => 'Leste',
+);
+
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'apisb-legend-parameters' => 'Parametre',
+	'apisb-legend-result' => 'Encam',
+	'apisb-params-param' => 'Parametre',
+	'apisb-params-desc' => 'Danasîn',
+	'apisb-query-list' => 'Lîste',
+	'apisb-example' => 'Mînak',
+	'apisb-examples' => 'Mînak',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
