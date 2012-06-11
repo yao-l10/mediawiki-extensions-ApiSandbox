@@ -33,7 +33,7 @@ $specialPageAliases['eo'] = array(
 	'ApiSandbox' => array( 'Provejo_de_API' ),
 );
 
-/** Estonian (Eesti) */
+/** Estonian (eesti) */
 $specialPageAliases['et'] = array(
 	'ApiSandbox' => array( 'API-liivakast' ),
 );
@@ -48,12 +48,17 @@ $specialPageAliases['gsw'] = array(
 	'ApiSandbox' => array( 'ApiSandchaschte' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'ApiSandbox' => array( 'Api실험실' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'ApiSandbox' => array( 'ApiSandkëscht' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ApiSandbox' => array( 'ApiПесочник' ),
 );
@@ -63,7 +68,7 @@ $specialPageAliases['ml'] = array(
 	'ApiSandbox' => array( 'എ.പി.ഐ.എഴുത്തുകളരി' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'ApiSandbox' => array( 'API-sandkasse' ),
 );
@@ -76,4 +81,9 @@ $specialPageAliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'ApiSandbox' => array( 'APIZandbak' ),
+);
+
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'ApiSandbox' => array( 'Песочница_API' ),
 );
