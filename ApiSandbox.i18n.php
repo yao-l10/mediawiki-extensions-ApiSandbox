@@ -125,7 +125,7 @@ $messages['ar'] = array(
 	'apisb-query-meta' => 'معلومات الميتا',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -166,7 +166,7 @@ Consulta [//www.mediawiki.org/wiki/API:Main_page la documentación de la API] pa
 	'apisb-request-time' => 'Duración de la solicitú: $1',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -240,7 +240,7 @@ $messages['be-tarask'] = array(
 	'apisb-request-time' => 'Час апрацоўкі запыту: $1',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -266,7 +266,7 @@ $messages['bn'] = array(
 	'apisb-query-meta' => 'মেটা তথ্য',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwendal
  */
@@ -309,14 +309,14 @@ Kit da deuler ur sell war [//www.mediawiki.org/wiki/API:Main_page titouroù an A
 	'apisb-request-time' => 'Pad ar goulenn: $1',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
 	'apisb-legend-result' => 'Resultat',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  * @author Reaperman
  * @author Utar
@@ -516,7 +516,7 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-query-meta' => 'Metainformoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
  * @author Imre
@@ -561,7 +561,7 @@ $messages['es'] = array(
 	'apisb-request-time' => 'Tiempo de solicitud: $1',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -597,7 +597,7 @@ $messages['et'] = array(
 	'apisb-clear' => 'Puhasta',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -650,7 +650,7 @@ $messages['fa'] = array(
 	'apisb-request-time' => 'زمان درخواست: $1',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nedergard
  * @author Olli
@@ -688,7 +688,7 @@ $messages['fi'] = array(
 	'apisb-clear' => 'Tyhjennä',
 );
 
-/** French (Français)
+/** French (français)
  * @author Balzac 40
  * @author Crochet.david
  * @author Gomoko
@@ -736,7 +736,7 @@ Reportez-vous à [//www.mediawiki.org/wiki/API:Main_page la documentation de l�
 	'apisb-request-time' => 'Durée de la demande: $1',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -960,7 +960,7 @@ Hlej [//www.mediawiki.org/wiki/API:Main_page API-dokumentaciju] za dalše podrob
 	'apisb-request-time' => 'Naprašowanski čas: $1',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Bináris
  * @author Dj
  */
@@ -998,7 +998,7 @@ A használattal kapcsolatos további részletek az [//www.mediawiki.org/wiki/API
 	'apisb-clear' => 'Törlés',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1112,7 +1112,7 @@ Agiturong idiay [//www.mediawiki.org/wiki/API:Main_page the API dokumentasion] p
 	'apisb-clear' => 'Dalusan',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Aushulz
  * @author Beta16
  * @author F. Cosoleto
@@ -1362,7 +1362,7 @@ Zuuch de [//www.mediawiki.org/wiki/API:Main_page API-dokkemèntatie] veur mier d
 	'apisb-query-meta' => 'Meta-infermasie',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Ignas693
  */
@@ -1391,7 +1391,7 @@ $messages['lt'] = array(
 	'apisb-query-meta' => 'Meta informacija',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -1399,7 +1399,7 @@ $messages['lv'] = array(
 	'apisb-query-list' => 'Saraksti',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1637,7 +1637,7 @@ $messages['pfl'] = array(
 	'apisb-api-disabled' => 'Die API isch uffm Wiki abgschdelld worre.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Beau
  * @author BeginaFelicysym
  * @author Olgak85
@@ -1732,7 +1732,7 @@ $messages['ps'] = array(
 	'apisb-clear' => 'سپينول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas Blade
@@ -1769,7 +1769,7 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 	'apisb-clear' => 'Limpar',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Giro720
  * @author Rafael Vargas
@@ -1804,7 +1804,7 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page the API documentação] para 
 	'apisb-query-meta' => 'Meta informação',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
  */
@@ -1839,7 +1839,7 @@ $messages['ro'] = array(
 	'apisb-clear' => 'Curăță',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1925,7 +1925,7 @@ $messages['sa'] = array(
 	'apisb-ns-main' => '(मुख्य)',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -1962,7 +1962,7 @@ $messages['si'] = array(
 	'apisb-query-meta' => 'මෙටා තොරතුරු',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1981,7 +1981,7 @@ $messages['sk'] = array(
 	'apisb-query-meta' => 'Metainformácie',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -2022,7 +2022,7 @@ $messages['sl'] = array(
 	'apisb-request-time' => 'Trajanje zahteve: $1',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2046,7 +2046,7 @@ $messages['sr-ec'] = array(
 	'apisb-query-meta' => 'Метаподаци',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Lokal Profil
  * @author Skalman
@@ -2278,7 +2278,7 @@ $messages['yi'] = array(
 	'apisb-query-list' => 'ליסטעס',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Hydra
  * @author Hzy980512
@@ -2327,7 +2327,7 @@ $messages['zh-hans'] = array(
 	'apisb-request-time' => '请求时间：$1',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Liangent
  * @author Oapbtommy
