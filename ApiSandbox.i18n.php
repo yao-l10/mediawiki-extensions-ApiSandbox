@@ -487,6 +487,7 @@ $messages['el'] = array(
 
 /** Esperanto (Esperanto)
  * @author Blahma
+ * @author Karika
  * @author Lucas
  * @author Yekrats
  */
@@ -514,6 +515,8 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-query-prop' => 'Atributoj',
 	'apisb-query-list' => 'Listoj',
 	'apisb-query-meta' => 'Metainformoj',
+	'apisb-example' => 'Ekzemplo',
+	'apisb-examples' => 'Ekzemploj',
 );
 
 /** Spanish (español)
