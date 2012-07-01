@@ -197,7 +197,7 @@ $messages['ba'] = array(
 	'apisb-query-meta' => 'Мета-мәғлүмәт',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -424,7 +424,7 @@ $messages['diq'] = array(
 	'apisb-examples' => 'Misali',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -768,7 +768,7 @@ Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l�
 	'apisb-query-meta' => 'Mèta-enformacions',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -922,7 +922,7 @@ $messages['hi'] = array(
 	'apisb-query-meta' => 'मेटा जानकारी',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
