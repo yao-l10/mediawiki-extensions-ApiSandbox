@@ -1286,10 +1286,42 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'apisb-desc' => 'Hellef noh Fähler ze söhke bei [//www.mediawiki.org/wiki/API MediaWiki <i lang="en">API</i>] Oprohfe uss_em Brauser.',
+	'apisandbox' => 'De <i lang="en">API</i> ußprobeere',
+	'apisb-no-js' => "'''Fähler''': heh bruch mer JavaSkrep för.",
+	'apisb-intro' => "Op heh dä Sigg kanns De met dä '''MediaWiki web service <i lang=\"en\">API</i>''' eröm schpelle.
+Beloor Der de Einzelheite, wi di jebruch weed, op dä iere [//www.mediawiki.org/wiki/API:Main_page Sigg met de Verklieronge].
+E Beiscpell: [//www.mediawiki.org/wiki/API#A_simple_example De Houpsigg holle].
+Söhk ene {{int:Apisb-label-action}} uß, öm mieh Beishpell aanjezeisch ze krijje.",
+	'apisb-api-disabled' => 'Dat <i lang="en">API</i> es en heh dämm Wiki afjeschalldt.',
+	'apisb-legend-parameters' => 'Parrameetere',
 	'apisb-legend-result' => 'Erus jekumme es',
-	'apisb-result-request-url' => 'Dä URL vun dä Aanfrooch:',
+	'apisb-legend-generic-parameters' => 'jrondlääje Parrameetere',
+	'apisb-legend-generator-parameters' => 'Siggejeneraator',
+	'apisb-result-request-url' => 'Dä <i lang="en">URL</i> vun dä Aanfrooch:',
+	'apisb-result-request-post' => 'POST-Daate:',
+	'apisb-label-format' => 'Fomaat',
+	'apisb-label-action' => 'Vörjang udder Opdraacht',
+	'apisb-label-doc' => 'Dokkemäntazjuhn',
+	'apisb-select-action' => '(ene Vörjang udder Opdraacht ußwähle)',
+	'apisb-select-query' => '(en Frooch ußwähle)',
+	'apisb-select-value' => '(ene Wäät ußwähle)',
+	'apisb-docs-more' => 'mieh lässe',
+	'apisb-params-param' => 'Parrameeter',
+	'apisb-params-input' => 'Enjaabe',
+	'apisb-params-desc' => 'Verklierong',
+	'apisb-loading' => 'Aam Laade{{int:ellipsis}}',
+	'apisb-load-error' => 'Ene Fähler es opjetrodde beim Laade vun dä <i lang="en">API</i> ier Äklieronge.',
+	'apisb-request-error' => 'Ene Fähler es opjetrodde beim Oproofe vun dä <i lang="en">API</i>.',
+	'apisb-namespaces-error' => 'Ene Fähler es opjetrodde beim Appachtemang-Naame-Laade.',
+	'apisb-ns-main' => '(Atikkele)',
+	'apisb-submit' => 'Lohß jonn!',
 	'apisb-query-prop' => 'Eijeschafte',
 	'apisb-query-list' => 'Leste',
+	'apisb-query-meta' => 'Metta-Enfommazjuhne:',
+	'apisb-example' => 'Bäijshpell',
+	'apisb-examples' => 'Bäijshpell',
+	'apisb-clear' => 'Läddesch maache',
+	'apisb-request-time' => 'De Zigg vum Afroof: $1',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
