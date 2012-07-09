@@ -87,3 +87,8 @@ $specialPageAliases['nl'] = array(
 $specialPageAliases['ru'] = array(
 	'ApiSandbox' => array( 'Песочница_API' ),
 );
+
+/** Tagalog (Tagalog) */
+$specialPageAliases['tl'] = array(
+	'ApiSandbox' => array( 'Burador_ng_API' ),
+);
