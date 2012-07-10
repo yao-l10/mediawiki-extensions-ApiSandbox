@@ -1622,7 +1622,7 @@ Zie de [//www.mediawiki.org/wiki/API:Main_page API-documentatie] voor verdere de
 	'apisb-submit' => 'Verzoek uitvoeren',
 	'apisb-query-prop' => 'Eigenschappen',
 	'apisb-query-list' => 'Lijsten',
-	'apisb-query-meta' => 'Metaigegevens',
+	'apisb-query-meta' => 'Metagegevens',
 	'apisb-example' => 'Voorbeeld',
 	'apisb-examples' => 'Voorbeelden',
 	'apisb-clear' => 'Wissen',
