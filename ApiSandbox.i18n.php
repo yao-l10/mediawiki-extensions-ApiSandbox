@@ -178,7 +178,7 @@ $messages['az'] = array(
 	'apisb-query-meta' => 'Meta məlumatları',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Haqmar
  */
 $messages['ba'] = array(
@@ -1559,7 +1559,8 @@ Contoh: [//www.mediawiki.org/wiki/API#A_simple_example dapatkan kandungan Laman 
 	'apisb-request-time' => 'Waktu pemohonan: $1',
 );
 
-/** Norwegian (bokmål) (Norsk (bokmål))
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author EivindJ
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1567,15 +1568,19 @@ $messages['nb'] = array(
 	'apisandbox' => 'API-sandkasse',
 	'apisb-no-js' => "'''Feil''': denne funksjonen krever JavaScript.",
 	'apisb-intro' => "Bruk denne siden til å eksperimentere med '''MediaWiki API'''.
-Sjekk [//www.mediawiki.org/wiki/API API-dokumentasjonen] for flere detaljer om bruk av API.",
+Sjekk [//www.mediawiki.org/wiki/API:Main_page API-dokumentasjonen] for flere detaljer om bruk av API.",
 	'apisb-api-disabled' => 'API er deaktivert på dette nettstedet.',
-	'apisb-parameters' => 'Parametere',
-	'apisb-result' => 'Resultat',
-	'apisb-request-url' => 'Forespurt URL:',
-	'apisb-request-post' => 'POST-data:',
+	'apisb-legend-result' => 'Resultat',
+	'apisb-legend-generic-parameters' => 'Generiske parametre',
+	'apisb-legend-generator-parameters' => 'Generator',
+	'apisb-result-request-url' => 'Forespurt URL:',
+	'apisb-result-request-post' => 'POST-data:',
 	'apisb-select-action' => 'Velg handling',
 	'apisb-select-query' => 'Hva skal du spørre etter?',
 	'apisb-select-value' => 'Velg verdi',
+	'apisb-docs-more' => 'les mer',
+	'apisb-params-param' => 'Parameter',
+	'apisb-params-desc' => 'Beskrivelse',
 	'apisb-loading' => 'Laster...',
 	'apisb-load-error' => 'Feil under lasting av API-beskrivelse',
 	'apisb-request-error' => 'Feil under utføring av API-forespørsel',
@@ -1585,6 +1590,10 @@ Sjekk [//www.mediawiki.org/wiki/API API-dokumentasjonen] for flere detaljer om b
 	'apisb-query-prop' => 'Egenskaper',
 	'apisb-query-list' => 'Lister',
 	'apisb-query-meta' => 'Metainformasjon',
+	'apisb-example' => 'Eksempel',
+	'apisb-examples' => 'Eksempler',
+	'apisb-clear' => 'Tilbakestill',
+	'apisb-request-time' => 'Forespørselstid',
 );
 
 /** Dutch (Nederlands)
@@ -2266,7 +2275,7 @@ $messages['uk'] = array(
 	'apisb-request-time' => 'Час запиту $1',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
