@@ -34,6 +34,10 @@
 		return [];
 	}
 
+	/**
+	 * Displays a spinner and a "Loading..."
+	 * @param $element {jQuery} Container for the loading message
+	 */
 	function showLoading( $element ) {
 		$element.html(
 			mw.html.element( 'img',
@@ -49,10 +53,18 @@
 		);
 	}
 
+	/**
+	 *
+	 * @param what {object} Object with properties defining which information to retrieve, e.g. {modules:'query'}
+	 * @param loadCallback {function} Callback called before retrieval of information from API starts
+	 * @param completeCallback {function} Callback called when information is ready, either from API or cache
+	 * @param errorCallback {function} Callback called when API call fails
+	 */
 	function getParamInfo( what, loadCallback, completeCallback, errorCallback ) {
 		var needed, param, subParam;
 
 		needed = {};
+		// Remove the stuff we already have in cache from the API call parameters
 		for ( param in what ) {
 			if ( paramInfo[param] === undefined ) {
 				needed[param] = what[param];
@@ -67,6 +79,7 @@
 			}
 		}
 		if ( $.isEmptyObject( needed ) ) {
+			// Everything's in cache
 			completeCallback();
 		} else {
 			loadCallback();
@@ -100,12 +113,20 @@
 		}
 	}
 
+	/**
+	 * Resets all form fields
+	 */
 	function resetUI() {
 		$( '.api-sandbox-builder' ).each( function () {
 			$( this ).data( 'builder' ).createInputs();
 		} );
 	}
 
+	/**
+	 * Sets the selected element(s) of a <select> input
+	 * @param $el {jQuery} Element to modify
+	 * @param value {string} Value(s) to select
+	 */
 	function setSelect( $el, value ) {
 		var i, splitted;
 		if ( $el.attr( 'multiple' ) ) {
@@ -133,6 +154,10 @@
 		applyParams( link );
 	}
 
+	/**
+	 * Sets form fields according to a URI query string
+	 * @param link {string} Query string to apply
+	 */
 	function applyParams( link ) {
 		var params, i, obj, pieces, key, value;
 		params = link.split( '&' );
@@ -149,8 +174,25 @@
 		}
 		applyObject( obj );
 
+		/**
+		 * Sets form fields according to an object properties
+		 * @param obj {object} Object with properties representing an API request, e.g. {action:'edit',format:'json'}
+		 */
 		function applyObject( obj ) {
 			var pieces, key, value, $el, splitted, j, nodeName, query = '';
+			/**
+			 * This function might need to call itself recursively, creating the fields to be filled and
+			 * possibly retrieving paraminfo from API each time.
+			 *
+			 * For example:
+			 *  *  action=query&prop=info&format=json --> retrieve information about the query action
+			 *  * prop=info&format=json --> retrieve information about the info query module
+			 *  * format=json --> set the remaining fields
+			 *
+			 *  Before each recursive call, the already set properties are deleted from the object
+			 */
+
+			// Set action
 			if ( obj.action ) {
 				setSelect( $action, obj.action );
 				obj.action = undefined;
@@ -160,6 +202,7 @@
 				return;
 			}
 
+			// Set query module, if any
 			if ( obj.list ) {
 				query = 'list=' + obj.list;
 			} else if ( obj.prop ) {
@@ -175,6 +218,7 @@
 				}, true );
 				return;
 			}
+			// Set generator, if any
 			if ( obj.generator ) {
 				setSelect( $( '#param-generator' ), obj.generator );
 				obj.generator = undefined;
@@ -184,6 +228,7 @@
 				return;
 			}
 
+			// Set the remaining fields
 			for ( key in obj ) {
 				value = obj[key];
 				if ( value === null ) { // checkbox
