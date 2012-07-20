@@ -412,6 +412,39 @@
 	}
 
 
+	function runQuery( options ) {
+		$.ajax({
+			url: options.url,
+			data: options.params || {},
+			dataType: 'text',
+			type: options.type || 'GET',
+			success: function ( origData ) {
+				var data = origData,
+					match = data.match( /<pre>[\s\S]*<\/pre>/ );
+				if ( $.isArray( match ) ) {
+					var time = data.match( /<!-- Served .*?in (\d+(\.\d+)?) secs. -->/ );
+					data = match[0];
+					if ( $.isArray( time ) ) {
+						data += '\n<br/>' + mw.html.escape( mw.msg( 'apisb-request-time', time[1] ) );
+					}
+				} else {
+					// some actions don't honor user-specified format
+					data = '<pre>' + mw.html.escape( data ) + '</pre>';
+				}
+				$output.html( data );
+				if( options.success ) {
+					options.success( origData );
+				}
+			},
+			error: function () {
+				showLoadError( $output, 'apisb-request-error' );
+			},
+			// either success or error
+			complete: function () {
+				$pageScroll.animate({ scrollTop: $('#api-sandbox-result').offset().top }, 400 );
+			}
+		});
+	}
 	/**
 	 * Constructor that creates inputs for a query and builds request data
 	 *
@@ -769,33 +802,8 @@
 				$postRow.hide();
 			}
 			url = url.replace( /(&format=[^&]+)/, '$1fm' );
-			$.ajax({
-				url: url,
-				data: params,
-				dataType: 'text',
-				type: mustBePosted ? 'POST' : 'GET',
-				success: function ( data ) {
-					var match = data.match( /<pre>[\s\S]*<\/pre>/ );
-					if ( $.isArray( match ) ) {
-						var time = data.match( /<!-- Served .*?in (\d+(\.\d+)?) secs. -->/ );
-						data = match[0];
-						if ( $.isArray( time ) ) {
-							data += '\n<br/>' + mw.html.escape( mw.msg( 'apisb-request-time', time[1] ) );
-						}
-					} else {
-						// some actions don't honor user-specified format
-						data = '<pre>' + mw.html.escape( data ) + '</pre>';
-					}
-					$output.html( data );
-				},
-				error: function () {
-					showLoadError( $output, 'apisb-request-error' );
-				},
-				// either success or error
-				complete: function () {
-					$pageScroll.animate({ scrollTop: $('#api-sandbox-result').offset().top }, 400 );
-				}
-			});
+			runQuery( { url: url, params: params,
+				type: mustBePosted ? 'POST' : 'GET' } );
 		});
 		doHash();
 	});
