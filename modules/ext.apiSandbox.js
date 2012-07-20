@@ -713,11 +713,15 @@
 		}
 
 		$( window ).on( 'popstate', function( e ) {
-			genericRequest.createInputs();
+			if( genericRequest ) {
+				genericRequest.createInputs();
+			}
 			if ( generatorRequest ) {
 				generatorRequest.createInputs();
 			}
-			queryRequest.createInputs();
+			if( queryRequest ) {
+				queryRequest.createInputs();
+			}
 			doHash();
 		} );
 
