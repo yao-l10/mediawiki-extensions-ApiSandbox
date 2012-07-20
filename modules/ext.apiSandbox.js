@@ -179,7 +179,6 @@
 		 * @param obj {object} Object with properties representing an API request, e.g. {action:'edit',format:'json'}
 		 */
 		function applyObject( obj ) {
-			var pieces, key, value, $el, splitted, j, nodeName, query = '';
 			/**
 			 * This function might need to call itself recursively, creating the fields to be filled and
 			 * possibly retrieving paraminfo from API each time.
@@ -195,13 +194,16 @@
 			// Set action
 			if ( obj.action ) {
 				setSelect( $action, obj.action );
-				obj.action = undefined;
 				updateUI( function() {
-					applyObject( obj );
+					applyListParameter( obj );
 				}, true );
-				return;
+			} else {
+				applyGeneratorParameter( obj );
 			}
+		}
 
+		function applyListParameter( obj ) {
+			var query;
 			// Set query module, if any
 			if ( obj.list ) {
 				query = 'list=' + obj.list;
@@ -211,23 +213,29 @@
 				query = 'meta=' + obj.meta;
 			}
 			if ( query ) {
-				obj.list = obj.prop = obj.meta = undefined;
 				setSelect( $query, query );
 				updateUI( function() {
-					applyObject( obj );
+					applyGeneratorParameter( obj );
 				}, true );
-				return;
+			} else {
+				applyGeneratorParameter( obj );
 			}
+		}
+
+		function applyGeneratorParameter( obj  ) {
 			// Set generator, if any
 			if ( obj.generator ) {
 				setSelect( $( '#param-generator' ), obj.generator );
-				obj.generator = undefined;
 				updateGenerator( function() {
-					applyObject( obj )
+					applyRemainingFieldParameters( obj );
 				} );
-				return;
+			} else {
+				applyRemainingFieldParameters( obj );
 			}
+		}
 
+		function applyRemainingFieldParameters( obj ) {
+			var pieces, key, value, $el, splitted, j, nodeName;
 			// Set the remaining fields
 			for ( key in obj ) {
 				value = obj[key];
