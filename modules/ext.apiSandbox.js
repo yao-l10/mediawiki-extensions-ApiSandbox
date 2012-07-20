@@ -705,7 +705,7 @@
 			}
 		}
 
-		$( '#param-generator' ).on( 'change', updateGenerator );
+		$( '#param-generator' ).live( 'change', updateGenerator );
 
 		function doHash() {
 			var hash = window.location.hash.replace( /^#/, '' );
