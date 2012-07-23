@@ -125,6 +125,16 @@ $messages['ar'] = array(
 	'apisb-query-meta' => 'معلومات الميتا',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'apisb-legend-result' => 'ফলাফল',
+	'apisb-label-action' => 'কাৰ্য',
+	'apisb-params-desc' => 'বিৱৰণ',
+	'apisb-ns-main' => '(মুখ্য)',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -414,10 +424,18 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'apisandbox' => 'API qumdor',
 	'apisb-legend-parameters' => 'Parametrey',
 	'apisb-legend-result' => 'Netice',
+	'apisb-legend-generator-parameters' => 'Vırazdar',
+	'apisb-result-request-url' => 'URL waştış:',
 	'apisb-label-format' => 'Format:',
+	'apisb-label-action' => 'Kerden',
 	'apisb-label-doc' => 'Pelekerdiş',
+	'apisb-docs-more' => 'Zewbi buwane',
+	'apisb-params-param' => 'Parametre',
+	'apisb-params-desc' => 'Şınasiyen',
+	'apisb-loading' => 'Bar beno...',
 	'apisb-ns-main' => '(Ser)',
 	'apisb-query-list' => 'Listey',
 	'apisb-example' => 'Misal',

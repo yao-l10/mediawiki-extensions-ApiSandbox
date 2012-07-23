@@ -92,3 +92,8 @@ $specialPageAliases['ru'] = array(
 $specialPageAliases['tl'] = array(
 	'ApiSandbox' => array( 'Burador_ng_API' ),
 );
+
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'ApiSandbox' => array( 'Грамайданчик_API' ),
+);
