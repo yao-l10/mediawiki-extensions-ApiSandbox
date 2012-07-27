@@ -179,87 +179,80 @@
 		 * @param obj {object} Object with properties representing an API request, e.g. {action:'edit',format:'json'}
 		 */
 		function applyObject( obj ) {
-			/**
-			 * This function might need to call itself recursively, creating the fields to be filled and
-			 * possibly retrieving paraminfo from API each time.
-			 *
-			 * For example:
-			 *  *  action=query&prop=info&format=json --> retrieve information about the query action
-			 *  * prop=info&format=json --> retrieve information about the info query module
-			 *  * format=json --> set the remaining fields
-			 *
-			 *  Before each recursive call, the already set properties are deleted from the object
-			 */
+			var blacklist = [];
 
 			// Set action
 			if ( obj.action ) {
 				setSelect( $action, obj.action );
 				updateUI( function() {
-					applyListParameter( obj );
+					blacklist.push( 'action' );
+					applyListParameter( obj, blacklist );
 				}, true );
 			} else {
-				applyGeneratorParameter( obj );
+				applyGeneratorParameter( obj, blacklist );
 			}
 		}
 
-		function applyListParameter( obj ) {
+		function applyListParameter( obj, blacklist ) {
 			var query;
 			// Set query module, if any
 			if ( obj.list ) {
+				blacklist.push( 'list' );
 				query = 'list=' + obj.list;
 			} else if ( obj.prop ) {
+				blacklist.push( 'prop' );
 				query = 'prop=' + obj.prop;
 			} else if ( obj.meta ) {
+				blacklist.push( 'meta' );
 				query = 'meta=' + obj.meta;
 			}
 			if ( query ) {
 				setSelect( $query, query );
 				updateUI( function() {
-					applyGeneratorParameter( obj );
+					applyGeneratorParameter( obj, blacklist );
 				}, true );
 			} else {
-				applyGeneratorParameter( obj );
+				applyGeneratorParameter( obj, blacklist );
 			}
 		}
 
-		function applyGeneratorParameter( obj  ) {
+		function applyGeneratorParameter( obj, blacklist  ) {
 			// Set generator, if any
 			if ( obj.generator ) {
 				setSelect( $( '#param-generator' ), obj.generator );
 				updateGenerator( function() {
-					applyRemainingFieldParameters( obj );
+					applyRemainingFieldParameters( obj, blacklist );
 				} );
 			} else {
-				applyRemainingFieldParameters( obj );
+				applyRemainingFieldParameters( obj, blacklist );
 			}
 		}
 
-		function applyRemainingFieldParameters( obj ) {
+		function applyRemainingFieldParameters( obj, blacklist ) {
 			var pieces, key, value, $el, splitted, j, nodeName;
 			// Set the remaining fields
 			for ( key in obj ) {
-				value = obj[key];
-				if ( value === null ) { // checkbox
-					$( '#param-' + key ).prop( 'checked', true );
-				} else {
+				if( obj.hasOwnProperty( key ) && blacklist.indexOf( key ) === -1 ) {
+					value = obj[ key ];
 					$el = $( '#param-' + key );
-					if ( !$el.length ) {
-						continue;
-					}
-					nodeName = $el[0].nodeName.toLowerCase();
-					switch ( nodeName ) {
-						case 'select':
-							setSelect( $el, value );
-							break;
-						case 'input':
-							if ( $el.attr( 'type' ) === 'checkbox' ) {
-								$( '#param-' + key ).prop( 'checked', true );
-							} else {
-								$el.val( value );
-							}
-							break;
-						default:
-							mw.log( 'Unrecognised node name "' + nodeName + '"' );
+					if ( value === null ) { // checkbox
+						$( '#param-' + key ).prop( 'checked', true );
+					} else if( $el[ 0 ] ) {
+						nodeName = $el[ 0 ].nodeName.toLowerCase();
+						switch ( nodeName ) {
+							case 'select':
+								setSelect( $el, value );
+								break;
+							case 'input':
+								if ( $el.attr( 'type' ) === 'checkbox' ) {
+									$( '#param-' + key ).prop( 'checked', true );
+								} else {
+									$el.val( value );
+								}
+								break;
+							default:
+								mw.log( 'Unrecognised node name "' + nodeName + '"' );
+						}
 					}
 				}
 			}
