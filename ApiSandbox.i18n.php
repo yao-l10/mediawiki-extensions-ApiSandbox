@@ -427,6 +427,7 @@ $messages['diq'] = array(
 	'apisandbox' => 'API qumdor',
 	'apisb-legend-parameters' => 'Parametrey',
 	'apisb-legend-result' => 'Netice',
+	'apisb-legend-generic-parameters' => 'Parametreyê heray',
 	'apisb-legend-generator-parameters' => 'Vırazdar',
 	'apisb-result-request-url' => 'URL waştış:',
 	'apisb-label-format' => 'Format:',
@@ -437,9 +438,14 @@ $messages['diq'] = array(
 	'apisb-params-desc' => 'Şınasiyen',
 	'apisb-loading' => 'Bar beno...',
 	'apisb-ns-main' => '(Ser)',
+	'apisb-submit' => 'Bıwazê',
+	'apisb-query-prop' => 'Xısusiyey',
 	'apisb-query-list' => 'Listey',
+	'apisb-query-meta' => 'Meta malumat',
 	'apisb-example' => 'Misal',
 	'apisb-examples' => 'Misali',
+	'apisb-clear' => 'Bestern',
+	'apisb-request-time' => 'Demê waştışi: $1',
 );
 
 /** Lower Sorbian (dolnoserbski)
