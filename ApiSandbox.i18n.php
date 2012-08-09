@@ -198,13 +198,20 @@ $messages['ba'] = array(
 	'apisb-result-request-url' => 'Һоратыуҙың URL-адресы:',
 	'apisb-result-request-post' => 'POST мәғлүмәттәр:',
 	'apisb-select-action' => 'Хәрәкәт һайларға',
-	'apisb-select-query' => 'Ни һоратырға?',
+	'apisb-select-query' => '(талап һайлағыҙ)',
+	'apisb-docs-more' => 'тулыраҡ',
+	'apisb-params-param' => 'Параметр',
+	'apisb-params-input' => 'Инеш',
+	'apisb-params-desc' => 'Тасуирлама',
 	'apisb-loading' => 'Асыла...',
 	'apisb-ns-main' => '(Төп)',
 	'apisb-submit' => 'Һоратыу яһарға',
 	'apisb-query-prop' => 'Үҙенсәлектәр',
 	'apisb-query-list' => 'Исемлектәр',
 	'apisb-query-meta' => 'Мета-мәғлүмәт',
+	'apisb-example' => 'Миҫал',
+	'apisb-examples' => 'Миҫалдар',
+	'apisb-clear' => 'Таҙарт',
 );
 
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
@@ -369,6 +376,33 @@ Podrobností využití API najdete v [//www.mediawiki.org/wiki/API:Main_page jeh
 	'apisb-request-time' => 'Trvání požadavku: $1',
 );
 
+/** Danish (dansk)
+ * @author Hylle
+ */
+$messages['da'] = array(
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Handling',
+	'apisb-label-doc' => 'Dokumentation',
+	'apisb-select-action' => '(vælg handling)',
+	'apisb-select-query' => '(vælg forespørgsel)',
+	'apisb-select-value' => '(vælg værdi)',
+	'apisb-docs-more' => 'læs mere',
+	'apisb-params-param' => 'Parameter',
+	'apisb-params-input' => 'Input',
+	'apisb-params-desc' => 'Beskrivelse',
+	'apisb-loading' => 'Indlæser...',
+	'apisb-load-error' => 'Fejl ved indlæsning af API beskrivelse',
+	'apisb-request-error' => 'Fejl ved udførelse af API forespørgsel',
+	'apisb-submit' => 'Lav forespørgsel',
+	'apisb-query-prop' => 'Egenskaber',
+	'apisb-query-list' => 'Lister',
+	'apisb-query-meta' => 'Meta information',
+	'apisb-example' => 'Eksempel',
+	'apisb-examples' => 'Eksempler',
+	'apisb-clear' => 'Ryd',
+	'apisb-request-time' => 'Forespørgselstid: $1',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -490,16 +524,20 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'apisb-no-js' => "'''Σφάλμα''': αυτό το χαρακτηριστικό απαιτεί τη χρήση της κονσόλας JavaScript.",
 	'apisb-api-disabled' => 'Η Διεπαφή Προγραμματισμού Εφαρμογών (API) είναι απενεργοποιημένη σε αυτήν την τοποθεσία.',
+	'apisb-legend-parameters' => 'Παράμετροι',
 	'apisb-legend-result' => 'Αποτέλεσμα',
 	'apisb-legend-generic-parameters' => 'Γενικές παράμετροι',
 	'apisb-legend-generator-parameters' => 'Γεννήτρια',
 	'apisb-result-request-url' => 'Αίτηση URL:',
+	'apisb-label-action' => 'Ενέργεια',
 	'apisb-label-doc' => 'Τεκμηρίωση',
 	'apisb-select-action' => 'Επιλέξτε ενέργεια',
-	'apisb-select-query' => 'Τι πρέπει να ρωτήσω;',
-	'apisb-select-value' => 'Επιλέξτε τιμή',
+	'apisb-select-query' => '(επιλογή ερώτησης)',
+	'apisb-select-value' => '(επιλογή τιμής)',
 	'apisb-docs-more' => 'διαβάστε περισσότερα',
 	'apisb-params-param' => 'Η παράμετρος',
+	'apisb-params-input' => 'Εισροή',
+	'apisb-params-desc' => 'Περιγραφή',
 	'apisb-loading' => 'Φόρτωση...',
 	'apisb-namespaces-error' => 'Σφάλμα φόρτωσης ονοματοχώρων',
 	'apisb-ns-main' => '(Κύρια)',
@@ -507,6 +545,9 @@ $messages['el'] = array(
 	'apisb-query-prop' => 'Ιδιότητες',
 	'apisb-query-list' => 'Λίστες',
 	'apisb-query-meta' => 'Πληροφορίες Meta',
+	'apisb-example' => 'Παράδειγμα',
+	'apisb-examples' => 'Παραδείγματα',
+	'apisb-clear' => 'Εκκαθάριση',
 );
 
 /** Esperanto (Esperanto)
@@ -522,14 +563,19 @@ $messages['eo'] = array(
 	'apisb-intro' => "Uzu tiun ĉi paĝon por eksperimenti kun '''MediaWiki API'''.
 Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da detaloj pri la uzo de API.",
 	'apisb-api-disabled' => 'API estas malŝalta en ĉi tiu retejo.',
+	'apisb-legend-parameters' => 'Parametroj',
 	'apisb-legend-result' => 'Rezulto',
 	'apisb-legend-generic-parameters' => 'Komunaj parametroj',
 	'apisb-legend-generator-parameters' => 'Generanto',
 	'apisb-result-request-url' => 'Mendi URL-on.',
 	'apisb-result-request-post' => 'POST-datumoj:',
+	'apisb-label-format' => 'Formato',
+	'apisb-label-action' => 'Ago',
 	'apisb-select-action' => 'Elekti agojn',
-	'apisb-select-query' => 'Kion peti?',
-	'apisb-select-value' => 'Elekti valoron',
+	'apisb-select-query' => '(elekti mendon)',
+	'apisb-select-value' => '(elekti valoron)',
+	'apisb-docs-more' => 'Legi plu',
+	'apisb-params-param' => 'Parametro',
 	'apisb-loading' => 'Ŝarĝante...',
 	'apisb-load-error' => 'Okazis eraro dum ŝargado de la API-priskribo',
 	'apisb-request-error' => 'Okazis eraro dum efektivigo de la API-peto',
@@ -689,6 +735,7 @@ $messages['fi'] = array(
 	'apisb-intro' => "Tämä on '''MediaWiki API:n''' hiekkalaatikko.
 [//www.mediawiki.org/wiki/API:Main_page API-dokumentaatio] kertoo lisää API:en käytöstä.",
 	'apisb-api-disabled' => 'API on poistettu käytöstä tällä sivustolla.',
+	'apisb-legend-parameters' => 'Muuttujat',
 	'apisb-legend-result' => 'Tulos',
 	'apisb-legend-generic-parameters' => 'Yleiset parametrit',
 	'apisb-legend-generator-parameters' => 'Generoija',
@@ -696,10 +743,13 @@ $messages['fi'] = array(
 	'apisb-result-request-post' => 'POST-tiedot',
 	'apisb-label-format' => 'Muoto',
 	'apisb-label-action' => 'Toiminto',
+	'apisb-label-doc' => 'Ohjeet',
 	'apisb-select-action' => '(valitse toiminto)',
 	'apisb-select-query' => '(valitse kysely)',
 	'apisb-select-value' => '(valitse arvo)',
 	'apisb-docs-more' => 'lue lisää',
+	'apisb-params-param' => 'Muuttuja',
+	'apisb-params-input' => 'Syöte',
 	'apisb-params-desc' => 'Kuvaus',
 	'apisb-loading' => 'Ladataan...',
 	'apisb-load-error' => 'API-kuvauksen latausvirhe',
@@ -713,6 +763,7 @@ $messages['fi'] = array(
 	'apisb-example' => 'Esimerkki',
 	'apisb-examples' => 'Esimerkit',
 	'apisb-clear' => 'Tyhjennä',
+	'apisb-request-time' => 'Pyyntöaika: $1',
 );
 
 /** French (français)
@@ -879,6 +930,21 @@ In dr [//www.mediawiki.org/wiki/API:Main_page/de Dokumäntation zue dr API] het 
 	'apisb-examples' => 'Byyschpil',
 	'apisb-clear' => 'Lääre',
 	'apisb-request-time' => 'Aafrogzyt: $1',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'apisb-legend-parameters' => 'પરિમાણો',
+	'apisb-legend-result' => 'પરિણામ',
+	'apisb-legend-generic-parameters' => 'સામાન્ય પરિમાણો',
+	'apisb-label-action' => 'ક્રિયા',
+	'apisb-params-desc' => 'વર્ણન',
+	'apisb-loading' => 'લવાઇ રહ્યું છે...',
+	'apisb-submit' => 'વિનંતી કરો',
+	'apisb-query-prop' => 'ગુણધર્મો',
+	'apisb-example' => 'ઉદાહરણ',
 );
 
 /** Hebrew (עברית)
@@ -1583,6 +1649,29 @@ Contoh: [//www.mediawiki.org/wiki/API#A_simple_example dapatkan kandungan Laman 
 	'apisb-request-time' => 'Waktu pemohonan: $1',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'apisb-label-doc' => 'Dokumentazzjoni',
+	'apisb-select-action' => 'Agħżel azzjoni',
+	'apisb-select-value' => 'Agħżel opzjoni',
+	'apisb-docs-more' => 'aqra iktar',
+	'apisb-params-param' => 'Parametru',
+	'apisb-params-desc' => 'Deskrizzjoni',
+	'apisb-loading' => "Tiela'...",
+	'apisb-load-error' => 'Żball fit-tlugħ tad-deskrizzjoni tal-API',
+	'apisb-request-error' => 'Żball fit-twettiq tar-rikjesta tal-API',
+	'apisb-namespaces-error' => 'Żball fit-tlugħ tal-ispazji tal-isem',
+	'apisb-ns-main' => '(Prinċipali)',
+	'apisb-submit' => 'Agħmel rikjesta',
+	'apisb-query-list' => 'Elenki',
+	'apisb-query-meta' => 'Informazzjoni meta',
+	'apisb-example' => 'Eżempju',
+	'apisb-examples' => 'Eżempji',
+	'apisb-clear' => 'Ħassar',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author EivindJ
  * @author Nghtwlkr
@@ -1787,10 +1876,12 @@ Ch'a fasa riferiment a [//www.mediawiki.org/wiki/API:Main_page la documentassion
 $messages['ps'] = array(
 	'apisb-legend-result' => 'پايله',
 	'apisb-result-request-url' => 'د URL غوښتنه کول:',
+	'apisb-label-doc' => 'لاسوند',
 	'apisb-select-action' => 'چاره ټاکل',
 	'apisb-select-value' => '(ارزښت ټاکل)',
 	'apisb-docs-more' => 'نور لوستل',
-	'apisb-loading' => 'د برسېرېدلو په حال کې...',
+	'apisb-params-desc' => 'څرګندونه',
+	'apisb-loading' => 'برسېرېدنې کې دی...',
 	'apisb-ns-main' => '(آرنی)',
 	'apisb-submit' => 'غوښته کول',
 	'apisb-query-prop' => 'ځانتياوې',
@@ -1875,6 +1966,7 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page the API documentação] para 
 /** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'apisandbox' => 'Cutia cu nisip pentru API',
@@ -1886,6 +1978,9 @@ $messages['ro'] = array(
 	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-result-request-url' => 'URL cerere:',
 	'apisb-result-request-post' => 'Date POST:',
+	'apisb-label-format' => 'Formatare',
+	'apisb-label-action' => 'Acțiune',
+	'apisb-label-doc' => 'Documentație',
 	'apisb-select-action' => 'Alegeți o acțiune',
 	'apisb-select-query' => '(selectați interogarea)',
 	'apisb-select-value' => '(selectați valoarea)',
@@ -2011,14 +2106,19 @@ $messages['si'] = array(
 	'apisb-intro' => "'''මාධ්‍යවිකි API''' සමඟ අත්හදා බැලීම සඳහා මෙම පිටුව භාවිතා කරන්න.
 	API භාවිතය පිලිබඳ වැඩිදුර විස්තර සඳහා  [//www.mediawiki.org/wiki/API:Main_page API ප්‍රලේඛනය] හී ඉල්ලීමක් කරන්න.",
 	'apisb-api-disabled' => 'මෙම අඩවියෙහි API අක්‍රීය කොට ඇත.',
+	'apisb-legend-parameters' => 'පරාමිතීන්',
 	'apisb-legend-result' => 'ප්‍රතිඵලය',
 	'apisb-legend-generic-parameters' => 'ප්‍රජාතීය පරාමිතීන්',
 	'apisb-legend-generator-parameters' => 'උත්පාදකය',
 	'apisb-result-request-url' => 'URL ලිපිනය අයදින්න:',
 	'apisb-result-request-post' => 'POST දත්ත:',
+	'apisb-label-format' => 'ආකෘතිය',
+	'apisb-label-action' => 'ක්‍රියාව',
 	'apisb-select-action' => 'කාර්ය තෝරන්න',
 	'apisb-select-query' => 'ප්‍රශ්නය කුමක්ද?',
 	'apisb-select-value' => 'අගය තෝරන්න',
+	'apisb-docs-more' => 'තවත් කියවන්න',
+	'apisb-params-desc' => 'විස්තරය',
 	'apisb-loading' => 'පූරණය වෙමින්...',
 	'apisb-load-error' => 'API විස්තරය පූරණය වීමේ දෝෂය',
 	'apisb-request-error' => 'API අයදුම රඟ දැක්වීමේ දෝෂය',
@@ -2028,6 +2128,9 @@ $messages['si'] = array(
 	'apisb-query-prop' => 'ගුණ',
 	'apisb-query-list' => 'ලැයිස්තු',
 	'apisb-query-meta' => 'මෙටා තොරතුරු',
+	'apisb-example' => 'නිදසුන',
+	'apisb-examples' => 'නිදසුන්',
+	'apisb-clear' => 'හිස් කරන්න',
 );
 
 /** Slovak (slovenčina)
@@ -2181,7 +2284,10 @@ $messages['ta'] = array(
 $messages['te'] = array(
 	'apisb-legend-parameters' => 'పరామితులు',
 	'apisb-legend-result' => 'ఫలితం',
+	'apisb-label-action' => 'చర్య',
 	'apisb-select-action' => 'చర్యను ఎంచుకోండి',
+	'apisb-select-value' => '(విలువని ఎంచుకోండి)',
+	'apisb-params-param' => 'పరామితి',
 	'apisb-params-desc' => 'వివరణ',
 	'apisb-loading' => 'లోడవుతోంది...',
 	'apisb-ns-main' => '(మొదటి)',
