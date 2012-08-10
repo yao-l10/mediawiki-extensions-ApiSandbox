@@ -656,6 +656,9 @@ $messages['et'] = array(
 	'apisb-legend-generator-parameters' => 'Generaator',
 	'apisb-result-request-url' => 'Päringu URL:',
 	'apisb-result-request-post' => 'POST-andmed:',
+	'apisb-label-format' => 'Vorming',
+	'apisb-label-action' => 'Toiming',
+	'apisb-label-doc' => 'Dokumentatsioon',
 	'apisb-select-action' => 'Vali toiming',
 	'apisb-select-query' => '(vali päring)',
 	'apisb-select-value' => '(vali väärtus)',
@@ -667,6 +670,7 @@ $messages['et'] = array(
 	'apisb-load-error' => 'API kirjelduse laadimisel esines tõrge',
 	'apisb-request-error' => 'API-päringu sooritamisel esines tõrge',
 	'apisb-namespaces-error' => 'Nimeruumide laadimisel esines tõrge',
+	'apisb-ns-main' => '(Põhinimeruum)',
 	'apisb-submit' => 'Tee päring',
 	'apisb-query-prop' => 'Atribuudid',
 	'apisb-query-list' => 'Loendid',
@@ -674,6 +678,7 @@ $messages['et'] = array(
 	'apisb-example' => 'Näide',
 	'apisb-examples' => 'Näited',
 	'apisb-clear' => 'Puhasta',
+	'apisb-request-time' => 'Päringuaeg: $1',
 );
 
 /** Basque (euskara)
@@ -1185,22 +1190,25 @@ Lihat [//www.mediawiki.org/wiki/API:Main_page dokumentasi API] untuk perincian l
  * @author Lam-ang
  */
 $messages['ilo'] = array(
-	'apisb-desc' => 'Agpalubos ti panag-kkat ti kiteb [//www.mediawiki.org/wiki/API MediaWiki API] a dagiti mangaw-awag manipud idiay pagbasabasa',
+	'apisb-desc' => 'Agpalubos ti panag-ikkat ti kiteb ti [//www.mediawiki.org/wiki/API MediaWiki API] a tumawag manipud idiay pagbasabasa',
 	'apisandbox' => 'API a pagpsubokan',
 	'apisb-no-js' => "''Biddut''': daytoy a langa ket makasapul ti JavaScript.",
-	'apisb-intro' => "Usaren daytoy a panid ti panagsubok ti '''MediaWiki apot a serbisio ti API'''.
-Agiturong idiay [//www.mediawiki.org/wiki/API:Main_page the API dokumentasion] para iti adadu pay a detalye iti panag-usar ti API. Kas pagarigan: [//www.mediawiki.org/wiki/API#A_simple_example alaen ti linaon ti Umuna a Panid].  Agpili ti maaramid tapno makakita ti adu pay a kas pagarigan.",
-	'apisb-api-disabled' => 'Ti API ket nabaldodo iti daytoy a pagsaadan.',
+	'apisb-intro' => "Usaren daytoy a panid ti panagsubok ti '''MediaWiki a sapot a serbisio ti API'''.
+Agiturong idiay [//www.mediawiki.org/wiki/API:Main_page the API dokumentasion] para iti ad-adu pay a salaysay ti panag-usar ti API. Kas pagarigan: [//www.mediawiki.org/wiki/API#A_simple_example alaen ti linaon ti Umuna a Panid].  Agpili ti maaramid tapno makakita ti adu pay a kas pagarigan.",
+	'apisb-api-disabled' => 'Ti API ket nabaldado iti daytoy a pagsaadan.',
 	'apisb-legend-parameters' => 'Dagiti parametro',
 	'apisb-legend-result' => 'Nagbanagan',
 	'apisb-legend-generic-parameters' => 'Dagiti kadawyan a parametro',
 	'apisb-legend-generator-parameters' => 'Agpaandar',
 	'apisb-result-request-url' => 'Agkiddaw ti URL:',
-	'apisb-result-request-post' => 'POST data:',
-	'apisb-select-action' => 'Agpili ti aramid',
+	'apisb-result-request-post' => 'POST a datos:',
+	'apisb-label-format' => 'Pormat',
+	'apisb-label-action' => 'Aramid',
+	'apisb-label-doc' => 'Dokumentasion',
+	'apisb-select-action' => '(agpili ti aramid)',
 	'apisb-select-query' => '(agpili ti damdamagen)',
 	'apisb-select-value' => '(agpili ti kuenta)',
-	'apisb-docs-more' => 'agbasa ti dadduma pay',
+	'apisb-docs-more' => 'agbasa pay ti dadduma',
 	'apisb-params-param' => 'Parametro',
 	'apisb-params-input' => 'Ti ikabil',
 	'apisb-params-desc' => 'Deskripsion',
@@ -1216,6 +1224,7 @@ Agiturong idiay [//www.mediawiki.org/wiki/API:Main_page the API dokumentasion] p
 	'apisb-example' => 'Kas pagarigan',
 	'apisb-examples' => 'Dagiti kas pagarigan',
 	'apisb-clear' => 'Dalusan',
+	'apisb-request-time' => 'Oras ti kiddaw: $1',
 );
 
 /** Italian (italiano)
