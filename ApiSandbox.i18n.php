@@ -378,8 +378,14 @@ Podrobností využití API najdete v [//www.mediawiki.org/wiki/API:Main_page jeh
 
 /** Danish (dansk)
  * @author Hylle
+ * @author Sarrus
  */
 $messages['da'] = array(
+	'apisb-no-js' => "'''Fejl''': denne funktion kræver JavaScript.",
+	'apisb-legend-parameters' => 'Parametre',
+	'apisb-legend-result' => 'Resultat',
+	'apisb-legend-generic-parameters' => 'Generelle parametre',
+	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Handling',
 	'apisb-label-doc' => 'Dokumentation',
@@ -391,8 +397,8 @@ $messages['da'] = array(
 	'apisb-params-input' => 'Input',
 	'apisb-params-desc' => 'Beskrivelse',
 	'apisb-loading' => 'Indlæser...',
-	'apisb-load-error' => 'Fejl ved indlæsning af API beskrivelse',
-	'apisb-request-error' => 'Fejl ved udførelse af API forespørgsel',
+	'apisb-load-error' => 'Fejl ved indlæsning af API-beskrivelse',
+	'apisb-request-error' => 'Fejl ved udførelse af API-forespørgsel',
 	'apisb-submit' => 'Lav forespørgsel',
 	'apisb-query-prop' => 'Egenskaber',
 	'apisb-query-list' => 'Lister',
@@ -1144,14 +1150,19 @@ $messages['id'] = array(
 	'apisb-intro' => "Gunakan halaman ini untuk bereksperimen dengan '''MediaWiki API'''.
 Lihat [//www.mediawiki.org/wiki/API:Main_page dokumentasi API] untuk perincian lanjut penggunaan API.",
 	'apisb-api-disabled' => 'API dinonaktifkan pada situs ini.',
+	'apisb-legend-parameters' => 'Parameter',
 	'apisb-legend-result' => 'Hasil',
 	'apisb-legend-generic-parameters' => 'Parameter generik',
 	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-result-request-url' => 'URL Permintaan:',
 	'apisb-result-request-post' => 'Data POST:',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Tindakan',
+	'apisb-label-doc' => 'Dokumentasi',
 	'apisb-select-action' => 'Pilih tindakan',
 	'apisb-select-query' => '(pilih permintaan)',
 	'apisb-select-value' => '(pilih nilai)',
+	'apisb-docs-more' => 'baca lebih lanjut',
 	'apisb-params-param' => 'Parameter',
 	'apisb-params-input' => 'Masukan',
 	'apisb-params-desc' => 'Keterangan',
@@ -1166,6 +1177,8 @@ Lihat [//www.mediawiki.org/wiki/API:Main_page dokumentasi API] untuk perincian l
 	'apisb-query-meta' => 'Informasi meta',
 	'apisb-example' => 'Contoh',
 	'apisb-examples' => 'Contoh',
+	'apisb-clear' => 'Kosongkan',
+	'apisb-request-time' => 'Lama permintaan: $1',
 );
 
 /** Iloko (Ilokano)
@@ -1490,6 +1503,7 @@ Zuuch de [//www.mediawiki.org/wiki/API:Main_page API-dokkemèntatie] veur mier d
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Ignas693
+ * @author Vogone
  */
 $messages['lt'] = array(
 	'apisb-desc' => 'Leidžia derinti [MediaWiki API http://www.mediawiki.org/wiki/API] skambučių iš naršyklės',
@@ -1498,13 +1512,21 @@ $messages['lt'] = array(
 	'apisb-intro' => "Naudokite šį puslapį norėdami eksperimentuoti su '''MediaWiki API \"„.
 	Ieškokite [//www.mediawiki.org/wiki/API:Main_page API dokumentacijoje] Išsamesnės informacijos apie API naudojimo.",
 	'apisb-api-disabled' => 'API yra išjungtas šioje svetainėje.',
+	'apisb-legend-parameters' => 'Parametrai',
 	'apisb-legend-result' => 'Rezultatai',
 	'apisb-legend-generator-parameters' => 'Generatorius',
 	'apisb-result-request-url' => 'Prašyti URL:',
 	'apisb-result-request-post' => 'POST duomenys:',
+	'apisb-label-format' => 'Formatas',
+	'apisb-label-action' => 'Veiksmas',
+	'apisb-label-doc' => 'Dokumentacija',
 	'apisb-select-action' => 'Pasirinkite veiksmą',
 	'apisb-select-query' => 'Ką užklausą?',
 	'apisb-select-value' => 'Pasirinkite vertę',
+	'apisb-docs-more' => 'skaityti daugiau',
+	'apisb-params-param' => 'Parametras',
+	'apisb-params-input' => 'Įvestis',
+	'apisb-params-desc' => 'Aprašymas',
 	'apisb-loading' => 'Kraunasi ...',
 	'apisb-load-error' => 'Klaida įkeliant API aprašymas',
 	'apisb-request-error' => 'Klaida scenos API prašymą',
@@ -1514,6 +1536,7 @@ $messages['lt'] = array(
 	'apisb-query-prop' => 'Nusttymai',
 	'apisb-query-list' => 'Sąrašai',
 	'apisb-query-meta' => 'Meta informacija',
+	'apisb-example' => 'Pavyzdys',
 );
 
 /** Latvian (latviešu)
@@ -1895,6 +1918,7 @@ $messages['ps'] = array(
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas Blade
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'apisb-desc' => 'Permite depurar chamadas à [//www.mediawiki.org/wiki/API API do MediaWiki] a partir do browser',
@@ -1905,11 +1929,15 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 	'apisb-api-disabled' => 'A API está desactivada neste site.',
 	'apisb-legend-parameters' => 'Parâmetros',
 	'apisb-legend-result' => 'Resultado',
+	'apisb-legend-generator-parameters' => 'Gerador',
 	'apisb-result-request-url' => 'URL do pedido:',
 	'apisb-result-request-post' => 'Dados POST:',
+	'apisb-label-format' => 'Formato',
+	'apisb-label-action' => 'Ação',
+	'apisb-label-doc' => 'Documentação',
 	'apisb-select-action' => 'Seleccionar acção',
-	'apisb-select-query' => 'O que pretende consultar?',
-	'apisb-select-value' => 'Seleccionar o valor',
+	'apisb-select-query' => '(selecionar consultar)',
+	'apisb-select-value' => '(selecionar valor)',
 	'apisb-docs-more' => 'leia mais',
 	'apisb-params-param' => 'Parâmetro',
 	'apisb-params-input' => 'Entrada',
@@ -1926,6 +1954,7 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 	'apisb-example' => 'Exemplo',
 	'apisb-examples' => 'Exemplos',
 	'apisb-clear' => 'Limpar',
+	'apisb-request-time' => 'Tempo do pedido: $1',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -2114,10 +2143,13 @@ $messages['si'] = array(
 	'apisb-result-request-post' => 'POST දත්ත:',
 	'apisb-label-format' => 'ආකෘතිය',
 	'apisb-label-action' => 'ක්‍රියාව',
+	'apisb-label-doc' => 'ප්‍රලේඛනය',
 	'apisb-select-action' => 'කාර්ය තෝරන්න',
 	'apisb-select-query' => 'ප්‍රශ්නය කුමක්ද?',
-	'apisb-select-value' => 'අගය තෝරන්න',
+	'apisb-select-value' => '(අගය තෝරන්න)',
 	'apisb-docs-more' => 'තවත් කියවන්න',
+	'apisb-params-param' => 'පරාමිතිය',
+	'apisb-params-input' => 'ආදානය',
 	'apisb-params-desc' => 'විස්තරය',
 	'apisb-loading' => 'පූරණය වෙමින්...',
 	'apisb-load-error' => 'API විස්තරය පූරණය වීමේ දෝෂය',
@@ -2262,11 +2294,19 @@ Använd [//www.mediawiki.org/wiki/API:Main_page API dokumentationen] för mer in
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author Shanmugamp7
  */
 $messages['ta'] = array(
+	'apisb-no-js' => "'''பிழை''': இதற்கு ஜாவாஸ்கிரிப்டு வேண்டும்.",
+	'apisb-legend-parameters' => 'அளபுருக்கள்',
 	'apisb-legend-result' => 'முடிவு',
 	'apisb-legend-generic-parameters' => 'பொதுவானஅளவுருக்கள்',
+	'apisb-label-action' => 'செயல்',
+	'apisb-docs-more' => 'மேலும் படிக்க',
+	'apisb-params-param' => 'அளபுரு',
+	'apisb-params-input' => 'உள்ளீடு',
+	'apisb-params-desc' => 'விவரம்',
 	'apisb-loading' => 'ஏற்றுகிறது...',
 	'apisb-ns-main' => '(முதன்மை)',
 	'apisb-submit' => 'கோரிக்கை செய்',
