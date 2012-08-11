@@ -112,17 +112,31 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author روخو
  */
 $messages['ar'] = array(
 	'apisb-no-js' => "'''خطأ''' : هذه الخاصية تتطلب الجافا سكريبت.",
+	'apisb-legend-parameters' => 'محددات',
 	'apisb-legend-result' => 'النتيجة',
 	'apisb-legend-generator-parameters' => 'مولد',
+	'apisb-label-format' => 'الصيغة',
+	'apisb-label-action' => 'الفعل',
+	'apisb-label-doc' => 'توثيق',
 	'apisb-select-action' => 'اختر حدث',
+	'apisb-docs-more' => 'اقرأ المزيد',
+	'apisb-params-param' => 'محددات',
+	'apisb-params-input' => 'المدخل',
+	'apisb-params-desc' => 'الوصف',
+	'apisb-loading' => 'جاري التحميل...',
 	'apisb-ns-main' => '(رئيسي)',
+	'apisb-submit' => 'عمل الطلب',
 	'apisb-query-prop' => 'الخصائص',
 	'apisb-query-list' => 'قوائم',
 	'apisb-query-meta' => 'معلومات الميتا',
+	'apisb-example' => 'مثال',
+	'apisb-examples' => 'أمثلة',
+	'apisb-clear' => 'إفراغ',
 );
 
 /** Assamese (অসমীয়া)
@@ -577,11 +591,13 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-result-request-post' => 'POST-datumoj:',
 	'apisb-label-format' => 'Formato',
 	'apisb-label-action' => 'Ago',
+	'apisb-label-doc' => 'Dokumentado',
 	'apisb-select-action' => 'Elekti agojn',
 	'apisb-select-query' => '(elekti mendon)',
 	'apisb-select-value' => '(elekti valoron)',
 	'apisb-docs-more' => 'Legi plu',
 	'apisb-params-param' => 'Parametro',
+	'apisb-params-desc' => 'Priskribo',
 	'apisb-loading' => 'Ŝarĝante...',
 	'apisb-load-error' => 'Okazis eraro dum ŝargado de la API-priskribo',
 	'apisb-request-error' => 'Okazis eraro dum efektivigo de la API-peto',
@@ -593,6 +609,7 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-query-meta' => 'Metainformoj',
 	'apisb-example' => 'Ekzemplo',
 	'apisb-examples' => 'Ekzemploj',
+	'apisb-clear' => 'Nuligi',
 );
 
 /** Spanish (español)
@@ -951,11 +968,14 @@ $messages['gu'] = array(
 	'apisb-legend-result' => 'પરિણામ',
 	'apisb-legend-generic-parameters' => 'સામાન્ય પરિમાણો',
 	'apisb-label-action' => 'ક્રિયા',
+	'apisb-params-param' => 'પરિમાણ',
 	'apisb-params-desc' => 'વર્ણન',
 	'apisb-loading' => 'લવાઇ રહ્યું છે...',
 	'apisb-submit' => 'વિનંતી કરો',
 	'apisb-query-prop' => 'ગુણધર્મો',
 	'apisb-example' => 'ઉદાહરણ',
+	'apisb-examples' => 'ઉદાહરણો',
+	'apisb-clear' => 'સાફ કરો',
 );
 
 /** Hebrew (עברית)
@@ -2336,6 +2356,7 @@ $messages['te'] = array(
 	'apisb-label-action' => 'చర్య',
 	'apisb-select-action' => 'చర్యను ఎంచుకోండి',
 	'apisb-select-value' => '(విలువని ఎంచుకోండి)',
+	'apisb-docs-more' => 'మరింత చదవండి',
 	'apisb-params-param' => 'పరామితి',
 	'apisb-params-desc' => 'వివరణ',
 	'apisb-loading' => 'లోడవుతోంది...',
