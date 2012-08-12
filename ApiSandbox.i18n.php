@@ -341,10 +341,41 @@ Kit da deuler ur sell war [//www.mediawiki.org/wiki/API:Main_page titouroù an A
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  * @author Solde
  */
 $messages['ca'] = array(
+	'apisandbox' => "Pàgina de proves de l'API",
+	'apisb-no-js' => "'''Error''': aquesta característica requereix JavaScript.",
+	'apisb-api-disabled' => "L'API està desactivada en aquest lloc.",
+	'apisb-legend-parameters' => 'Paràmetres',
 	'apisb-legend-result' => 'Resultat',
+	'apisb-legend-generic-parameters' => 'Paràmetres genèrics',
+	'apisb-legend-generator-parameters' => 'Generador',
+	'apisb-result-request-url' => 'Sol·licita URL:',
+	'apisb-result-request-post' => 'Data POST:',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Acció',
+	'apisb-label-doc' => 'Documentació',
+	'apisb-select-action' => '(escull acció)',
+	'apisb-select-query' => '(escull consulta)',
+	'apisb-select-value' => '(escull valor)',
+	'apisb-docs-more' => 'llegeix-ne més',
+	'apisb-params-param' => 'Paràmetre',
+	'apisb-params-input' => 'Entrada',
+	'apisb-params-desc' => 'Descripció',
+	'apisb-loading' => 'Carregant...',
+	'apisb-request-error' => 'Error duent a terme la sol·licitud API',
+	'apisb-namespaces-error' => "Error carregant els noms d'espais",
+	'apisb-ns-main' => '(Principal)',
+	'apisb-submit' => 'Fes sol·licitud',
+	'apisb-query-prop' => 'Propietats',
+	'apisb-query-list' => 'Llistes',
+	'apisb-query-meta' => 'Metainformació',
+	'apisb-example' => 'Exemple',
+	'apisb-examples' => 'Exemples',
+	'apisb-clear' => 'Neteja',
+	'apisb-request-time' => 'Temps de sol·licitud: $1',
 );
 
 /** Czech (česky)
@@ -1023,6 +1054,7 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Karthi.dr
  */
 $messages['hi'] = array(
 	'apisandbox' => 'एपीआई सांडबॉक्स',
@@ -1041,6 +1073,8 @@ $messages['hi'] = array(
 	'apisb-query-prop' => 'गुणधर्म',
 	'apisb-query-list' => 'सूचियाँ',
 	'apisb-query-meta' => 'मेटा जानकारी',
+	'apisb-example' => 'Example',
+	'apisb-clear' => 'स्पष्ट',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1705,6 +1739,13 @@ Contoh: [//www.mediawiki.org/wiki/API#A_simple_example dapatkan kandungan Laman 
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'apisb-legend-parameters' => 'Parametri',
+	'apisb-legend-result' => 'Riżultat',
+	'apisb-legend-generic-parameters' => 'Parametri ġeneriċi',
+	'apisb-legend-generator-parameters' => 'Ġeneratur',
+	'apisb-result-request-url' => "URL ta' rikjesta:",
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Azzjoni',
 	'apisb-label-doc' => 'Dokumentazzjoni',
 	'apisb-select-action' => 'Agħżel azzjoni',
 	'apisb-select-value' => 'Agħżel opzjoni',
@@ -1717,11 +1758,13 @@ $messages['mt'] = array(
 	'apisb-namespaces-error' => 'Żball fit-tlugħ tal-ispazji tal-isem',
 	'apisb-ns-main' => '(Prinċipali)',
 	'apisb-submit' => 'Agħmel rikjesta',
+	'apisb-query-prop' => 'Proprjetajiet',
 	'apisb-query-list' => 'Elenki',
 	'apisb-query-meta' => 'Informazzjoni meta',
 	'apisb-example' => 'Eżempju',
 	'apisb-examples' => 'Eżempji',
 	'apisb-clear' => 'Ħassar',
+	'apisb-request-time' => "Ħin ta' rikjesta: $1",
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -1928,6 +1971,8 @@ Ch'a fasa riferiment a [//www.mediawiki.org/wiki/API:Main_page la documentassion
 $messages['ps'] = array(
 	'apisb-legend-result' => 'پايله',
 	'apisb-result-request-url' => 'د URL غوښتنه کول:',
+	'apisb-label-format' => 'بڼه',
+	'apisb-label-action' => 'چاره',
 	'apisb-label-doc' => 'لاسوند',
 	'apisb-select-action' => 'چاره ټاکل',
 	'apisb-select-value' => '(ارزښت ټاکل)',
@@ -1938,9 +1983,11 @@ $messages['ps'] = array(
 	'apisb-submit' => 'غوښته کول',
 	'apisb-query-prop' => 'ځانتياوې',
 	'apisb-query-list' => 'لړليکونه',
+	'apisb-query-meta' => 'مېټا مالومات',
 	'apisb-example' => 'بېلګه',
 	'apisb-examples' => 'بېلګې',
 	'apisb-clear' => 'سپينول',
+	'apisb-request-time' => 'د غوښتنې وخت: $1',
 );
 
 /** Portuguese (português)
@@ -2192,6 +2239,7 @@ $messages['si'] = array(
 	'apisb-example' => 'නිදසුන',
 	'apisb-examples' => 'නිදසුන්',
 	'apisb-clear' => 'හිස් කරන්න',
+	'apisb-request-time' => 'අයැදු කාලය: $1',
 );
 
 /** Slovak (slovenčina)
@@ -2325,13 +2373,21 @@ Använd [//www.mediawiki.org/wiki/API:Main_page API dokumentationen] för mer in
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'apisandbox' => 'API மணற்தொட்டி',
 	'apisb-no-js' => "'''பிழை''': இதற்கு ஜாவாஸ்கிரிப்டு வேண்டும்.",
+	'apisb-api-disabled' => 'இத் தளத்தில் API செயலிழக்கம் செய்யப்பட்டுள்ளது.',
 	'apisb-legend-parameters' => 'அளபுருக்கள்',
 	'apisb-legend-result' => 'முடிவு',
 	'apisb-legend-generic-parameters' => 'பொதுவானஅளவுருக்கள்',
+	'apisb-label-format' => 'வடிவமைப்பு',
 	'apisb-label-action' => 'செயல்',
+	'apisb-label-doc' => 'ஆவணப்படுத்துதல்',
+	'apisb-select-action' => '(செயலைத் தெரியவும்)',
+	'apisb-select-query' => '(வினவலைத் தெரியவும்)',
+	'apisb-select-value' => '(பெறுமானத்தைத் தெரியவும்)',
 	'apisb-docs-more' => 'மேலும் படிக்க',
 	'apisb-params-param' => 'அளபுரு',
 	'apisb-params-input' => 'உள்ளீடு',
@@ -2345,6 +2401,7 @@ $messages['ta'] = array(
 	'apisb-example' => 'உதாரணம்',
 	'apisb-examples' => 'உதாரணங்கள்',
 	'apisb-clear' => 'வெறுமையாக்கு',
+	'apisb-request-time' => 'வேண்டுகோள் நேரம்: $1',
 );
 
 /** Telugu (తెలుగు)
