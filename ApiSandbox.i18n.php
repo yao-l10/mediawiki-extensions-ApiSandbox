@@ -612,7 +612,7 @@ $messages['eo'] = array(
 	'apisandbox' => 'API testejo',
 	'apisb-no-js' => "'''Eraro''': tiu ĉi funkcio postulas Ĝavaskripton.",
 	'apisb-intro' => "Uzu tiun ĉi paĝon por eksperimenti kun '''MediaWiki API'''.
-Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da detaloj pri la uzo de API.",
+Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da detaloj pri la uzo de API. Ekz-e: [//www.mediawiki.org/wiki/API#A_simple_example atingi la enhavon de la Ĉefpaĝo]. Elektu agon por vidi pliajn ekzemplojn.",
 	'apisb-api-disabled' => 'API estas malŝalta en ĉi tiu retejo.',
 	'apisb-legend-parameters' => 'Parametroj',
 	'apisb-legend-result' => 'Rezulto',
@@ -628,6 +628,7 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-select-value' => '(elekti valoron)',
 	'apisb-docs-more' => 'Legi plu',
 	'apisb-params-param' => 'Parametro',
+	'apisb-params-input' => 'Enigiloj',
 	'apisb-params-desc' => 'Priskribo',
 	'apisb-loading' => 'Ŝarĝante...',
 	'apisb-load-error' => 'Okazis eraro dum ŝargado de la API-priskribo',
@@ -641,6 +642,7 @@ Vidu [//www.mediawiki.org/wiki/API:Main_page la API-dokumentadon] por pli da det
 	'apisb-example' => 'Ekzemplo',
 	'apisb-examples' => 'Ekzemploj',
 	'apisb-clear' => 'Nuligi',
+	'apisb-request-time' => 'Tempo de peto: $1',
 );
 
 /** Spanish (español)
@@ -883,14 +885,22 @@ $messages['frp'] = array(
 	'apisb-intro' => "Utilisâd ceta pâge por èxpèrimentar avouéc '''MediaWiki API'''.
 Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l’API] por més de dètalys sur l’usâjo de l’API.",
 	'apisb-api-disabled' => 'API est dèsactivâ sur ceti seto.',
+	'apisb-legend-parameters' => 'Paramètros',
 	'apisb-legend-result' => 'Rèsultat',
 	'apisb-legend-generic-parameters' => 'Paramètres g·ènèricos',
 	'apisb-legend-generator-parameters' => 'G·ènèrator',
 	'apisb-result-request-url' => 'Requéta URL :',
 	'apisb-result-request-post' => 'Balyês POST :',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Accion',
+	'apisb-label-doc' => 'Documentacion',
 	'apisb-select-action' => 'Chouèsir una accion',
-	'apisb-select-query' => 'Que fôt-o entèrrogiér ?',
-	'apisb-select-value' => 'Chouèsir la valor',
+	'apisb-select-query' => '(chouèsir la requéta)',
+	'apisb-select-value' => '(chouèsir la valor)',
+	'apisb-docs-more' => 'nen savêr més',
+	'apisb-params-param' => 'Paramètro',
+	'apisb-params-input' => 'Entrâ',
+	'apisb-params-desc' => 'Dèscripcion',
 	'apisb-loading' => 'Chargement...',
 	'apisb-load-error' => 'Èrror pendent lo chargement de la dèscripcion de l’API',
 	'apisb-request-error' => 'Èrror pendent l’ègzécucion d’una requéta API',
@@ -900,6 +910,9 @@ Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l�
 	'apisb-query-prop' => 'Propriètâts',
 	'apisb-query-list' => 'Listes',
 	'apisb-query-meta' => 'Mèta-enformacions',
+	'apisb-example' => 'Ègzemplo',
+	'apisb-examples' => 'Ègzemplos',
+	'apisb-clear' => 'Èfaciér',
 );
 
 /** Galician (galego)
@@ -1135,6 +1148,9 @@ A használattal kapcsolatos további részletek az [//www.mediawiki.org/wiki/API
 	'apisb-legend-generator-parameters' => 'Generátor',
 	'apisb-result-request-url' => 'Kérő URL:',
 	'apisb-result-request-post' => 'POST adat:',
+	'apisb-label-format' => 'Formátum',
+	'apisb-label-action' => 'Művelet',
+	'apisb-label-doc' => 'Dokumentáció',
 	'apisb-select-action' => 'Műveletek kiválasztása',
 	'apisb-select-query' => '(válassz lekérdezést)',
 	'apisb-select-value' => '(válassz értéket)',
@@ -1154,6 +1170,7 @@ A használattal kapcsolatos további részletek az [//www.mediawiki.org/wiki/API
 	'apisb-example' => 'Példa',
 	'apisb-examples' => 'Példák',
 	'apisb-clear' => 'Törlés',
+	'apisb-request-time' => 'Kérés ideje: $1',
 );
 
 /** Interlingua (interlingua)
@@ -1600,6 +1617,8 @@ $messages['lt'] = array(
 	'apisb-query-list' => 'Sąrašai',
 	'apisb-query-meta' => 'Meta informacija',
 	'apisb-example' => 'Pavyzdys',
+	'apisb-examples' => 'Pavyzdžiai',
+	'apisb-clear' => 'Išvalyti',
 );
 
 /** Latvian (latviešu)
@@ -1946,14 +1965,22 @@ $messages['pms'] = array(
 	'apisb-intro' => "Ch'a deuvra sta pàgina për sperimenté ël '''servissi an sl'aragnà MediaWiki API'''.
 Ch'a fasa riferiment a [//www.mediawiki.org/wiki/API:Main_page la documentassion ëd l'API] për d'àutri detaj an sl'utilisassion ëd l'API. Për esempi: [//www.mediawiki.org/wiki/API#A_simple_example oten-e ël contnù ëd na pàgina d'Intrada]. Ch'a selession-a n'assion për vëdde d'àutri esempi.",
 	'apisb-api-disabled' => "API a l'é disabilità ansima a 's sit.",
+	'apisb-legend-parameters' => 'Paràmetr',
 	'apisb-legend-result' => 'Arzultà',
 	'apisb-legend-generic-parameters' => 'Paràmetr genérich',
 	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-result-request-url' => "Anliura d'arcesta:",
 	'apisb-result-request-post' => 'Dat ëd POST:',
+	'apisb-label-format' => 'Formà',
+	'apisb-label-action' => 'Assion',
+	'apisb-label-doc' => 'Documentassion',
 	'apisb-select-action' => "Selessioné n'assion",
-	'apisb-select-query' => "Lòn ch'a-i é da ciamé?",
-	'apisb-select-value' => 'Selessioné ël valor',
+	'apisb-select-query' => '(selession-a query)',
+	'apisb-select-value' => '(selessioné ël valor)',
+	'apisb-docs-more' => "les anco'",
+	'apisb-params-param' => 'Paràmetr',
+	'apisb-params-input' => 'Input',
+	'apisb-params-desc' => 'Descrission',
 	'apisb-loading' => 'A caria ...',
 	'apisb-load-error' => "Eror an cariand la descrission dl'API",
 	'apisb-request-error' => "Eror fasend la ciamà dl'API",
@@ -1963,6 +1990,10 @@ Ch'a fasa riferiment a [//www.mediawiki.org/wiki/API:Main_page la documentassion
 	'apisb-query-prop' => 'Proprietà',
 	'apisb-query-list' => 'Liste',
 	'apisb-query-meta' => 'Meta-anformassion',
+	'apisb-example' => 'Esempi',
+	'apisb-examples' => 'Esempi',
+	'apisb-clear' => 'Scancela',
+	'apisb-request-time' => 'Temp necessari: $1',
 );
 
 /** Pashto (پښتو)
