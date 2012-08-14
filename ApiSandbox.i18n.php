@@ -1012,11 +1012,17 @@ $messages['gu'] = array(
 	'apisb-legend-result' => 'પરિણામ',
 	'apisb-legend-generic-parameters' => 'સામાન્ય પરિમાણો',
 	'apisb-label-action' => 'ક્રિયા',
+	'apisb-select-action' => '(ક્રિયા પસંદ કરો)',
+	'apisb-select-query' => '(પ્રશ્ન પસંદ કરો)',
+	'apisb-select-value' => '(કિંમત પસંદ કરો)',
+	'apisb-docs-more' => 'વધુ વાંચો',
 	'apisb-params-param' => 'પરિમાણ',
 	'apisb-params-desc' => 'વર્ણન',
 	'apisb-loading' => 'લવાઇ રહ્યું છે...',
 	'apisb-submit' => 'વિનંતી કરો',
 	'apisb-query-prop' => 'ગુણધર્મો',
+	'apisb-query-list' => 'યાદીઓ',
+	'apisb-query-meta' => 'મેટા માહિતી',
 	'apisb-example' => 'ઉદાહરણ',
 	'apisb-examples' => 'ઉદાહરણો',
 	'apisb-clear' => 'સાફ કરો',
@@ -2399,6 +2405,14 @@ Använd [//www.mediawiki.org/wiki/API:Main_page API dokumentationen] för mer in
 	'apisb-examples' => 'Exempel',
 	'apisb-clear' => 'Rensa',
 	'apisb-request-time' => 'Tid för begäran: $1',
+);
+
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'apisb-legend-result' => 'Tokeo',
+	'apisb-label-action' => 'Tendo',
 );
 
 /** Tamil (தமிழ்)
