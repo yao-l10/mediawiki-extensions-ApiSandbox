@@ -119,11 +119,14 @@ $messages['ar'] = array(
 	'apisb-no-js' => "'''خطأ''' : هذه الخاصية تتطلب الجافا سكريبت.",
 	'apisb-legend-parameters' => 'محددات',
 	'apisb-legend-result' => 'النتيجة',
+	'apisb-legend-generic-parameters' => 'محددات عامة',
 	'apisb-legend-generator-parameters' => 'مولد',
 	'apisb-label-format' => 'الصيغة',
 	'apisb-label-action' => 'الفعل',
 	'apisb-label-doc' => 'توثيق',
 	'apisb-select-action' => 'اختر حدث',
+	'apisb-select-query' => '(اختر الاستعلام)',
+	'apisb-select-value' => '(اختر القيمة)',
 	'apisb-docs-more' => 'اقرأ المزيد',
 	'apisb-params-param' => 'محددات',
 	'apisb-params-input' => 'المدخل',
@@ -733,10 +736,22 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
+	'apisb-legend-result' => 'Emaitza',
+	'apisb-label-format' => 'Formatua',
+	'apisb-label-action' => 'Ekintza',
+	'apisb-label-doc' => 'Dokumentazioa',
+	'apisb-docs-more' => 'Gehiago irakurri',
+	'apisb-params-desc' => 'Deskribapena',
 	'apisb-loading' => 'Kargatzen…',
+	'apisb-ns-main' => '(Nagusia)',
+	'apisb-query-prop' => 'Propietateak',
 	'apisb-query-list' => 'Zerrendak',
+	'apisb-example' => 'Adibidea',
+	'apisb-examples' => 'Adibidea',
+	'apisb-clear' => 'Garbitu',
 );
 
 /** Persian (فارسی)
@@ -913,6 +928,14 @@ Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l�
 	'apisb-example' => 'Ègzemplo',
 	'apisb-examples' => 'Ègzemplos',
 	'apisb-clear' => 'Èfaciér',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'apisb-label-format' => 'Formáid',
+	'apisb-label-action' => 'Gníomh',
 );
 
 /** Galician (galego)
@@ -1393,6 +1416,42 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-request-time' => 'リクエスト時間：$1',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'apisb-api-disabled' => 'API dipatèni nèng situs iki.',
+	'apisb-legend-parameters' => 'Paramèter',
+	'apisb-legend-result' => 'Asil',
+	'apisb-legend-generic-parameters' => 'Paramèter gènerik',
+	'apisb-legend-generator-parameters' => 'Gènerator',
+	'apisb-result-request-url' => 'URL dikarepaké:',
+	'apisb-result-request-post' => 'Data POST:',
+	'apisb-label-format' => 'Format',
+	'apisb-label-action' => 'Laku',
+	'apisb-label-doc' => 'Dhokumèntasi',
+	'apisb-select-action' => '(pilih laku)',
+	'apisb-select-query' => '(pilih kuèri)',
+	'apisb-select-value' => '(pilih nilè)',
+	'apisb-docs-more' => 'waca luwih lanjut',
+	'apisb-params-param' => 'Paramèter',
+	'apisb-params-input' => 'Lebon',
+	'apisb-params-desc' => 'Wedharan',
+	'apisb-loading' => 'Ngemot...',
+	'apisb-load-error' => 'Kasalahan ngemot pawedharan API',
+	'apisb-request-error' => 'Kasalahan nglakokaké panjalukan API',
+	'apisb-namespaces-error' => 'Kasalahan ngemot jeneng bilik',
+	'apisb-ns-main' => '(Utama)',
+	'apisb-submit' => 'Gawé panjalukan',
+	'apisb-query-prop' => 'Properti',
+	'apisb-query-list' => 'Daptar',
+	'apisb-query-meta' => 'Informasi méta',
+	'apisb-example' => 'Conto',
+	'apisb-examples' => 'Conto',
+	'apisb-clear' => 'Resiki',
+	'apisb-request-time' => 'Suwéné panjalukan: $1',
+);
+
 /** Georgian (ქართული)
  * @author BRUTE
  * @author David1010
@@ -1764,11 +1823,18 @@ Contoh: [//www.mediawiki.org/wiki/API#A_simple_example dapatkan kandungan Laman 
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'apisb-desc' => 'Jippermetti l-iddibaggjar tal-talbiet tal-[//www.mediawiki.org/wiki/API API tal-MediaWiki] mill-browżer',
+	'apisandbox' => 'Paġna tal-provi tal-API',
+	'apisb-no-js' => "'''Żball:''' din il-funzjoni għandha bżonn tal-JavaScript.",
+	'apisb-intro' => "Uża din il-paġna sabiex tesperimenta mal-'''MediaWiki web service API'''.
+Żur id-[//www.mediawiki.org/wiki/API:Main_page dokumentazzjoni tal-API] għal aktar dettalji dwar l-użu tal-API. Eżempju: [//www.mediawiki.org/wiki/API#A_simple_example ikseb il-kontenut tal-paġna prinċipali]. Agħżel azzjoni sabiex tara aktar eżempji.",
+	'apisb-api-disabled' => 'L-API hija diżattivata fuq dan is-sit.',
 	'apisb-legend-parameters' => 'Parametri',
 	'apisb-legend-result' => 'Riżultat',
 	'apisb-legend-generic-parameters' => 'Parametri ġeneriċi',
 	'apisb-legend-generator-parameters' => 'Ġeneratur',
 	'apisb-result-request-url' => "URL ta' rikjesta:",
+	'apisb-result-request-post' => 'Dejta POST:',
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Azzjoni',
 	'apisb-label-doc' => 'Dokumentazzjoni',
@@ -1886,9 +1952,13 @@ $messages['or'] = array(
 	'apisb-legend-generator-parameters' => 'ଉତ୍ପାଦକ',
 	'apisb-result-request-url' => 'URL ଅନୁରୋଧ କରିବେ:',
 	'apisb-result-request-post' => 'POST ତଥ୍ୟ:',
+	'apisb-label-format' => 'ସଜାଣି',
+	'apisb-label-action' => 'କାମ',
 	'apisb-select-action' => 'କାମ ବାଛିବେ',
 	'apisb-select-query' => 'ପ୍ରଶ୍ନଟି କଣ?',
 	'apisb-select-value' => 'ମୂଲ୍ୟ ବାଛିବେ',
+	'apisb-docs-more' => 'ଆହୁରି ପଢିବେ',
+	'apisb-params-desc' => 'ବିବରଣୀ',
 	'apisb-loading' => 'ଲୋଡ଼ ହେଉଛି...',
 	'apisb-load-error' => 'API ବିବରଣୀ ଲୋଡ଼ କରିବାରେ ଅସୁବିଧା',
 	'apisb-request-error' => 'API ଅନୁରୋଧ କାର୍ଯ୍ୟକାରୀ କରିବାରେ ଅସୁବିଧା',
@@ -1898,6 +1968,7 @@ $messages['or'] = array(
 	'apisb-query-prop' => 'ସଜାଣି',
 	'apisb-query-list' => 'ତାଲିକା',
 	'apisb-query-meta' => 'ମେଟା ତଥ୍ୟ',
+	'apisb-clear' => 'ଖାଲି କରିଦିଅନ୍ତୁ',
 );
 
 /** Deitsch (Deitsch)
@@ -2157,10 +2228,15 @@ $messages['roa-tara'] = array(
 	'apisb-legend-generator-parameters' => 'Generatore',
 	'apisb-result-request-url' => 'URL richieste:',
 	'apisb-result-request-post' => "POST d'u date:",
+	'apisb-label-format' => 'Formate',
+	'apisb-label-action' => 'Azione',
+	'apisb-label-doc' => 'Documendazione',
 	'apisb-select-action' => "Scacchie l'azione",
 	'apisb-select-query' => "(scacchie l'inderrogazione)",
 	'apisb-select-value' => "(scacchie 'nu valore)",
+	'apisb-docs-more' => 'ligge de cchiù',
 	'apisb-params-param' => 'Parametre',
+	'apisb-params-input' => 'Ingresse',
 	'apisb-params-desc' => 'Descrizione',
 	'apisb-loading' => 'Stoche a careche…',
 	'apisb-load-error' => "Errore jndr'à 'u carecamende d'a descrizione de l'API",
@@ -2173,6 +2249,8 @@ $messages['roa-tara'] = array(
 	'apisb-query-meta' => "'Mbormaziune sus a le Meta",
 	'apisb-example' => 'Esembie',
 	'apisb-examples' => 'Esembie',
+	'apisb-clear' => 'Pulizze',
+	'apisb-request-time' => 'Tiembe cercate: $1',
 );
 
 /** Russian (русский)
@@ -2224,10 +2302,26 @@ $messages['ru'] = array(
 
 /** Sanskrit (संस्कृतम्)
  * @author Ansumang
+ * @author Shubha
  */
 $messages['sa'] = array(
+	'apisb-legend-parameters' => 'परिमितिः',
 	'apisb-legend-result' => 'परिणामम्',
+	'apisb-legend-generator-parameters' => 'उत्पादकः',
+	'apisb-label-format' => 'प्रारूपम्',
+	'apisb-label-action' => 'क्रिया',
+	'apisb-docs-more' => 'अधिकं पठतु',
+	'apisb-params-param' => 'परिमितिः',
+	'apisb-params-input' => 'निवेष्यम्',
+	'apisb-params-desc' => 'वर्णनम्',
+	'apisb-loading' => 'आरोप्यमाणमस्ति.....',
 	'apisb-ns-main' => '(मुख्य)',
+	'apisb-submit' => 'निवेदनं करोतु',
+	'apisb-query-prop' => 'गुणधर्माः',
+	'apisb-query-list' => 'सूच्यः',
+	'apisb-example' => 'उदाहरणम्',
+	'apisb-examples' => 'उदाहरणानि',
+	'apisb-clear' => 'स्वच्छीक्रियताम्',
 );
 
 /** Sicilian (sicilianu)
@@ -2413,6 +2507,8 @@ Använd [//www.mediawiki.org/wiki/API:Main_page API dokumentationen] för mer in
 $messages['sw'] = array(
 	'apisb-legend-result' => 'Tokeo',
 	'apisb-label-action' => 'Tendo',
+	'apisb-docs-more' => 'soma zaidi',
+	'apisb-params-input' => 'Mchango',
 );
 
 /** Tamil (தமிழ்)

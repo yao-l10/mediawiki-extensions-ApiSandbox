@@ -25,7 +25,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ApiSandbox' => array( 'ApiQumdor' ),
+	'ApiSandbox' => array( 'ApiGavlan' ),
 );
 
 /** Esperanto (Esperanto) */
