@@ -1420,6 +1420,11 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
  * @author NoiX180
  */
 $messages['jv'] = array(
+	'apisb-desc' => 'Nglilakaké ndebug [//www.mediawiki.org/wiki/API API MediaWiki] ngundang saka pramban',
+	'apisandbox' => 'Kothak wedhi API',
+	'apisb-no-js' => "'''Kasalahan''': fitur iki mbutuhaké JavaScript.",
+	'apisb-intro' => "Anggo kaca iki kanggo njajal-njajal '''API layanan wèb MediaWiki'''.
+Rujuk [//www.mediawiki.org/wiki/API:Main_page the dhokumèntasi API] kanggo panganggoan API luwih rinci. Conto: [//www.mediawiki.org/wiki/API#A_simple_example ngéntukaké kontèn Kaca Utama]. Pilih laku kanggo ndelok conto luwih akèh.",
 	'apisb-api-disabled' => 'API dipatèni nèng situs iki.',
 	'apisb-legend-parameters' => 'Paramèter',
 	'apisb-legend-result' => 'Asil',
@@ -2673,6 +2678,18 @@ $messages['uk'] = array(
 	'apisb-request-time' => 'Час запиту $1',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'apisb-legend-parameters' => 'پیرامیٹرز',
+	'apisb-legend-result' => 'نتیجہ',
+	'apisb-label-action' => 'کارروائی',
+	'apisb-docs-more' => 'مزید پڑھیں',
+	'apisb-params-desc' => 'تفصیل',
+	'apisb-example' => 'مثال کے طور پر',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
@@ -2726,12 +2743,17 @@ $messages['vi'] = array(
 
 /** Yiddish (ייִדיש)
  * @author Imre
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'apisb-legend-result' => 'רעזולטאט',
+	'apisb-label-format' => 'פֿאָרמאַט',
+	'apisb-label-action' => 'אַקציע',
+	'apisb-params-desc' => 'באַשרײַבונג',
 	'apisb-loading' => 'לאָדט…',
 	'apisb-ns-main' => '(הויפט)',
 	'apisb-query-list' => 'ליסטעס',
+	'apisb-clear' => 'רייניקן',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)
