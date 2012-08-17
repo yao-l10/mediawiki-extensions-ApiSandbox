@@ -1693,8 +1693,17 @@ $messages['lt'] = array(
 
 /** Latvian (latviešu)
  * @author GreenZeb
+ * @author Papuass
  */
 $messages['lv'] = array(
+	'apisb-api-disabled' => 'API ir atspējots šajā tīmekļa vietnē.',
+	'apisb-legend-parameters' => 'Parametri',
+	'apisb-legend-result' => 'Rezultāts',
+	'apisb-result-request-url' => 'Pieprasījuma URL:',
+	'apisb-result-request-post' => 'POST dati:',
+	'apisb-label-format' => 'Formāts',
+	'apisb-label-action' => 'Darbība',
+	'apisb-label-doc' => 'Dokumentācija',
 	'apisb-loading' => 'Ielādē…',
 	'apisb-query-list' => 'Saraksti',
 );
@@ -1946,6 +1955,7 @@ Zie de [//www.mediawiki.org/wiki/API:Main_page API-documentatie] voor verdere de
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
+ * @author Shisir 1945
  */
 $messages['or'] = array(
 	'apisb-desc' => 'ବ୍ରାଉଜରରୁ [//www.mediawiki.org/wiki/API MediaWiki API]ରେ ଥିବା ଅସୁବିଧାକୁ ସୁଧାରିବା ପାଇଁ ଅନୁମତି ଦେବେ',
@@ -1963,6 +1973,8 @@ $messages['or'] = array(
 	'apisb-select-query' => 'ପ୍ରଶ୍ନଟି କଣ?',
 	'apisb-select-value' => 'ମୂଲ୍ୟ ବାଛିବେ',
 	'apisb-docs-more' => 'ଆହୁରି ପଢିବେ',
+	'apisb-params-param' => 'ପରିମାଣ',
+	'apisb-params-input' => 'ଇନ୍‌ପୁଟ୍‌',
 	'apisb-params-desc' => 'ବିବରଣୀ',
 	'apisb-loading' => 'ଲୋଡ଼ ହେଉଛି...',
 	'apisb-load-error' => 'API ବିବରଣୀ ଲୋଡ଼ କରିବାରେ ଅସୁବିଧା',
@@ -1973,7 +1985,10 @@ $messages['or'] = array(
 	'apisb-query-prop' => 'ସଜାଣି',
 	'apisb-query-list' => 'ତାଲିକା',
 	'apisb-query-meta' => 'ମେଟା ତଥ୍ୟ',
+	'apisb-example' => 'ଉଦାହରଣ',
+	'apisb-examples' => 'ଉଦାହରଣ',
 	'apisb-clear' => 'ଖାଲି କରିଦିଅନ୍ତୁ',
+	'apisb-request-time' => 'ଅନୁରୋଧ ସମୟ: $1',
 );
 
 /** Deitsch (Deitsch)
@@ -2684,10 +2699,16 @@ $messages['uk'] = array(
 $messages['ur'] = array(
 	'apisb-legend-parameters' => 'پیرامیٹرز',
 	'apisb-legend-result' => 'نتیجہ',
+	'apisb-legend-generic-parameters' => 'عام پیرامیٹر',
 	'apisb-label-action' => 'کارروائی',
 	'apisb-docs-more' => 'مزید پڑھیں',
 	'apisb-params-desc' => 'تفصیل',
+	'apisb-ns-main' => '(اہم)',
+	'apisb-submit' => 'بنانے کی درخواست',
+	'apisb-query-prop' => 'کی خصوصیات',
 	'apisb-example' => 'مثال کے طور پر',
+	'apisb-examples' => 'مثال کے طور',
+	'apisb-clear' => 'واضح',
 );
 
 /** Veps (vepsän kel’)
