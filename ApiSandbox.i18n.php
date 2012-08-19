@@ -142,6 +142,18 @@ $messages['ar'] = array(
 	'apisb-clear' => 'إفراغ',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'apisandbox' => 'ܣܢܕܘܩܐ ܕܚܠܐ ܕܚܙܝܐ ܕܚܘܪܙܐ ܕܬܓܡܪܬܐ (API)',
+	'apisb-legend-result' => 'ܦܠܛܐ',
+	'apisb-label-action' => 'ܥܒܕܐ',
+	'apisb-label-doc' => 'ܐܫܛܪܘܬܐ',
+	'apisb-select-action' => '(ܓܒܝ ܥܒܕ̈ܐ)',
+	'apisb-clear' => 'ܐܣܦܩ',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
