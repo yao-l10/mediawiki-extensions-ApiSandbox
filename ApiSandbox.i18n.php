@@ -1885,6 +1885,7 @@ $messages['mt'] = array(
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
  * @author EivindJ
  * @author Nghtwlkr
  */
@@ -1902,7 +1903,7 @@ Sjekk [//www.mediawiki.org/wiki/API:Main_page API-dokumentasjonen] for flere det
 	'apisb-result-request-post' => 'POST-data:',
 	'apisb-select-action' => 'Velg handling',
 	'apisb-select-query' => 'Hva skal du spørre etter?',
-	'apisb-select-value' => 'Velg verdi',
+	'apisb-select-value' => '(velg verdi)',
 	'apisb-docs-more' => 'les mer',
 	'apisb-params-param' => 'Parameter',
 	'apisb-params-desc' => 'Beskrivelse',
