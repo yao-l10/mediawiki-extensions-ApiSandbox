@@ -1393,7 +1393,7 @@ Esempio: [//www.mediawiki.org/wiki/API#A_simple_example ottenere il contenuto de
 $messages['ja'] = array(
 	'apisb-desc' => 'ブラウザーからの [//www.mediawiki.org/wiki/API MediaWiki API] 呼び出しをデバッグできるようにする',
 	'apisandbox' => 'APIサンドボックス',
-	'apisb-no-js' => "'''エラー'''：この機能にはJavaScriptが必要です。",
+	'apisb-no-js' => "'''エラー''': この機能にはJavaScriptが必要です。",
 	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
 APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page APIのドキュメント]をご覧ください。例：[//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得する].。アクションを選択すると他の例を見ることができます。",
 	'apisb-api-disabled' => 'APIはこのウェブサイトでは無効化されています。',
@@ -1407,8 +1407,8 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-label-action' => '操作',
 	'apisb-label-doc' => 'ドキュメント',
 	'apisb-select-action' => '(操作を選択)',
-	'apisb-select-query' => '（クエリーを選択）',
-	'apisb-select-value' => '（値を選択）',
+	'apisb-select-query' => '(クエリーを選択)',
+	'apisb-select-value' => '(値を選択)',
 	'apisb-docs-more' => '続きを読む',
 	'apisb-params-param' => 'パラメーター',
 	'apisb-params-input' => '入力',

@@ -93,6 +93,11 @@ $specialPageAliases['tl'] = array(
 	'ApiSandbox' => array( 'Burador_ng_API' ),
 );
 
+/** Turkish (Türkçe) */
+$specialPageAliases['tr'] = array(
+	'ApiSandbox' => array( 'ApiKorumalıAlanı' ),
+);
+
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'ApiSandbox' => array( 'Грамайданчик_API' ),
