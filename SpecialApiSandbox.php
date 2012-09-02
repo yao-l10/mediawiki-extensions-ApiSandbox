@@ -1,7 +1,6 @@
 <?php
 
 class SpecialApiSandbox extends SpecialPage {
-
 	/**
 	 * @var ApiQuery
 	 */
@@ -15,7 +14,7 @@ class SpecialApiSandbox extends SpecialPage {
 
 	/**
 	 * Main execution function
-	 * @param $par Parameters passed to the page
+	 * @param $par string|null Parameters passed to the page
 	 */
 	public function execute( $par ) {
 		global $wgEnableAPI;
@@ -29,7 +28,7 @@ class SpecialApiSandbox extends SpecialPage {
 		$this->setHeaders();
 		$out->addModules( 'ext.apiSandbox' );
 
-		$out->addHTML( '<noscript>' . wfMessage( 'apisb-no-js' )->parse() . '</noscript>
+		$out->addHTML( '<noscript>' . $this->msg( 'apisb-no-js' )->parse() . '</noscript>
 <div id="api-sandbox-content" style="display: none;">' );
 		$out->addWikiMsg( 'apisb-intro' );
 		$out->addHTML( '<form id="api-sandbox-form">'
@@ -40,11 +39,11 @@ class SpecialApiSandbox extends SpecialPage {
 			. '<table class="api-sandbox-result-container"><tbody>
 '
 			. '<tr><th class="api-sandbox-result-label"><label for="api-sandbox-url">'
-			. wfMessage( 'apisb-result-request-url' )->parse() . '</label></th>'
+			. $this->msg( 'apisb-result-request-url' )->parse() . '</label></th>'
 			. '<td><input id="api-sandbox-url" readonly="readonly" /></td></tr>
 '
 			. '<tr id="api-sandbox-post-row"><th class="api-sandbox-result-label"><label for="api-sandbox-post">'
-			. wfMessage( 'apisb-result-request-post' )->parse() . '</label></th>'
+			. $this->msg( 'apisb-result-request-post' )->parse() . '</label></th>'
 			. '<td><input id="api-sandbox-post" readonly="readonly" /></td></tr>
 '
 			. '<tr><td colspan="2"><div id="api-sandbox-output"></div></td></tr>'
@@ -88,9 +87,9 @@ class SpecialApiSandbox extends SpecialPage {
 <table class="api-sandbox-options">
 	<tbody>
 		<tr>
-			<th><label for="api-sandbox-format">' . wfMessage( 'apisb-label-format' )->escaped() . '</label></th>
-			<th><label for="api-sandbox-action">' . wfMessage( 'apisb-label-action' )->escaped() . '</label></th>
-			<th class="api-sandbox-docs-col">' . wfMessage( 'apisb-label-doc' )->escaped() . '</th>
+			<th><label for="api-sandbox-format">' . $this->msg( 'apisb-label-format' )->escaped() . '</label></th>
+			<th><label for="api-sandbox-action">' . $this->msg( 'apisb-label-action' )->escaped() . '</label></th>
+			<th class="api-sandbox-docs-col">' . $this->msg( 'apisb-label-doc' )->escaped() . '</th>
 		</tr>
 		<tr>
 			<td>' . self::getSelect( 'format', $formatOptions, 'json' ) . '</td>
@@ -131,7 +130,7 @@ class SpecialApiSandbox extends SpecialPage {
 		}
 		
 		$optgroup = array();
-		$optgroup[wfMessage( "apisb-query-$type" )->parse()] = $options;
+		$optgroup[$this->msg( "apisb-query-$type" )->parse()] = $options;
 		
 		return $optgroup;
 	}
@@ -149,7 +148,7 @@ class SpecialApiSandbox extends SpecialPage {
 			'id' => "api-sandbox-$name" )
 		);
 		if ( $default === false ) {
-			$s .= Xml::option( wfMessage( "apisb-select-$name" )->text(), '', true );
+			$s .= Xml::option( $this->msg( "apisb-select-$name" )->text(), '', true );
 		}
 		$s .= XmlSelect::formatOptions( $items, $default );
 		$s .= Html::closeElement( 'select' );
@@ -163,7 +162,7 @@ class SpecialApiSandbox extends SpecialPage {
 	 */
 	private function openFieldset( $name, $attribs = array() ) {
 		return "\n" . Html::openElement( 'fieldset', array( 'id' => "api-sandbox-$name" ) + $attribs )
-			. "\n\t" . Html::rawElement( 'legend', array(), wfMessage( "apisb-legend-$name" )->parse() )
+			. "\n\t" . Html::rawElement( 'legend', array(), $this->msg( "apisb-legend-$name" )->parse() )
 			. "\n";
 	}
 

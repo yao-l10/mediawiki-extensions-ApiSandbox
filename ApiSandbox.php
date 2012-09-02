@@ -11,7 +11,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'apisb-desc',
 );
 
-$dir = dirname(__FILE__) . '/';
+$dir = __DIR__ . '/';
 
 $wgExtensionMessagesFiles['ApiSandbox'] = $dir . 'ApiSandbox.i18n.php';
 $wgExtensionMessagesFiles['ApiSandboxAlias']  = $dir . 'ApiSandbox.alias.php';
