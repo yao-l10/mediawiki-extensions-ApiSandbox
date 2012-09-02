@@ -552,12 +552,17 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
+	'apisb-desc' => 'Zmóžnja wótpóranje zmólkow pśi wołanju [//www.mediawiki.org/wiki/API MediaWiki API] z woglědowaka',
 	'apisandbox' => 'API-grajkanišćo',
+	'apisb-no-js' => "'''Zmólka''': toś ta funkcija pomina se JavaScript.",
+	'apisb-intro' => "Wužyj toś ten bok, aby z '''websłužbu Mediawiki API''' eksperimentěrował.
+Glědaj [//www.mediawiki.org/wiki/API:Main_page API-dokumentaciju] za dalšne drobnostki za wužywanje API. Pśikład: [//www.mediawiki.org/wiki/API#A_simple_example Wopśimjeśe głownego boka wótwołaś]. Wubjeŕ akciju, aby dalšne pśikłady wiźeł.",
 	'apisb-api-disabled' => 'API jo se na toś tom sedle znjemóžnił.',
 	'apisb-legend-parameters' => 'Parametry',
 	'apisb-legend-result' => 'Wuslědk',
 	'apisb-legend-generic-parameters' => 'Powšykne parametry',
 	'apisb-legend-generator-parameters' => 'Generator',
+	'apisb-result-request-url' => 'URL napšašowanja:',
 	'apisb-result-request-post' => 'POST-daty:',
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Akcija',
@@ -571,14 +576,17 @@ $messages['dsb'] = array(
 	'apisb-params-desc' => 'Wopisanje',
 	'apisb-loading' => 'Zacytujo se...',
 	'apisb-load-error' => 'Zmólka pśi zacytowanju APU-wopisanja',
+	'apisb-request-error' => 'Zmólka pśi pśewjeźenju API-napšašowanja',
 	'apisb-namespaces-error' => 'Zmólka pśi zacytowanju mjenjowych rumow',
 	'apisb-ns-main' => '(Nastawki)',
+	'apisb-submit' => 'Napšašowanje pśewjasć',
 	'apisb-query-prop' => 'Kakosći',
 	'apisb-query-list' => 'Lisćiny',
 	'apisb-query-meta' => 'Metainformacije',
 	'apisb-example' => 'Pśikład',
 	'apisb-examples' => 'Pśikłady',
 	'apisb-clear' => 'Wuprozniś',
+	'apisb-request-time' => 'Napšašowański cas: $1',
 );
 
 /** Greek (Ελληνικά)
