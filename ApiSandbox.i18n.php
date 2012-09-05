@@ -522,6 +522,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'apisandbox' => 'API qumdor',
@@ -535,7 +536,7 @@ $messages['diq'] = array(
 	'apisb-label-doc' => 'Pelekerdiş',
 	'apisb-docs-more' => 'Zewbi buwane',
 	'apisb-params-param' => 'Parametre',
-	'apisb-params-desc' => 'Sılasnayış',
+	'apisb-params-desc' => 'Şınasnayış',
 	'apisb-loading' => 'Bar beno...',
 	'apisb-ns-main' => '(Ser)',
 	'apisb-submit' => 'Bıwazê',
