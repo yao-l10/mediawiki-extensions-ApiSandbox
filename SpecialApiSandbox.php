@@ -92,11 +92,11 @@ class SpecialApiSandbox extends SpecialPage {
 			<th class="api-sandbox-docs-col">' . $this->msg( 'apisb-label-doc' )->escaped() . '</th>
 		</tr>
 		<tr>
-			<td>' . self::getSelect( 'format', $formatOptions, 'json' ) . '</td>
+			<td>' . $this->getSelect( 'format', $formatOptions, 'json' ) . '</td>
 			<td>
-				' . self::getSelect( 'action', $moduleOptions ) . '
+				' . $this->getSelect( 'action', $moduleOptions ) . '
 				<div id="api-sandbox-query-row" style="display: none;">
-					' . self::getSelect( 'query', $queryModules ) . '
+					' . $this->getSelect( 'query', $queryModules ) . '
 				</div>
 			</td>
 			<td class="api-sandbox-docs-col">
@@ -141,7 +141,7 @@ class SpecialApiSandbox extends SpecialPage {
 	 * @param $default mixed
 	 * @return string
 	 */
-	private static function getSelect( $name, $items, $default = false ) {
+	private function getSelect( $name, $items, $default = false ) {
 		$s = Html::openElement( 'select', array(
 			'class' => 'api-sandbox-input',
 			'name' => $name,
