@@ -1401,11 +1401,11 @@ Esempio: [//www.mediawiki.org/wiki/API#A_simple_example ottenere il contenuto de
  */
 $messages['ja'] = array(
 	'apisb-desc' => 'ブラウザーからの [//www.mediawiki.org/wiki/API MediaWiki API] 呼び出しをデバッグできるようにする',
-	'apisandbox' => 'APIサンドボックス',
+	'apisandbox' => 'API サンドボックス',
 	'apisb-no-js' => "'''エラー''': この機能にはJavaScriptが必要です。",
-	'apisb-intro' => "このページを使うと'''MediaWikiウェブサービスAPI'''を試用することができます。
-APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page APIのドキュメント]をご覧ください。例：[//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得する].。アクションを選択すると他の例を見ることができます。",
-	'apisb-api-disabled' => 'APIはこのウェブサイトでは無効化されています。',
+	'apisb-intro' => "このページを使用すると '''MediaWiki ウェブサービス API''' を試用できます。
+API の使用方法の詳細は [//www.mediawiki.org/wiki/API:Main_page API のドキュメント]をご覧ください。例: [//www.mediawiki.org/wiki/API#A_simple_example メインページの内容を取得]。アクションを選択すると他の例を見ることができます。",
+	'apisb-api-disabled' => 'このウェブサイトでは、API は無効になっています。',
 	'apisb-legend-parameters' => 'パラメーター',
 	'apisb-legend-result' => '結果',
 	'apisb-legend-generic-parameters' => '汎用的なパラメーター',
@@ -1426,7 +1426,7 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-load-error' => 'API の説明の読み込み中のエラー',
 	'apisb-request-error' => 'API リクエストの実行中のエラー',
 	'apisb-namespaces-error' => '名前空間の読み込みエラー',
-	'apisb-ns-main' => '(メイン)',
+	'apisb-ns-main' => '(標準)',
 	'apisb-submit' => 'リクエストする',
 	'apisb-query-prop' => 'プロパティ',
 	'apisb-query-list' => '一覧',
@@ -1434,7 +1434,7 @@ APIの使い方の詳細については[//www.mediawiki.org/wiki/API:Main_page A
 	'apisb-example' => '例',
 	'apisb-examples' => '例',
 	'apisb-clear' => '消去',
-	'apisb-request-time' => 'リクエスト時間：$1',
+	'apisb-request-time' => 'リクエスト時間: $1',
 );
 
 /** Javanese (Basa Jawa)
