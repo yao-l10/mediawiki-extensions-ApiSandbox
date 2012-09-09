@@ -2186,6 +2186,7 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 /** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Giro720
+ * @author Luckas Blade
  * @author Rafael Vargas
  */
 $messages['pt-br'] = array(
@@ -2207,6 +2208,10 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page the API documentação] para 
 	'apisb-select-action' => 'Selecione a ação',
 	'apisb-select-query' => '(selecionar consulta)',
 	'apisb-select-value' => '(selecionar valor)',
+	'apisb-docs-more' => 'leia mais',
+	'apisb-params-param' => 'Parâmetro',
+	'apisb-params-input' => 'Entrada',
+	'apisb-params-desc' => 'Descrição',
 	'apisb-loading' => 'Carregando...',
 	'apisb-load-error' => 'Erro ao carregar a descrição da API',
 	'apisb-request-error' => 'Erro na requisição de API',
@@ -2216,6 +2221,10 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page the API documentação] para 
 	'apisb-query-prop' => 'Propriedades',
 	'apisb-query-list' => 'Listas',
 	'apisb-query-meta' => 'Meta informação',
+	'apisb-example' => 'Exemplo',
+	'apisb-examples' => 'Exemplos',
+	'apisb-clear' => 'Limpar',
+	'apisb-request-time' => 'Tempo do pedido: $1',
 );
 
 /** Romanian (română)
