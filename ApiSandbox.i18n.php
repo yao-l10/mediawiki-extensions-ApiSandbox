@@ -2030,47 +2030,48 @@ $messages['pfl'] = array(
 /** Polish (polski)
  * @author Beau
  * @author BeginaFelicysym
+ * @author Matma Rex
  * @author Olgak85
  * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
-	'apisb-desc' => 'Pozwala debugować [//www.mediawiki.org/wiki/API MediaWiki API] zgłoszenia błędów z przeglądarki',
-	'apisandbox' => 'API sandbox (środowisko testowe)',
-	'apisb-no-js' => "'''Błąd''' – ta funkcja wymaga JavaScript.",
+	'apisb-desc' => 'Pozwala debugować zapytania do [//www.mediawiki.org/wiki/API API MediaWiki] z poziomu przeglądarki',
+	'apisandbox' => 'Środowisko testowe API',
+	'apisb-no-js' => "'''Błąd''': ta funkcja wymaga JavaScriptu.",
 	'apisb-intro' => "Użyj tej strony do eksperymentowania z '''API serwisu MediaWiki'''.
-Więcej szczegółów na temat użycia interfejsu API można znaleźć w [//www.mediawiki.org/wiki/API:Main_page API dokumentacji].
-Przykład: [//www.mediawiki.org/wiki/API#A_simple_example pobranie zawartości strony Startowej].  Wybierz akcję by zobaczyć więcej przykładów.",
+Więcej szczegółów na temat wykorzystywania API można znaleźć w [//www.mediawiki.org/wiki/API:Main_page dokumentacji API].
+Przykład: [//www.mediawiki.org/wiki/API#A_simple_example pobranie zawartości strony głównej].  Wybierz akcję, by zobaczyć więcej przykładów.",
 	'apisb-api-disabled' => 'API jest wyłączone na tej stronie.',
 	'apisb-legend-parameters' => 'Parametry',
 	'apisb-legend-result' => 'Rezultat',
-	'apisb-legend-generic-parameters' => 'Parametry podstawowe',
+	'apisb-legend-generic-parameters' => 'Parametry standardowe',
 	'apisb-legend-generator-parameters' => 'Generator',
-	'apisb-result-request-url' => 'Żądanie URL:',
+	'apisb-result-request-url' => 'URL zapytania:',
 	'apisb-result-request-post' => 'Dane POST:',
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Akcja',
 	'apisb-label-doc' => 'Dokumentacja',
-	'apisb-select-action' => 'Wybierz działanie',
-	'apisb-select-query' => '(wybierz zapytanie)',
+	'apisb-select-action' => '(wybierz akcję)',
+	'apisb-select-query' => '(wybierz typ zapytania)',
 	'apisb-select-value' => '(wybierz wartość)',
-	'apisb-docs-more' => 'by dowiedzieć się więcej',
+	'apisb-docs-more' => 'dowiedz się więcej',
 	'apisb-params-param' => 'Parametr',
-	'apisb-params-input' => 'Dane wejściowe',
+	'apisb-params-input' => 'Wartość',
 	'apisb-params-desc' => 'Opis',
 	'apisb-loading' => 'Trwa ładowanie…',
 	'apisb-load-error' => 'Błąd podczas ładowania opisu API.',
 	'apisb-request-error' => 'Błąd podczas wykonywania żądania API.',
 	'apisb-namespaces-error' => 'Błąd ładowania przestrzeni nazw.',
 	'apisb-ns-main' => '(główna)',
-	'apisb-submit' => 'Wykonaj żądanie',
+	'apisb-submit' => 'Wykonaj zapytanie',
 	'apisb-query-prop' => 'Właściwości',
 	'apisb-query-list' => 'Listy',
-	'apisb-query-meta' => 'Matainformacje',
+	'apisb-query-meta' => 'Metainformacje',
 	'apisb-example' => 'Przykład',
 	'apisb-examples' => 'Przykłady',
 	'apisb-clear' => 'Wyczyść',
-	'apisb-request-time' => 'Czas przetwarzania żądania: $1',
+	'apisb-request-time' => 'Czas przetwarzania zapytania: $1',
 );
 
 /** Piedmontese (Piemontèis)
