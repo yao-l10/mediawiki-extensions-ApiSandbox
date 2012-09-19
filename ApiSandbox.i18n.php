@@ -1640,6 +1640,7 @@ $messages['lb'] = array(
 	'apisb-example' => 'Beispill',
 	'apisb-examples' => 'Beispiller',
 	'apisb-clear' => 'Eidel maachen',
+	'apisb-request-time' => 'Zäitpunkt vun der Ufro: $1',
 );
 
 /** Limburgish (Limburgs)
