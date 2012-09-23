@@ -490,7 +490,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Aktion',
 	'apisb-label-doc' => 'Dokumentation',
-	'apisb-select-action' => 'Vorgang auswählen',
+	'apisb-select-action' => '(Aktion auswählen)',
 	'apisb-select-query' => '(Abfrage auswählen)',
 	'apisb-select-value' => '(Wert auswählen)',
 	'apisb-docs-more' => 'Mehr',
@@ -498,9 +498,9 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 	'apisb-params-input' => 'Eingabe',
 	'apisb-params-desc' => 'Beschreibung',
 	'apisb-loading' => 'Lade …',
-	'apisb-load-error' => 'Fehler beim Laden der API-Beschreibung',
-	'apisb-request-error' => 'Fehler beim Ausführen der API-Anforderung',
-	'apisb-namespaces-error' => 'Fehler beim Laden der Namensräume',
+	'apisb-load-error' => 'Es ist ein Fehler beim Laden der API-Beschreibung aufgetreten.',
+	'apisb-request-error' => 'Es ist ein Fehler beim Ausführen der API-Anforderung aufgetreten.',
+	'apisb-namespaces-error' => 'Es ist ein Fehler beim Laden der Namensräume aufgetreten.',
 	'apisb-ns-main' => '(Seiten)',
 	'apisb-submit' => 'Anfrage ausführen',
 	'apisb-query-prop' => 'Eigenschaften',
@@ -509,7 +509,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 	'apisb-example' => 'Beispiel',
 	'apisb-examples' => 'Beispiele',
 	'apisb-clear' => 'Leeren',
-	'apisb-request-time' => 'Anfragezeit: $1',
+	'apisb-request-time' => 'Dauer der Anfrage: $1',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -517,7 +517,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
  */
 $messages['de-formal'] = array(
 	'apisb-intro' => "Diese Seite können Sie für Versuche mit der '''MediaWiki-API''' verwenden.
-Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält weitere Hinweise zu ihrer Nutzung. Beispiel: [//www.mediawiki.org/wiki/API:Main_page/de#Beispiel Den Inhalt der Hauptseite abrufen]. Für weitere Beispiele eine der verfügbaren Aktionen auswählen.",
+Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält weitere Hinweise zu ihrer Nutzung. Beispiel: [//www.mediawiki.org/wiki/API:Main_page/de#Ein_einfaches_Beispiel Den Inhalt auf einer Seite abrufen]. Für weitere Beispiele eine der verfügbaren Aktionen auswählen.",
 );
 
 /** Zazaki (Zazaki)
@@ -805,7 +805,7 @@ $messages['fa'] = array(
 	'apisb-params-param' => 'پارامتر',
 	'apisb-params-input' => 'ورودی',
 	'apisb-params-desc' => 'توضیح',
-	'apisb-loading' => 'در حال بارگذاری…',
+	'apisb-loading' => 'در حال بارگیری...',
 	'apisb-load-error' => 'خطا در بارگذاری توضیحات ای‌پی‌آی',
 	'apisb-request-error' => 'خطا در اجرای درخواست ای‌پی‌آی',
 	'apisb-namespaces-error' => 'خطا در بارگذاری فضاهای نام',
