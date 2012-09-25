@@ -68,7 +68,7 @@ $specialPageAliases['ml'] = array(
 	'ApiSandbox' => array( 'എ.പി.ഐ.എഴുത്തുകളരി' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'ApiSandbox' => array( 'API-sandkasse' ),
 );

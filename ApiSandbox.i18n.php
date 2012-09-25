@@ -512,7 +512,7 @@ Die [//www.mediawiki.org/wiki/API:Main_page/de Dokumentation zur API] enthält w
 	'apisb-request-time' => 'Dauer der Anfrage: $1',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
