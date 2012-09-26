@@ -2515,6 +2515,28 @@ $messages['sr-ec'] = array(
 	'apisb-query-meta' => 'Метаподаци',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$messages['sr-el'] = array(
+	'apisb-api-disabled' => 'API je onemogućen na ovom sajtu.',
+	'apisb-legend-result' => 'Rezultat',
+	'apisb-legend-generic-parameters' => 'Opšti parametri',
+	'apisb-legend-generator-parameters' => 'Stvarač',
+	'apisb-result-request-url' => 'Adresa zahteva:',
+	'apisb-result-request-post' => 'POST podaci:',
+	'apisb-select-action' => 'Izaberite radnju',
+	'apisb-select-query' => '(izaberite upit)',
+	'apisb-select-value' => '(izaberite vrednost)',
+	'apisb-loading' => 'Učitavam…',
+	'apisb-load-error' => 'Greška pri učitavanju opisa API-ja',
+	'apisb-request-error' => 'Greška pri izvršavanju zahteva od API-ja',
+	'apisb-namespaces-error' => 'Greška pri učitavanju imenskih prostora',
+	'apisb-ns-main' => '(glavno)',
+	'apisb-submit' => 'Postavi zahtev',
+	'apisb-query-prop' => 'Svojstva',
+	'apisb-query-list' => 'Spiskovi',
+	'apisb-query-meta' => 'Metapodaci',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  * @author Lokal Profil
