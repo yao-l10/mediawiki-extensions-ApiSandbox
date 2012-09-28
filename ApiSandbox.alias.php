@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'ApiSandbox' => array( 'ساحة_تجربة_إيه_بي_آي' ),
 );
 
+/** Bashkir (башҡортса) */
+$specialPageAliases['ba'] = array(
+	'ApiSandbox' => array( 'ApiSandbox' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ApiSandbox' => array( 'API-Spielwiese', 'ApiSpielwiese' ),
