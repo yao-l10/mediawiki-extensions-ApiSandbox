@@ -243,7 +243,7 @@ $messages['ba'] = array(
 	'apisb-clear' => 'Таҙарт',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1598,7 +1598,7 @@ Söhk ene {{int:Apisb-label-action}} uß, öm mieh Beishpell aanjezeisch ze krij
 	'apisb-request-time' => 'De Zigg vum Afroof: $1',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1894,7 +1894,7 @@ $messages['mt'] = array(
 	'apisb-request-time' => "Ħin ta' rikjesta: $1",
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  * @author EivindJ
  * @author Nghtwlkr
@@ -2491,7 +2491,7 @@ $messages['sl'] = array(
 	'apisb-request-time' => 'Trajanje zahteve: $1',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -2837,7 +2837,7 @@ $messages['yi'] = array(
 	'apisb-clear' => 'רייניקן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Hydra
  * @author Hzy980512
@@ -2886,7 +2886,7 @@ $messages['zh-hans'] = array(
 	'apisb-request-time' => '请求时间：$1',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Liangent
  * @author Oapbtommy
