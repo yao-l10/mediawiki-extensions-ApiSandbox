@@ -99,7 +99,7 @@ $messages['af'] = array(
 	'apisb-legend-generic-parameters' => 'generiese parameters',
 	'apisb-legend-generator-parameters' => 'Generator',
 	'apisb-select-action' => "Kies 'n aksie",
-	'apisb-select-value' => "Kies 'n waarde",
+	'apisb-select-value' => "Kies 'n waarde", # Fuzzy
 	'apisb-loading' => 'Laai tans…',
 	'apisb-load-error' => 'Fout met laai API beskrywing',
 	'apisb-request-error' => 'Fout met die uitvoering van API-versoek',
@@ -304,7 +304,7 @@ $messages['bg'] = array(
  */
 $messages['bn'] = array(
 	'apisb-legend-result' => 'ফলাফল',
-	'apisb-select-value' => 'মান নির্বাচন',
+	'apisb-select-value' => 'মান নির্বাচন', # Fuzzy
 	'apisb-loading' => 'লোডিং...',
 	'apisb-ns-main' => '(প্রধান)',
 	'apisb-submit' => 'অনুরোধ রাখুন',
@@ -533,7 +533,7 @@ $messages['diq'] = array(
 	'apisb-result-request-url' => 'URL waştış:',
 	'apisb-label-format' => 'Format:',
 	'apisb-label-action' => 'Kerden',
-	'apisb-label-doc' => 'Dokumantasyon',
+	'apisb-label-doc' => 'Dokumentasyon',
 	'apisb-docs-more' => 'Zewbi buwane',
 	'apisb-params-param' => 'Parametre',
 	'apisb-params-desc' => 'Şınasnayış',
@@ -830,7 +830,7 @@ $messages['fi'] = array(
 	'apisandbox' => 'API-hiekkalaatikko',
 	'apisb-no-js' => "'''Virhe:''' Tämä ominaisuus vaatii JavaScriptin.",
 	'apisb-intro' => "Tämä on '''MediaWiki API:n''' hiekkalaatikko.
-[//www.mediawiki.org/wiki/API:Main_page API-dokumentaatio] kertoo lisää API:en käytöstä.",
+[//www.mediawiki.org/wiki/API:Main_page API-dokumentaatio] kertoo lisää API:en käytöstä.", # Fuzzy
 	'apisb-api-disabled' => 'API on poistettu käytöstä tällä sivustolla.',
 	'apisb-legend-parameters' => 'Muuttujat',
 	'apisb-legend-result' => 'Tulos',
@@ -919,7 +919,7 @@ $messages['frp'] = array(
 	'apisandbox' => 'Bouèta de sabla API',
 	'apisb-no-js' => "'''Èrror :''' cela fonccionalitât at fôta de JavaScript.",
 	'apisb-intro' => "Utilisâd ceta pâge por èxpèrimentar avouéc '''MediaWiki API'''.
-Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l’API] por més de dètalys sur l’usâjo de l’API.",
+Reportâd-vos sur [//www.mediawiki.org/wiki/API:Main_page la documentacion de l’API] por més de dètalys sur l’usâjo de l’API.", # Fuzzy
 	'apisb-api-disabled' => 'API est dèsactivâ sur ceti seto.',
 	'apisb-legend-parameters' => 'Paramètros',
 	'apisb-legend-result' => 'Rèsultat',
@@ -1127,8 +1127,8 @@ $messages['hi'] = array(
 	'apisb-result-request-url' => 'अनुरोध URL:',
 	'apisb-result-request-post' => 'डेटा भेजें:',
 	'apisb-select-action' => 'क्रिया चयन करें',
-	'apisb-select-query' => 'क्वेरी क्या करना है?',
-	'apisb-select-value' => 'मूल्य चयन करें',
+	'apisb-select-query' => 'क्वेरी क्या करना है?', # Fuzzy
+	'apisb-select-value' => 'मूल्य चयन करें', # Fuzzy
 	'apisb-loading' => 'लोड हो रहा है...',
 	'apisb-namespaces-error' => 'नेमस्पेस लोड़ होने में त्रुटि',
 	'apisb-ns-main' => '(मुख्य)',
@@ -1274,7 +1274,7 @@ $messages['id'] = array(
 	'apisandbox' => 'Bak pasir API',
 	'apisb-no-js' => "'''Galat''': fitur ini memerlukan JavaScript.",
 	'apisb-intro' => "Gunakan halaman ini untuk bereksperimen dengan '''MediaWiki API'''.
-Lihat [//www.mediawiki.org/wiki/API:Main_page dokumentasi API] untuk perincian lanjut penggunaan API.",
+Lihat [//www.mediawiki.org/wiki/API:Main_page dokumentasi API] untuk perincian lanjut penggunaan API.", # Fuzzy
 	'apisb-api-disabled' => 'API dinonaktifkan pada situs ini.',
 	'apisb-legend-parameters' => 'Parameter',
 	'apisb-legend-result' => 'Hasil',
@@ -1651,7 +1651,7 @@ $messages['li'] = array(
 	'apisandbox' => 'API-zandjbak',
 	'apisb-no-js' => "'''Fout''': dees funktie vereis JavaScript.",
 	'apisb-intro' => "Gebroek dees pagina óm te experimentere mit de '''MediaWiki API'''.
-Zuuch de [//www.mediawiki.org/wiki/API:Main_page API-dokkemèntatie] veur mier details euver 't gebroek van de API.",
+Zuuch de [//www.mediawiki.org/wiki/API:Main_page API-dokkemèntatie] veur mier details euver 't gebroek van de API.", # Fuzzy
 	'apisb-api-disabled' => 'API is oetgesjakeld op deze site.',
 	'apisb-legend-result' => 'Rizzeltaat',
 	'apisb-legend-generic-parameters' => 'Algemein parameters',
@@ -1659,8 +1659,8 @@ Zuuch de [//www.mediawiki.org/wiki/API:Main_page API-dokkemèntatie] veur mier d
 	'apisb-result-request-url' => 'Verzeuk-URL:',
 	'apisb-result-request-post' => 'POST-gegaeves:',
 	'apisb-select-action' => 'Hanjeling selektere',
-	'apisb-select-query' => 'Wat is dien vraog?',
-	'apisb-select-value' => 'Selekteer waerde',
+	'apisb-select-query' => 'Wat is dien vraog?', # Fuzzy
+	'apisb-select-value' => 'Selekteer waerde', # Fuzzy
 	'apisb-loading' => 'Laje…',
 	'apisb-load-error' => "Fout bie 't laje van de API-besjrieving",
 	'apisb-request-error' => "Fout bie 't oetveure van 't API-verzeuk",
@@ -1682,7 +1682,7 @@ $messages['lt'] = array(
 	'apisandbox' => 'API smėlio dėžės',
 	'apisb-no-js' => '"" Klaida "": ši funkcija reikalauja JavaScript.',
 	'apisb-intro' => "Naudokite šį puslapį norėdami eksperimentuoti su '''MediaWiki API \"„.
-	Ieškokite [//www.mediawiki.org/wiki/API:Main_page API dokumentacijoje] Išsamesnės informacijos apie API naudojimo.",
+	Ieškokite [//www.mediawiki.org/wiki/API:Main_page API dokumentacijoje] Išsamesnės informacijos apie API naudojimo.", # Fuzzy
 	'apisb-api-disabled' => 'API yra išjungtas šioje svetainėje.',
 	'apisb-legend-parameters' => 'Parametrai',
 	'apisb-legend-result' => 'Rezultatai',
@@ -1693,8 +1693,8 @@ $messages['lt'] = array(
 	'apisb-label-action' => 'Veiksmas',
 	'apisb-label-doc' => 'Dokumentacija',
 	'apisb-select-action' => 'Pasirinkite veiksmą',
-	'apisb-select-query' => 'Ką užklausą?',
-	'apisb-select-value' => 'Pasirinkite vertę',
+	'apisb-select-query' => 'Ką užklausą?', # Fuzzy
+	'apisb-select-value' => 'Pasirinkite vertę', # Fuzzy
 	'apisb-docs-more' => 'skaityti daugiau',
 	'apisb-params-param' => 'Parametras',
 	'apisb-params-input' => 'Įvestis',
@@ -1934,7 +1934,7 @@ Sjekk [//www.mediawiki.org/wiki/API:Main_page API-dokumentasjonen] for mer infor
 	'apisb-example' => 'Eksempel',
 	'apisb-examples' => 'Eksempler',
 	'apisb-clear' => 'Tilbakestill',
-	'apisb-request-time' => 'Forespørselstid',
+	'apisb-request-time' => 'Forespørselstid', # Fuzzy
 );
 
 /** Dutch (Nederlands)
@@ -1998,8 +1998,8 @@ $messages['or'] = array(
 	'apisb-label-format' => 'ସଜାଣି',
 	'apisb-label-action' => 'କାମ',
 	'apisb-select-action' => 'କାମ ବାଛିବେ',
-	'apisb-select-query' => 'ପ୍ରଶ୍ନଟି କଣ?',
-	'apisb-select-value' => 'ମୂଲ୍ୟ ବାଛିବେ',
+	'apisb-select-query' => 'ପ୍ରଶ୍ନଟି କଣ?', # Fuzzy
+	'apisb-select-value' => 'ମୂଲ୍ୟ ବାଛିବେ', # Fuzzy
 	'apisb-docs-more' => 'ଆହୁରି ପଢିବେ',
 	'apisb-params-param' => 'ପରିମାଣ',
 	'apisb-params-input' => 'ଇନ୍‌ପୁଟ୍‌',
@@ -2158,7 +2158,7 @@ $messages['pt'] = array(
 	'apisandbox' => 'Testes da API',
 	'apisb-no-js' => "'''Erro''': Esta funcionalidade requer o JavaScript.",
 	'apisb-intro' => "Use esta página para fazer experiências com a '''API do MediaWiki'''.
-Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para informações sobre o uso da API.",
+Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para informações sobre o uso da API.", # Fuzzy
 	'apisb-api-disabled' => 'A API está desactivada neste site.',
 	'apisb-legend-parameters' => 'Parâmetros',
 	'apisb-legend-result' => 'Resultado',
@@ -2191,10 +2191,10 @@ Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para i
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Giro720
  * @author Luckas Blade
  * @author Rafael Vargas
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'apisb-desc' => 'Permite depurar chamadas do [//www.mediawiki.org/wiki/API API do MediaWiki] a partir do navegador',
@@ -2398,7 +2398,7 @@ $messages['si'] = array(
 	'apisandbox' => 'API වැලිපිල්ල',
 	'apisb-no-js' => "'''දෝෂය''': මෙම ගුණාංගය සඳහා ජාවාස්ක්‍රිප්ට් අවශ්‍ය වේ.",
 	'apisb-intro' => "'''මාධ්‍යවිකි API''' සමඟ අත්හදා බැලීම සඳහා මෙම පිටුව භාවිතා කරන්න.
-	API භාවිතය පිලිබඳ වැඩිදුර විස්තර සඳහා  [//www.mediawiki.org/wiki/API:Main_page API ප්‍රලේඛනය] හී ඉල්ලීමක් කරන්න.",
+	API භාවිතය පිලිබඳ වැඩිදුර විස්තර සඳහා  [//www.mediawiki.org/wiki/API:Main_page API ප්‍රලේඛනය] හී ඉල්ලීමක් කරන්න.", # Fuzzy
 	'apisb-api-disabled' => 'මෙම අඩවියෙහි API අක්‍රීය කොට ඇත.',
 	'apisb-legend-parameters' => 'පරාමිතීන්',
 	'apisb-legend-result' => 'ප්‍රතිඵලය',
@@ -2410,7 +2410,7 @@ $messages['si'] = array(
 	'apisb-label-action' => 'ක්‍රියාව',
 	'apisb-label-doc' => 'ප්‍රලේඛනය',
 	'apisb-select-action' => 'කාර්ය තෝරන්න',
-	'apisb-select-query' => 'ප්‍රශ්නය කුමක්ද?',
+	'apisb-select-query' => 'ප්‍රශ්නය කුමක්ද?', # Fuzzy
 	'apisb-select-value' => '(අගය තෝරන්න)',
 	'apisb-docs-more' => 'තවත් කියවන්න',
 	'apisb-params-param' => 'පරාමිතිය',
@@ -2440,8 +2440,8 @@ $messages['sk'] = array(
 	'apisb-result-request-url' => 'URL požiadavky:',
 	'apisb-result-request-post' => 'Údaje POST:',
 	'apisb-select-action' => 'Vyberte operáciu',
-	'apisb-select-query' => 'Požiadavku na čo?',
-	'apisb-select-value' => 'Vyberte hodnotu',
+	'apisb-select-query' => 'Požiadavku na čo?', # Fuzzy
+	'apisb-select-value' => 'Vyberte hodnotu', # Fuzzy
 	'apisb-loading' => 'Načítava sa...',
 	'apisb-ns-main' => '(Hlavné)',
 	'apisb-submit' => 'Podať žiadosť',
@@ -2515,7 +2515,8 @@ $messages['sr-ec'] = array(
 	'apisb-query-meta' => 'Метаподаци',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'apisb-api-disabled' => 'API je onemogućen na ovom sajtu.',
 	'apisb-legend-result' => 'Rezultat',
@@ -2930,4 +2931,3 @@ $messages['zh-hant'] = array(
 	'apisb-clear' => '清除',
 	'apisb-request-time' => '請求時間：$1',
 );
-
