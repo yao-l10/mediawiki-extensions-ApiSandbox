@@ -871,6 +871,7 @@ $messages['fi'] = array(
  * @author IAlex
  * @author Jean-Frédéric
  * @author Tpt
+ * @author Urhixidur
  * @author Verdy p
  */
 $messages['fr'] = array(
@@ -898,7 +899,7 @@ Reportez-vous à [//www.mediawiki.org/wiki/API:Main_page la documentation de l�
 	'apisb-params-desc' => 'Description',
 	'apisb-loading' => 'Chargement...',
 	'apisb-load-error' => 'Erreur lors du chargement de description de l’API',
-	'apisb-request-error' => "Erreur lors de l'exécution d'une requête API",
+	'apisb-request-error' => 'Erreur lors de l’exécution d’une requête API',
 	'apisb-namespaces-error' => 'Erreur lors du chargement des espaces de noms',
 	'apisb-ns-main' => '(Principal)',
 	'apisb-submit' => 'Faire la demande',
