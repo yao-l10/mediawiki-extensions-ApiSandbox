@@ -151,6 +151,9 @@ $messages['arc'] = array(
 	'apisb-label-action' => 'ܥܒܕܐ',
 	'apisb-label-doc' => 'ܐܫܛܪܘܬܐ',
 	'apisb-select-action' => '(ܓܒܝ ܥܒܕ̈ܐ)',
+	'apisb-query-prop' => 'ܕ̈ܝܠܝܬܐ',
+	'apisb-example' => 'ܛܘܦܣܐ',
+	'apisb-examples' => 'ܛܘ̈ܦܣܐ',
 	'apisb-clear' => 'ܐܣܦܩ',
 );
 
