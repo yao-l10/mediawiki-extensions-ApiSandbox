@@ -440,15 +440,23 @@ Podrobností využití API najdete v [//www.mediawiki.org/wiki/API:Main_page jeh
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Hylle
  * @author Sarrus
  */
 $messages['da'] = array(
+	'apisb-desc' => 'Giver mulighed for at debugge [//www.mediawiki.org/wiki/API MediaWiki API] kald fra browseren',
+	'apisandbox' => 'API sandkassen',
 	'apisb-no-js' => "'''Fejl''': denne funktion kræver JavaScript.",
+	'apisb-intro' => "Brug denne side til at eksperimentere med '''MediaWiki web service API'' '.
+Vi henviser til [//www.mediawiki.org/wiki/API:Main_page dokumentationen af API] for yderligere oplysninger om brug af API.  Eksempel: [//www.mediawiki.org/wiki/API#A_simple_example få indholdet af en forside]. Vælg en handling at se flere eksempler.",
+	'apisb-api-disabled' => 'API er deaktiveret på dette websted.',
 	'apisb-legend-parameters' => 'Parametre',
 	'apisb-legend-result' => 'Resultat',
 	'apisb-legend-generic-parameters' => 'Generelle parametre',
 	'apisb-legend-generator-parameters' => 'Generator',
+	'apisb-result-request-url' => 'Forespurgt URL:',
+	'apisb-result-request-post' => 'POST data:',
 	'apisb-label-format' => 'Format',
 	'apisb-label-action' => 'Handling',
 	'apisb-label-doc' => 'Dokumentation',
@@ -462,6 +470,8 @@ $messages['da'] = array(
 	'apisb-loading' => 'Indlæser...',
 	'apisb-load-error' => 'Fejl ved indlæsning af API-beskrivelse',
 	'apisb-request-error' => 'Fejl ved udførelse af API-forespørgsel',
+	'apisb-namespaces-error' => 'Fejl under indlæsning af navnerum',
+	'apisb-ns-main' => '(Hoved)',
 	'apisb-submit' => 'Lav forespørgsel',
 	'apisb-query-prop' => 'Egenskaber',
 	'apisb-query-list' => 'Lister',
