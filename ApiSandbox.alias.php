@@ -107,3 +107,8 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['uk'] = array(
 	'ApiSandbox' => array( 'Грамайданчик_API' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'ApiSandbox' => array( 'API沙盒' ),
+);
