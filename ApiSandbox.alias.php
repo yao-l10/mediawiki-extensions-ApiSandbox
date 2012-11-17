@@ -53,6 +53,11 @@ $specialPageAliases['gsw'] = array(
 	'ApiSandbox' => array( 'ApiSandchaschte' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'ApiSandbox' => array( 'SandboxApi' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'ApiSandbox' => array( 'Api실험실' ),
