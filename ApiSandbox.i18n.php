@@ -1948,7 +1948,7 @@ Sjekk [//www.mediawiki.org/wiki/API:Main_page API-dokumentasjonen] for mer infor
 	'apisb-example' => 'Eksempel',
 	'apisb-examples' => 'Eksempler',
 	'apisb-clear' => 'Tilbakestill',
-	'apisb-request-time' => 'Forespørselstid', # Fuzzy
+	'apisb-request-time' => 'Forespørselstid: $1',
 );
 
 /** Dutch (Nederlands)
