@@ -98,6 +98,11 @@ $specialPageAliases['ru'] = array(
 	'ApiSandbox' => array( 'Песочница_API' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'ApiSandbox' => array( 'SandboxApi' ),
+);
+
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
 	'ApiSandbox' => array( 'Burador_ng_API' ),
