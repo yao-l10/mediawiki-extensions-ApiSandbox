@@ -220,6 +220,15 @@ $messages['az'] = array(
 	'apisb-query-meta' => 'Meta məlumatları',
 );
 
+/** تورکجه (تورکجه)
+ * @author E THP
+ */
+$messages['azb'] = array(
+	'apisb-legend-result' => 'نتیجه',
+	'apisb-query-list' => 'سییاهه‌لر',
+	'apisb-example' => 'میثال',
+);
+
 /** Bashkir (башҡортса)
  * @author Haqmar
  */
