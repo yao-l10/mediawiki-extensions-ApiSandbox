@@ -93,6 +93,11 @@ $specialPageAliases['nl'] = array(
 	'ApiSandbox' => array( 'APIZandbak' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'ApiSandbox' => array( 'ਏ॰ਪਿ॰ਆਇ_ਕੱਚਾ-ਖਾਕਾ' ),
+);
+
 /** Russian (русский) */
 $specialPageAliases['ru'] = array(
 	'ApiSandbox' => array( 'Песочница_API' ),
