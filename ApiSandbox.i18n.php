@@ -221,12 +221,16 @@ $messages['az'] = array(
 );
 
 /** تورکجه (تورکجه)
+ * @author Amir a57
  * @author E THP
  */
 $messages['azb'] = array(
 	'apisb-legend-result' => 'نتیجه',
 	'apisb-query-list' => 'سییاهه‌لر',
 	'apisb-example' => 'میثال',
+	'apisb-examples' => 'نومونه‌لر',
+	'apisb-clear' => 'تمیزله',
+	'apisb-request-time' => 'زامان ایستمک:$1',
 );
 
 /** Bashkir (башҡортса)
