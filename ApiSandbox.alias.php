@@ -83,7 +83,7 @@ $specialPageAliases['nb'] = array(
 	'ApiSandbox' => array( 'API-sandkasse' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ApiSandbox' => array( 'API-zaandbak' ),
 );
