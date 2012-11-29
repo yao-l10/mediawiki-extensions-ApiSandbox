@@ -220,7 +220,7 @@ $messages['az'] = array(
 	'apisb-query-meta' => 'Meta məlumatları',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Amir a57
  * @author E THP
  */
