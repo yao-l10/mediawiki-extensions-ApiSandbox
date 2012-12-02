@@ -63,6 +63,11 @@ $specialPageAliases['ko'] = array(
 	'ApiSandbox' => array( 'Api실험실' ),
 );
 
+/** Cornish (kernowek) */
+$specialPageAliases['kw'] = array(
+	'ApiSandbox' => array( 'ApiSandbox' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'ApiSandbox' => array( 'ApiSandkëscht' ),
