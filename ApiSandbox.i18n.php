@@ -226,7 +226,14 @@ $messages['az'] = array(
  */
 $messages['azb'] = array(
 	'apisb-legend-result' => 'نتیجه',
+	'apisb-params-param' => 'پارامتر',
+	'apisb-params-input' => 'گیریش',
+	'apisb-params-desc' => 'شرح',
+	'apisb-loading' => 'یوکلنیر...',
+	'apisb-ns-main' => '(آنا)',
+	'apisb-query-prop' => 'اؤزلیکلر',
 	'apisb-query-list' => 'سییاهه‌لر',
+	'apisb-query-meta' => 'مئتا بیلگی‌لری',
 	'apisb-example' => 'میثال',
 	'apisb-examples' => 'نومونه‌لر',
 	'apisb-clear' => 'تمیزله',
@@ -2175,6 +2182,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Alchimista
  * @author Giro720
  * @author Hamilton Abreu
  * @author Luckas Blade
@@ -2185,10 +2193,11 @@ $messages['pt'] = array(
 	'apisandbox' => 'Testes da API',
 	'apisb-no-js' => "'''Erro''': Esta funcionalidade requer o JavaScript.",
 	'apisb-intro' => "Use esta página para fazer experiências com a '''API do MediaWiki'''.
-Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para informações sobre o uso da API.", # Fuzzy
+Consulte a [//www.mediawiki.org/wiki/API:Main_page documentação da API] para informações sobre o uso da API. Exemplo: [//www.mediawiki.org/wiki/API#A_simple_example get the content of a Main Page]. Selecione um acção para ver mais exemplos.",
 	'apisb-api-disabled' => 'A API está desactivada neste site.',
 	'apisb-legend-parameters' => 'Parâmetros',
 	'apisb-legend-result' => 'Resultado',
+	'apisb-legend-generic-parameters' => 'Parâmetros genéricos',
 	'apisb-legend-generator-parameters' => 'Gerador',
 	'apisb-result-request-url' => 'URL do pedido:',
 	'apisb-result-request-post' => 'Dados POST:',
