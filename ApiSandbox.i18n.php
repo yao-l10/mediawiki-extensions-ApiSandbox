@@ -380,6 +380,7 @@ Kit da deuler ur sell war [//www.mediawiki.org/wiki/API:Main_page titouroù an A
 
 /** Catalan (català)
  * @author Arnaugir
+ * @author Pitort
  * @author Solde
  */
 $messages['ca'] = array(
@@ -403,6 +404,7 @@ $messages['ca'] = array(
 	'apisb-params-input' => 'Entrada',
 	'apisb-params-desc' => 'Descripció',
 	'apisb-loading' => 'Carregant...',
+	'apisb-load-error' => "Error en carregar la descripció de l'API",
 	'apisb-request-error' => 'Error duent a terme la sol·licitud API',
 	'apisb-namespaces-error' => "Error carregant els noms d'espais",
 	'apisb-ns-main' => '(Principal)',
