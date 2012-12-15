@@ -1520,6 +1520,8 @@ Rujuk [//www.mediawiki.org/wiki/API:Main_page the dhokumèntasi API] kanggo pang
  */
 $messages['ka'] = array(
 	'apisandbox' => 'API-ს სავარჯიშო',
+	'apisb-no-js' => "'''შეცდომა''': ეს შესაძლებლობა მოითხოვს JavaScript-ს.",
+	'apisb-api-disabled' => 'API ამ საიტზე გამორთულია.',
 	'apisb-legend-parameters' => 'პარამეტრები',
 	'apisb-legend-result' => 'შედეგი',
 	'apisb-legend-generic-parameters' => 'საერთო პარამეტრები',
@@ -1537,6 +1539,9 @@ $messages['ka'] = array(
 	'apisb-params-input' => 'შეყვანა',
 	'apisb-params-desc' => 'აღწერა',
 	'apisb-loading' => 'იტვირთება...',
+	'apisb-load-error' => 'შეცდომა API-ის აღწერის ჩატვირთვისას',
+	'apisb-request-error' => 'შეცდომა API-ის მოთხოვნის შესრულებაზე',
+	'apisb-namespaces-error' => 'შეცდომა სახელთა სივრცის ჩარტვირთვისას',
 	'apisb-ns-main' => '(მთავარი)',
 	'apisb-submit' => 'მოთხოვნის გაკეთება',
 	'apisb-query-prop' => 'პარამეტრები',
