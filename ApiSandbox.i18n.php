@@ -54,9 +54,10 @@ $messages['en'] = array(
  * @author Purodha
  * @author Raymond
  * @author SPQRobin
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'apisb-desc' => '{{desc}}',
+	'apisb-desc' => '{{desc|name=Api Sandbox|url=http://www.mediawiki.org/wiki/Extension:ApiSandbox}}',
 	'apisandbox' => 'Special page title',
 	'apisb-legend-parameters' => '{{Identical|Parameter}}',
 	'apisb-legend-result' => 'Used as "legend" in the form fieldset containing read-only fields with info about an executed API request.
